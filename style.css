@@ -7,3 +7,21 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+
+header {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+
+.logo-container {
+  
+}
+
+nav {
+  
+}
+
+.cart{
+  
+}

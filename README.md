@@ -1,6 +1,6 @@
 # Hannah Graphics
 
-Welcome to hannahgraphics, a website dedicated to my business and showcasing my work in motion graphics, 3D animation, game design, and graphics design.
+Welcome to Hannah Graphics; a website dedicated to my business and showcasing my work in motion graphics, 3D animation, game design, and graphics design.
 
 I will also post my current interests and projects including Augmented and virtual reality.
 

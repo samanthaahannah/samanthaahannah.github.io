@@ -8,14 +8,8 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-header {
-  display: flex;
-  margin: auto;
-}
-
 .logo-container {
   background: #ADD8E6;
-  flex: 2;
   
 }
 

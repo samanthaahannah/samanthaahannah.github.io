@@ -7,10 +7,13 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+header {
+  background: #ADD8E6;
+}
 
 .logo-container {
-  background: #ADD8E6;
   height:600px;
+  width:1200px;
 }
 
 nav {

@@ -57,9 +57,11 @@ body {
   .footer{
     order: 4;
   }
+}
   
   @media all and (min-width:){
     .aside{
       flex: 1;
     }
+  }
     

@@ -8,13 +8,12 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 header {
-  height: 25vh;
-  width: 15rem;
   background: #ADD8E6;
 }
 
 .logo-container {
- 
+  width:1200px;
+  height:600px;
 }
 
 nav {

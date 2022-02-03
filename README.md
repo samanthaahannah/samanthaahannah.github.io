@@ -4,5 +4,6 @@ Welcome to Hannah Graphics; a website dedicated to my business and showcasing my
 
 I will also post my current interests and projects including Augmented and virtual reality.
 
-Thank you for visiting and stay tuned for more content in the near future,
+Thank you for visiting and stay tuned for more content in the near future.
+
 Samantha.

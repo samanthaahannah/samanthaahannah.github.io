@@ -16,10 +16,10 @@ h1{
   display:flex;
   width: 90%;
   height: auto;
-  background: #503B6B;
 }
   
 .logo-container{
+  background: #503B6B;
   }
   
   nav{

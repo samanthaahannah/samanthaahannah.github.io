@@ -10,7 +10,7 @@ body {
 
 .logo-container {
   background: #ADD8E6;
-  flex:1;
+  height:600px;
 }
 
 nav {

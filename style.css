@@ -8,15 +8,20 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 header {
+  display: flex;
+  width:90%;
+  height: 10vh;
+  margin: auto;
+  aligh-items: center;
   background: #ADD8E6;
 }
 
 .logo-container {
-  width:1200px;
-  height:600px;
+  flex: 1;
 }
 
 nav {
+  flex: 2;
   background: rgb(189, 230, 173);
 }
 

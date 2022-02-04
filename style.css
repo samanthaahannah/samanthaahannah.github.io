@@ -71,6 +71,7 @@ section{
 }
 
 footer{
+  display: flex;
   margin-left: 20px;
   color: #e6ddd6;
 }

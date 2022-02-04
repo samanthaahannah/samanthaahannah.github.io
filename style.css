@@ -6,7 +6,6 @@ html, body{
   padding: 0px;
   height: 100vh;
   overflow-x: hidden;
-  display: flex;
 }
 
 *{

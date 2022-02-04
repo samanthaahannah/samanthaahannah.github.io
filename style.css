@@ -53,6 +53,7 @@ li{
 }
 .main-body{
   flex: 1;
+  height:75%
 }
 .sidebar{
   flex: none;

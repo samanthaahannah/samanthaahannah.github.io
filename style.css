@@ -55,7 +55,7 @@ li{
 .main-body{
   flex: 1;
   height: 75vh;
-  margin: 50px;
+  margin: 120px;
   max-width: 50%;
   color: #e6ddd6;
 }
@@ -63,7 +63,7 @@ li{
   flex: none;
   margin: 20px;
   color: #e6ddd6;
-  max-width: 25%;
+  max-width: 10%;
 }
 
 footer{

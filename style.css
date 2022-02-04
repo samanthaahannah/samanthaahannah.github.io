@@ -50,7 +50,6 @@ li{
 }
 .body-section{
   display: flex;
-  height: 75%;
 }
 .main-body{
   flex: 1;

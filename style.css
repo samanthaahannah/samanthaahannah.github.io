@@ -1,5 +1,5 @@
 html, body{
-  background-image: linear-gradient(180deg, #3a3153, #5f43b2 100%);
+  background-image: linear-gradient(180deg, #3a3153, #5f43b2);
   background-repeat: no-repeat;
   font-family: 'Poppins', sans-serif;
   height: 100%;
@@ -55,11 +55,7 @@ li{
 }
 .main-body{
   flex: 1;
-  height: 800px;
 }
 .sidebar{
   flex: none;
-  height: 695px;
-  width: 200px;
-  opacity: 50%;
 }

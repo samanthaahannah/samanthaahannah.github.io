@@ -5,7 +5,7 @@ html, body{
   margin: 0px;
   padding: 0px;
   height: 100vh;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 *{
@@ -65,7 +65,6 @@ li{
 section{
   max-width: 540px;
   font-size: 18px;
-  overflow: hidden;
 }
 .sidebar{
   flex: none;

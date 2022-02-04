@@ -56,6 +56,7 @@ li{
   flex: 1;
   height: 75vh;
   margin: 20px;
+  color: #e6ddd6;
 }
 .sidebar{
   flex: none;
@@ -64,5 +65,5 @@ li{
 
 footer{
   margin-left: 20px;
-  text-color: white;
+  color: #e6ddd6;
 }

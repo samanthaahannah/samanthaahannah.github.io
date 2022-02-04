@@ -58,7 +58,7 @@ li{
   margin-bottom: 50px;
   margin-left: 120px;
   color: #e6ddd6;
-  height: 75%;
+  min-height: 800px;
 }
 section{
   max-width: 540px;

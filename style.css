@@ -55,15 +55,16 @@ li{
 .main-body{
   flex: 1;
   height: 75vh;
-  margin: 120px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 120px;
   max-width: 50%;
   color: #e6ddd6;
 }
 .sidebar{
   flex: none;
-  margin: 20px;
+  margin-left: 50px;
   color: #e6ddd6;
-  max-width: 10%;
 }
 
 footer{

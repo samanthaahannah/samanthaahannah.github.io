@@ -55,7 +55,6 @@ li{
 .main-body{
   flex: 1;
   height: 75vh;
-  margin: 20px;
   max-width: 50%;
   color: #e6ddd6;
 }

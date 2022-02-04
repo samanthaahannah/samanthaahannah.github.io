@@ -66,12 +66,6 @@ section{
   max-width: 540px;
   font-size: 18px;
 }
-.sidebar{
-  flex: none;
-  color: #e6ddd6;
-  margin-right: 25px;
-  width: 200px;
-}
 
 footer{
   flex: 0 0 120px;

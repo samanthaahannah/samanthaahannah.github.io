@@ -75,7 +75,7 @@ section{
 
 footer{
   flex: 1;
-  min-height: 25vh;
+  min-height: 10vh;
   margin-left: 20px;
   color: #e6ddd6;
 }

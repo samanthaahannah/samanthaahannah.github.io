@@ -51,7 +51,6 @@ li{
 }
 .body-section{
   display: flex;
-  height: 75%;
 }
 .main-body{
   flex: 1;
@@ -59,6 +58,7 @@ li{
   margin-bottom: 50px;
   margin-left: 120px;
   color: #e6ddd6;
+  height: 75%;
 }
 section{
   max-width: 540px;

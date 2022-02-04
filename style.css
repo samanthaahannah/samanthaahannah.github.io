@@ -55,7 +55,7 @@ li{
 .main-body{
   flex: 1;
   height: 75vh;
-  max-width: 50%;
+  max-width: 25%;
   color: #e6ddd6;
 }
 .sidebar{

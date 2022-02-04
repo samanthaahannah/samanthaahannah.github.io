@@ -54,6 +54,7 @@ li{
 }
 .main-body{
   flex: 1;
+  height: 75vh;
 }
 .sidebar{
   flex: none;

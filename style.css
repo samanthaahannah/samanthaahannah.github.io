@@ -59,7 +59,7 @@ li{
   margin-bottom: 50px;
   margin-left: 120px;
   color: #e6ddd6;
-  min-height: 75%;
+  min-height: 55vh;
   flex-direction: column;
 }
 section{
@@ -74,8 +74,8 @@ section{
 }
 
 footer{
-  flex: 1;
-  min-height: 25%;
+  flex: 0 0 120px;
   margin-left: 20px;
   color: #e6ddd6;
+  min-height: 25vh;
 }

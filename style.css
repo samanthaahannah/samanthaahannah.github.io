@@ -59,8 +59,8 @@ li{
   color: #e6ddd6;
 }
 section{
-  margin-left: 50px;
   max-width: 50%;
+  font-size: 24px;
 }
 .sidebar{
   flex: none;

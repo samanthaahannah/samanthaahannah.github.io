@@ -58,6 +58,7 @@ li{
   margin-bottom: 50px;
   margin-left: 120px;
   color: #e6ddd6;
+  height: 65vh;
 }
 section{
   max-width: 540px;
@@ -69,8 +70,9 @@ section{
   margin-right: 50px;
 }
 
-footer{
+footer, .push{
   flex: none;
   margin-left: 20px;
   color: #e6ddd6;
+  height: 142;
 }

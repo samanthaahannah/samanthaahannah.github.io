@@ -55,13 +55,13 @@ li{
 .main-body{
   flex: 1;
   height: 75vh;
-  margin: 20px;
+  margin: 50px;
   max-width: 25%;
   color: #e6ddd6;
 }
 .sidebar{
   flex: none;
-  margin: 50px;
+  margin: 20px;
   color: #e6ddd6;
 }
 

@@ -6,6 +6,7 @@ html, body{
   padding: 0px;
   height: 100vh;
   overflow-x: hidden;
+  display: flex;
 }
 
 *{
@@ -70,7 +71,7 @@ section{
 }
 
 footer{
-  flex: 1;
+  flex: none;
   margin-left: 20px;
   color: #e6ddd6;
 }

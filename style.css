@@ -50,12 +50,11 @@ li{
 }
 .body-section{
   display: flex;
+  height: 75%;
 }
 .main-body{
   flex: 1;
-  height:75%
 }
 .sidebar{
   flex: none;
-  height: 75%;
 }

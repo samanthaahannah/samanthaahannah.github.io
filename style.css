@@ -55,8 +55,13 @@ li{
 .main-body{
   flex: 1;
   height: 75vh;
+  margin: 20px;
 }
 .sidebar{
   flex: none;
-  margin-right: 20px;
+  margin: 20px;
+}
+
+footer{
+  margin: 20px;
 }

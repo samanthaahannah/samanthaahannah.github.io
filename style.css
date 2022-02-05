@@ -1,9 +1,3 @@
-*{
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
-
 html, body{
   margin: 0px;
   padding: 0px;
@@ -11,6 +5,12 @@ html, body{
   background-repeat: no-repeat;
   font-family: "Montserrat Alternates", sans-serif;
   overflow-x: hidden;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 header{

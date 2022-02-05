@@ -4,7 +4,7 @@ html, body{
   background-image: linear-gradient(180deg, #3a3153, #5f43b2);
   background-repeat: no-repeat;
   font-family: "Montserrat Alternates", sans-serif;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 *{

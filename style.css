@@ -1,17 +1,11 @@
-html, body{
-  background-image: linear-gradient(180deg, #3a3153, #5f43b2);
-  background-repeat: no-repeat;
-  font-family: 'Montserrat Alternatives', Montserrat;
-  margin: 0px;
-  padding: 0px;
-  height: 100vh;
-  overflow-x: hidden;
-}
-
 *{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  background-image: linear-gradient(180deg, #3a3153, #5f43b2);
+  background-repeat: no-repeat;
+  font-family: 'Montserrat Alternatives', Montserrat;
+  overflow-x: hidden;
 }
 
 header{

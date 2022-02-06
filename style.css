@@ -13,6 +13,7 @@ html, body{
   background-repeat: no-repeat;
   font-family: "Montserrat Alternates", sans-serif;
   overflow-x: hidden;
+  flex-wrap: wrap;
 }
 
 header{
@@ -108,9 +109,4 @@ footer{
     }
     100%{
       opacity: 1;
-    }
-@media screen and (max-width 1024px){
-    body{
-      flex-direction: column;
-      flex-flow: wrap;
     }

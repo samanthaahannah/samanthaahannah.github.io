@@ -54,13 +54,12 @@ nav{
 
 .big-text{
   filter: drop-shadow(0px 5px 3px black);
-  animation: drop 1.5s ease;
+  -webkit-animation: drop 1.5s ease;
 }
 
 .blurb{
   filter: drop-shadow(0px 5px 3px black);
-  animation: drop 1.5s ease;
-  animation-delay: drop 2s;
+  -webkit-animation: drop 1.5s ease 7s;
 }
 
 @keyframes drop{

@@ -19,7 +19,7 @@ header{
   opacity: 1;
   display: flex;
   width: 90%;
-  height: 70vh;
+  height: 30vh;
   margin: auto;
   /*animation: fade-in 1.5s ease;
   animation-delay: 8s;
@@ -37,10 +37,10 @@ header{
 .logo-container{
   align-items: center;
   justify-content: center;
-  flex: 1;
+  flex: 75%;
 }
 nav{
-  flex: 3;
+  flex: 25%;
 }
 
 .nav-links{

@@ -55,6 +55,7 @@ nav{
 .header-text{
   filter: drop-shadow(0px 5px 3px black);
   animation: drop 1.5s ease;
+  animation-fill-mode: forwards;
 }
 
 .blurb{

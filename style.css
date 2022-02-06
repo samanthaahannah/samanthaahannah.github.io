@@ -13,7 +13,7 @@ html, body{
 
 header{
   display: flex;
-  width: 80%;
+  width: 90%;
   height: 10vh;
   margin: auto;
 
@@ -28,8 +28,6 @@ header{
   flex: 1;
 }
 nav{
-  top: 50%;
-  margin-top: 6.5vh;
   flex: 2;
 }
 
@@ -39,9 +37,13 @@ nav{
 }
 .nav-link{
   color: #e6ddd6;
-  font-size: 2vh;
+  font-size: 18px;
   text-decoration: none;
 }
 
-li{
-  display: inline-block;
+.presentation{
+  display: flex;
+  width: 90%;
+  margin: auto;
+  min-height: 80vh;
+}

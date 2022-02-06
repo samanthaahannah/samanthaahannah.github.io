@@ -34,7 +34,8 @@ header{
 }
 
 .logo-container{
-  margin: auto;
+  align-items: center;
+  justify-content: center;
   flex: 1;
 }
 nav{

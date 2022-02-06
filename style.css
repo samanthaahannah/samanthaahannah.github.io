@@ -26,6 +26,7 @@ header{
   animation-fill-mode: forwards;*/
   flex-direction: column;
   flex-wrap: wrap;
+  color: yellow;
 }
 
 .logo-container,
@@ -60,6 +61,7 @@ nav{
   margin: auto;
   color: #e6ddd6;
   align-items: center;
+  color: blue;
 }
 
 .hello{

@@ -53,6 +53,7 @@ nav{
 }
 
 .hello{
+  font-size: 24px;
   animation: drop 1.5s ease;
   animation-fill-mode: forwards;
 }

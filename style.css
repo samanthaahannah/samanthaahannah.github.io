@@ -34,7 +34,8 @@ header{
 }
 
 .logo-container{
-  justify-items: center;
+  margin-left: auto;
+  margin-right: auto;
   flex: 1;
 }
 nav{
@@ -102,7 +103,7 @@ footer{
   }
   100%{
     opacity: 1;
-    transform: translateY(8px);
+    transform: translateY(4px);
   }
 }
 @keyframes fade-in{

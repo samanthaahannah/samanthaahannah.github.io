@@ -43,7 +43,6 @@ nav{
 }
 
 .presentation{
-  text-align: center;
   justify-content: center;
   display: flex;
   width: 90%;
@@ -54,12 +53,14 @@ nav{
 }
 
 .hello{
+  text-align: center;
   font-size: 24px;
   animation: drop 1.5s ease;
   animation-fill-mode: forwards;
 }
 
 .header-text{
+  text-align: center;
   opacity: 0;
   transform: translateY(-80px);
   animation: drop 1.5s ease;
@@ -68,6 +69,7 @@ nav{
 }
 
 .blurb{
+  text-align: left;
   max-width: 600px;
   opacity: 0;
   transform: translateY(-80px);

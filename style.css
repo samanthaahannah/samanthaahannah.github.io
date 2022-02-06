@@ -19,14 +19,13 @@ header{
   opacity: 1;
   display: flex;
   width: 90%;
-  height: 30vh;
+  height: 25vh;
   margin: auto;
   /*animation: fade-in 1.5s ease;
   animation-delay: 8s;
   animation-fill-mode: forwards;*/
   flex-direction: column;
   flex-wrap: wrap;
-  background-color: yellow;
 }
 
 .logo-container,
@@ -59,10 +58,9 @@ nav{
   display: flex;
   width: 90%;
   margin: auto;
-  height: 60vh;
+  height: 50vh;
   color: #e6ddd6;
   align-items: center;
-  background-color: blue;
 }
 
 .hello{

@@ -81,6 +81,10 @@ nav{
   animation-delay: 7s;
   animation-fill-mode: forwards;
 }
+footer{
+  margin: auto;
+  color: #e6ddd6;
+}
 
 @keyframes drop{
   0%{

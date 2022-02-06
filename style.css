@@ -56,19 +56,20 @@ li{
 }
 
 .main-body{
-  height: 50vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
   color: #e6ddd6;
-  margin: auto;
-
-}
-section{
-  font-size: 3vh;
+  min-height: 55vh;
   flex-direction: column;
-  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section{
+  max-width: 1000px;
+  font-size: 3vh;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 footer{

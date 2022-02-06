@@ -17,10 +17,14 @@ body{
 }
 
 header{
+  opacity: 0;
   display: flex;
   width: 90%;
   height: 10vh;
   margin: auto;
+  animation: fade-in 1.5s ease;
+  animation-delay: 8s;
+  animation-fill-mode: forwards;
 
 }
 
@@ -96,3 +100,10 @@ footer{
     transform: translateY(8px);
   }
 }
+@keyframes fade-in{
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }

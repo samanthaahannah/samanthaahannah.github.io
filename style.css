@@ -72,7 +72,7 @@ nav{
 
 .header-text{
   text-align: center;
-  opacity: 0;
+  opacity: 1;
   /*transform: translateY(-100px);
   animation: drop 1.5s ease;
   animation-delay: 3s;
@@ -82,14 +82,14 @@ nav{
 .blurb{
   text-align: left;
   max-width: 600px;
-  opacity: 0;
+  opacity: 1;
   /*transform: translateY(-100px);
   animation: drop 1.5s ease;
   animation-delay: 6s;
   animation-fill-mode: forwards;*/
 }
 footer{
-  opacity: 0;
+  opacity: 1;
   color: #e6ddd6;
  /* animation: fade-in 1.5s ease;
   animation-delay: 8s;

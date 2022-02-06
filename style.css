@@ -34,8 +34,7 @@ header{
 }
 
 .logo-container{
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   flex: 1;
 }
 nav{
@@ -58,7 +57,7 @@ nav{
   display: flex;
   width: 90%;
   margin: auto;
-  min-height: 40vh;
+  min-height: 60vh;
   color: #e6ddd6;
   align-items: center;
 }
@@ -73,7 +72,7 @@ nav{
 .header-text{
   text-align: center;
   opacity: 0;
-  transform: translateY(-40px);
+  transform: translateY(-100px);
   animation: drop 1.5s ease;
   animation-delay: 3s;
   animation-fill-mode: forwards;
@@ -83,7 +82,7 @@ nav{
   text-align: left;
   max-width: 600px;
   opacity: 0;
-  transform: translateY(-40px);
+  transform: translateY(-100px);
   animation: drop 1.5s ease;
   animation-delay: 6s;
   animation-fill-mode: forwards;
@@ -99,11 +98,11 @@ footer{
 @keyframes drop{
   0%{
     opacity: 0;
-    transform: translateY(-40px);
+    transform: translateY(-100px);
   }
   100%{
     opacity: 1;
-    transform: translateY(4px);
+    transform: translateY(8px);
   }
 }
 @keyframes fade-in{

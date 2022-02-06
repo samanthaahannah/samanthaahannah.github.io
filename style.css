@@ -19,7 +19,7 @@ header{
   opacity: 0;
   display: flex;
   width: 90%;
-  height: 40vh;
+  height: 60vh;
   margin: auto;
   animation: fade-in 1.5s ease;
   animation-delay: 8s;
@@ -66,37 +66,37 @@ nav{
 .hello{
   text-align: center;
   font-size: 24px;
-  animation: drop 1.5s ease;
-  animation-fill-mode: forwards;
+  /*animation: drop 1.5s ease;
+  animation-fill-mode: forwards;*/
 }
 
 .header-text{
   text-align: center;
   opacity: 0;
-  transform: translateY(-100px);
+  /*transform: translateY(-100px);
   animation: drop 1.5s ease;
   animation-delay: 3s;
-  animation-fill-mode: forwards;
+  animation-fill-mode: forwards;*/
 }
 
 .blurb{
   text-align: left;
   max-width: 600px;
   opacity: 0;
-  transform: translateY(-100px);
+  /*transform: translateY(-100px);
   animation: drop 1.5s ease;
   animation-delay: 6s;
-  animation-fill-mode: forwards;
+  animation-fill-mode: forwards;*/
 }
 footer{
   opacity: 0;
   color: #e6ddd6;
-  animation: fade-in 1.5s ease;
+ /* animation: fade-in 1.5s ease;
   animation-delay: 8s;
-  animation-fill-mode: forwards;
+  animation-fill-mode: forwards;*/
 }
 
-@keyframes drop{
+/*@keyframes drop{
   0%{
     opacity: 0;
     transform: translateY(-100px);
@@ -112,4 +112,4 @@ footer{
     }
     100%{
       opacity: 1;
-    }
+    }*/

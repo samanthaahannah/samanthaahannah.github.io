@@ -51,13 +51,13 @@ nav{
   color: #e6ddd6;
   align-items: center;
   filter: drop-shadow(0px 5px 3px black);
-  animation: text-w 1.5s ease;
+  animation: drop 1.5s ease;
 }
-.presentation.p{
+.presentation,p{
   animation-delay: 2s;
 }
 
-@keyframes text-w{
+@keyframes drop{
   0%{
     opacity: 0;
     transform: translateY(-80px);

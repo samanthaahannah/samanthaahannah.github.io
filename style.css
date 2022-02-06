@@ -87,12 +87,10 @@ nav{
 }
 footer{
   opacity: 0;
-  margin-left: 5%;
   color: #e6ddd6;
   animation: fade-in 1.5s ease;
   animation-delay: 8s;
   animation-fill-mode: forwards;
-  margin: auto;
 }
 
 @keyframes drop{

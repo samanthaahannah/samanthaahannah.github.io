@@ -82,12 +82,16 @@ nav{
   opacity: 0;
   transform: translateY(-80px);
   animation: drop 1.5s ease;
-  animation-delay: 7s;
+  animation-delay: 10s;
   animation-fill-mode: forwards;
 }
 footer{
+  opacity: 0;
   margin-left: 5%;
   color: #e6ddd6;
+  animation: fade-in 1.5s ease;
+  animation-delay: 10s;
+  animation: forwards;
 }
 
 @keyframes drop{

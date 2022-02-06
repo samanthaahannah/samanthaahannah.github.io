@@ -24,14 +24,13 @@ header{
   animation: fade-in 1.5s ease;
   animation-delay: 8s;
   animation-fill-mode: forwards;
-
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .logo-container,
 .nav-links{
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
 }
 
 .logo-container{
@@ -44,6 +43,7 @@ nav{
 .nav-links{
   justify-content: space-around;
   list-style: none;
+  flex-direction: row;
 }
 .nav-link{
   color: #e6ddd6;

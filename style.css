@@ -23,7 +23,7 @@ header{
   height: 10vh;
   margin: auto;
   animation: fade-in 1.5s ease;
-  animation-delay: bs;
+  animation-delay: 8s;
   animation-fill-mode: forwards;
 
 }

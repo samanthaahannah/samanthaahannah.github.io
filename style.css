@@ -59,6 +59,8 @@ nav{
 
 .blurb{
   filter: drop-shadow(0px 5px 3px black);
+  opacity: 0;
+  transform: translateY(-80px);
   animation: drop 1.5s ease;
   animation-delay: 1.5s;
 }

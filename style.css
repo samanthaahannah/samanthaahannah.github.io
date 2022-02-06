@@ -63,6 +63,8 @@ li{
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
+  justify-content: center;
+  vertical-align: middle;
 }
 
 section{
@@ -71,7 +73,6 @@ section{
   font-size: 3vh;
   margin-left: 10%;
   margin-right: 10%;
-  justify-content: center;
 }
 
 footer{

@@ -92,8 +92,7 @@ footer{
   animation: fade-in 1.5s ease;
   animation-delay: 8s;
   animation-fill-mode: forwards;
-  margin: 0;
-  height: 100%;
+  margin: auto;
 }
 
 @keyframes drop{

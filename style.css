@@ -23,7 +23,7 @@ header{
   height: 10vh;
   margin: auto;
   animation: fade-in 1.5s ease;
-  animation-delay: 8s;
+  animation-delay: 11s;
   animation-fill-mode: forwards;
 
 }
@@ -90,7 +90,7 @@ footer{
   margin-left: 5%;
   color: #e6ddd6;
   animation: fade-in 1.5s ease;
-  animation-delay: 8s;
+  animation-delay: 11s;
   animation: forwards;
 }
 

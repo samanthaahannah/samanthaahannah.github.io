@@ -68,6 +68,7 @@ nav{
 }
 
 .blurb{
+  max-width: 600px;
   opacity: 0;
   transform: translateY(-80px);
   animation: drop 1.5s ease;

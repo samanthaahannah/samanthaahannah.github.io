@@ -71,6 +71,7 @@ section{
   font-size: 3vh;
   flex-direction: column;
   justify-content: center;
+  margin: auto;
 }
 
 footer{

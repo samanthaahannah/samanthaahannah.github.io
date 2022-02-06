@@ -66,10 +66,12 @@ li{
 }
 
 section{
+  display: flex;
   max-width: 900px;
   font-size: 3vh;
   margin-left: 10%;
   margin-right: 10%;
+  justify-content: center;
 }
 
 footer{

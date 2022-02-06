@@ -42,10 +42,10 @@ nav{
 }
 
 .presentation{
-  justify-content: center;
   display: flex;
   width: 90%;
   margin: auto;
   min-height: 80vh;
   color: #e6ddd6;
+  align-items: center;
 }

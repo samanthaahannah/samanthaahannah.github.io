@@ -66,9 +66,11 @@ li{
 }
 
 section{
+  display: flex;
   max-width: 900px;
   font-size: 3vh;
-  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
 }
 
 footer{

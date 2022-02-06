@@ -91,7 +91,7 @@ footer{
   color: #e6ddd6;
   animation: fade-in 1.5s ease;
   animation-delay: 11s;
-  animation: forwards;
+  animation-fill-mode: forwards;
 }
 
 @keyframes drop{

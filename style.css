@@ -63,16 +63,13 @@ li{
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
-  position: relative;
 }
 
 section{
+  max-width: 900px;
   font-size: 3vh;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 footer{

@@ -23,7 +23,7 @@ header{
   height: 10vh;
   margin: auto;
   animation: fade-in 1.5s ease;
-  animation-delay: 11s;
+  animation-delay: bs;
   animation-fill-mode: forwards;
 
 }
@@ -82,7 +82,7 @@ nav{
   opacity: 0;
   transform: translateY(-80px);
   animation: drop 1.5s ease;
-  animation-delay: 10s;
+  animation-delay: 6s;
   animation-fill-mode: forwards;
 }
 footer{
@@ -90,7 +90,7 @@ footer{
   margin-left: 5%;
   color: #e6ddd6;
   animation: fade-in 1.5s ease;
-  animation-delay: 11s;
+  animation-delay: 8s;
   animation-fill-mode: forwards;
 }
 

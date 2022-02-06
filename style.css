@@ -68,8 +68,7 @@ li{
 section{
   max-width: 900px;
   font-size: 3vh;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: 0 auto;
 }
 
 footer{

@@ -110,10 +110,9 @@ footer{
       opacity: 1;
     }
 @media screen and (max-width 1024px){
-    section{
-      flex-wrap: wrap;
+    body{
+      flex-direction: column;
     }
     nav{
-      flex-basis: 100%;
       order: 1;
     }

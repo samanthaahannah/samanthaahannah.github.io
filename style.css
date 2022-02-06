@@ -6,7 +6,7 @@
 
 html, body{
   width: 100%;
-  height: 60vh;
+  height: 100vh;
   margin: 0px;
   padding: 0px;
   background-image: linear-gradient(180deg, #3a3153, #5f43b2);
@@ -57,7 +57,7 @@ nav{
   display: flex;
   width: 90%;
   margin: auto;
-  min-height: 80vh;
+  min-height: 40vh;
   color: #e6ddd6;
   align-items: center;
 }
@@ -72,7 +72,7 @@ nav{
 .header-text{
   text-align: center;
   opacity: 0;
-  transform: translateY(-80px);
+  transform: translateY(-40px);
   animation: drop 1.5s ease;
   animation-delay: 3s;
   animation-fill-mode: forwards;
@@ -82,7 +82,7 @@ nav{
   text-align: left;
   max-width: 600px;
   opacity: 0;
-  transform: translateY(-80px);
+  transform: translateY(-40px);
   animation: drop 1.5s ease;
   animation-delay: 6s;
   animation-fill-mode: forwards;
@@ -98,7 +98,7 @@ footer{
 @keyframes drop{
   0%{
     opacity: 0;
-    transform: translateY(-80px);
+    transform: translateY(-40px);
   }
   100%{
     opacity: 1;

@@ -59,6 +59,7 @@ nav{
   display: flex;
   width: 90%;
   margin: auto;
+  height: 70vh;
   color: #e6ddd6;
   align-items: center;
   background-color: blue;

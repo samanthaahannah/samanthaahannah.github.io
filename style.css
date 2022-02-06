@@ -66,6 +66,7 @@ li{
 }
 section{
   font-size: 3vh;
+  flex-direction: column;
 }
 
 footer{

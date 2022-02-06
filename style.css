@@ -113,5 +113,5 @@ footer{
     }
 @media screen and (max-width 1024px){
     nav{
-      flex-direction: row:
+      flex-direction: row;
     }

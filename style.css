@@ -56,7 +56,7 @@ li{
 }
 
 .main-body{
-  height: 100vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;

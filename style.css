@@ -63,6 +63,7 @@ nav{
   transform: translateY(-80px);
   animation: drop 1.5s ease;
   animation-delay: 1.5s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes drop{

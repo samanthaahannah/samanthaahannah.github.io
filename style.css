@@ -37,7 +37,7 @@ header{
   flex: 1;
 }
 nav{
-  flex: 2;
+  flex: 3;
 }
 
 .nav-links{
@@ -47,7 +47,7 @@ nav{
 }
 .nav-link{
   color: #e6ddd6;
-  font-size: 18px;
+  font-size: 10px;
   text-decoration: none;
 }
 

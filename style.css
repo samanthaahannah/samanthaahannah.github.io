@@ -19,7 +19,7 @@ header{
   opacity: 0;
   display: flex;
   width: 90%;
-  height: 10vh;
+  height: 25vh;
   margin: auto;
   animation: fade-in 1.5s ease;
   animation-delay: 8s;

@@ -29,6 +29,10 @@ header{
   flex-wrap: wrap;
 }
 
+main{
+  position: relative;
+}
+
 .logo-container,
 .nav-links{
   display: flex;

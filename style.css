@@ -24,7 +24,7 @@ header{
   /*animation: fade-in 1.5s ease;
   animation-delay: 8s;
   animation-fill-mode: forwards;*/
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   display: block;
 }
@@ -37,10 +37,10 @@ header{
 .logo-container{
   align-items: center;
   justify-content: center;
-  flex: 2;
+  flex: 1;
 }
 nav{
-  flex: 1;
+  flex: 2;
 }
 
 .nav-links{
@@ -119,6 +119,6 @@ footer{
 
 @media screen and (max-width: 1024px){
   header{
-    flex-direction: column;
+    flex-direction: row;
   }
 }

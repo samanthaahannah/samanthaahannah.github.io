@@ -31,7 +31,7 @@ header{
 .logo-container,
 .nav-links{
   display: flex;
-  color: green;
+  background-color: green;
 }
 
 .logo-container{
@@ -42,7 +42,7 @@ header{
 }
 nav{
   flex: 2;
-  color: yellow;
+  background-color: yellow;
 }
 
 .nav-links{

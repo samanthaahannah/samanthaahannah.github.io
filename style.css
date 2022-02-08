@@ -42,7 +42,7 @@ nav{
 }
 
 .nav-links{
-  justify-content: space-around;
+  justify-content: center;
   list-style: none;
   flex-direction: row;
 }

@@ -25,7 +25,7 @@ header{
   width: 90%;
   margin: auto;
   animation: fade-in 1.5s ease;
-  animation-delay: 8.5s;
+  animation-delay: 9s;
   animation-fill-mode: forwards;
   flex-direction: row;
   flex-wrap: wrap;
@@ -71,11 +71,12 @@ nav{
 }
 
 .hello{
+  opacity: o;
   text-align: center;
   font-size: 24px;
   animation: drop 1.5s ease;
   animation-fill-mode: forwards;
-  animation-delay: 0.5s;
+  animation-delay: 1s;
 }
 
 .header-text{
@@ -83,7 +84,7 @@ nav{
   opacity: 0;
   transform: translateY(-80px);
   animation: drop 1.5s ease;
-  animation-delay: 3.5s;
+  animation-delay: 4s;
   animation-fill-mode: forwards;
 }
 
@@ -93,7 +94,7 @@ nav{
   opacity: 0;
   transform: translateY(-80px);
   animation: drop 1.5s ease;
-  animation-delay: 6.5s;
+  animation-delay: 7s;
   animation-fill-mode: forwards;
 }
 footer{
@@ -101,7 +102,7 @@ footer{
   opacity: 0;
   color: #e6ddd6;
   animation: fade-in 1.5s ease;
-  animation-delay: 8.5s;
+  animation-delay: 9s;
   animation-fill-mode: forwards;
 }
 

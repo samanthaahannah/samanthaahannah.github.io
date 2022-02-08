@@ -35,12 +35,12 @@ header{
 .logo-container{
   align-items: center;
   justify-content: center;
-  flex: 1;
+  flex: 10%;
   display: block;
   background-color: green;
 }
 nav{
-  flex: 2;
+  flex: 90%;
   background-color: yellow;
 }
 

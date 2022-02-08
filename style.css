@@ -118,6 +118,7 @@ footer{
 
 @media screen and (max-width: 1024px){
   header{
+    display: block;
     flex-direction: row;
   }
 }

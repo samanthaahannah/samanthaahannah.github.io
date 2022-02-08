@@ -26,6 +26,7 @@ header{
   animation-fill-mode: forwards;
   flex-direction: column;
   flex-wrap: wrap;
+  display: block;
 }
 
 .logo-container,

@@ -20,7 +20,6 @@ header{
   display: flex;
   width: 90%;
   margin: auto;
-  height: 5vh;
   /*animation: fade-in 1.5s ease;
   animation-delay: 8s;
   animation-fill-mode: forwards;*/
@@ -121,6 +120,5 @@ footer{
   header{
     display: block;
     flex-direction: row;
-    height: 10vh;
   }
 }

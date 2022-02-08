@@ -19,21 +19,19 @@ html, body{
 
 main{
   height: 60vh;
-  background-color: yellow;
   display: block;
 }
 
 header{
-  opacity: 1;
+  opacity: 0;
   display: flex;
   width: 90%;
   margin: auto;
-  /*animation: fade-in 1.5s ease;
+  animation: fade-in 1.5s ease;
   animation-delay: 9s;
-  animation-fill-mode: forwards;*/
+  animation-fill-mode: forwards;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: blue;
 }
 
 .logo-container,
@@ -69,11 +67,10 @@ nav{
   margin-right: 10%;
   color: #e6ddd6;
   overflow: visible;
-  background-color: orange;
 }
 
 .hello{
-  opacity: 1;
+  opacity: 0;
   text-align: center;
   font-size: 24px;
   animation: drop 1.5s ease;
@@ -83,33 +80,32 @@ nav{
 
 .header-text{
   text-align: center;
-  opacity: 1;
-  /*transform: translateY(-80px);
+  opacity: 0;
+  transform: translateY(-80px);
   animation: drop 1.5s ease;
   animation-delay: 4s;
-  animation-fill-mode: forwards;*/
+  animation-fill-mode: forwards;
 }
 
 .blurb{
   text-align: left;
   max-width: 600px;
-  opacity: 1;
-  /*transform: translateY(-80px);
+  opacity: 0;
+  transform: translateY(-80px);
   animation: drop 1.5s ease;
   animation-delay: 7s;
-  animation-fill-mode: forwards;*/
+  animation-fill-mode: forwards;
 }
 footer{
   height: 10vh;
-  opacity: 1;
+  opacity: 0;
   color: #e6ddd6;
-  /*animation: fade-in 1.5s ease;
+  animation: fade-in 1.5s ease;
   animation-delay: 9s;
-  animation-fill-mode: forwards;*/
-  background-color: green;
+  animation-fill-mode: forwards;
 }
 
-/*@keyframes drop{
+@keyframes drop{
   0%{
     opacity: 0;
     transform: translateY(-80px);
@@ -127,7 +123,7 @@ footer{
       opacity: 1;
     }
 
-  }*/
+  }
 
 @media screen and (max-width: 600px){
   header{

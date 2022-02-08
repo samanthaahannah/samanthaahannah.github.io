@@ -18,9 +18,9 @@ html, body{
 }
 
 main{
-  height: 100vh;
+  height: 60vh;
   background-color: yellow;
-  flex: 2:
+  display: block;
 }
 
 header{
@@ -101,14 +101,13 @@ nav{
   animation-fill-mode: forwards;*/
 }
 footer{
-  height: 5vh;
+  height: 10vh;
   opacity: 1;
   color: #e6ddd6;
   /*animation: fade-in 1.5s ease;
   animation-delay: 9s;
   animation-fill-mode: forwards;*/
   background-color: green;
-  flex: 1;
 }
 
 /*@keyframes drop{
@@ -137,6 +136,6 @@ footer{
     flex-direction: row;
   }
   main{
-    height: 45vh;
+    height: 55vh;
   }
 }

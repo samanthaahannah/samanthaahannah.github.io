@@ -16,18 +16,18 @@ html, body{
 }
 
 main{
-  height: 100vh;
+  height: 80vh;
   background-color: yellow;
 }
 
 header{
-  opacity: 0;
+  opacity: 1;
   display: flex;
   width: 90%;
   margin: auto;
-  animation: fade-in 1.5s ease;
+  /*animation: fade-in 1.5s ease;
   animation-delay: 9s;
-  animation-fill-mode: forwards;
+  animation-fill-mode: forwards;*/
   flex-direction: row;
   flex-wrap: wrap;
   background-color: blue;
@@ -65,15 +65,13 @@ nav{
   justify-content: center;
   display: flex;
   width: 90%;
-  margin: auto;
-  height: 50vh;
   color: #e6ddd6;
   align-items: center;
   overflow: visible;
 }
 
 .hello{
-  opacity: 0;
+  opacity: 1;
   text-align: center;
   font-size: 24px;
   animation: drop 1.5s ease;
@@ -83,33 +81,33 @@ nav{
 
 .header-text{
   text-align: center;
-  opacity: 0;
-  transform: translateY(-80px);
+  opacity: 1;
+  /*transform: translateY(-80px);
   animation: drop 1.5s ease;
   animation-delay: 4s;
-  animation-fill-mode: forwards;
+  animation-fill-mode: forwards;*/
 }
 
 .blurb{
   text-align: left;
   max-width: 600px;
-  opacity: 0;
-  transform: translateY(-80px);
+  opacity: 1;
+  /*transform: translateY(-80px);
   animation: drop 1.5s ease;
   animation-delay: 7s;
-  animation-fill-mode: forwards;
+  animation-fill-mode: forwards;*/
 }
 footer{
   height: 5vh;
-  opacity: 0;
+  opacity: 1;
   color: #e6ddd6;
-  animation: fade-in 1.5s ease;
+  /*animation: fade-in 1.5s ease;
   animation-delay: 9s;
-  animation-fill-mode: forwards;
+  animation-fill-mode: forwards;*/
   background-color: green
 }
 
-@keyframes drop{
+/*@keyframes drop{
   0%{
     opacity: 0;
     transform: translateY(-80px);
@@ -127,7 +125,7 @@ footer{
       opacity: 1;
     }
 
-  }
+  }*/
 
 @media screen and (max-width: 600px){
   header{

@@ -67,11 +67,8 @@ nav{
 .presentation{
   margin-left: auto;
   margin-right: auto:
-  justify-content: center;
-  display: flex;
   width: 75%;
   color: #e6ddd6;
-  align-items: center;
   overflow: visible;
   background-color: orange;
 }

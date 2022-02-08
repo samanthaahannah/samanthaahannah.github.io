@@ -45,8 +45,8 @@ nav{
   justify-content: space-around;
   list-style: none;
   flex-direction: row;
-  padding-top: 50%;
-  padding-bottom: 50%;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 .nav-link{
   color: #e6ddd6;

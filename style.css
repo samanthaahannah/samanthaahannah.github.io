@@ -67,7 +67,7 @@ nav{
   height: 50vh;
   color: #e6ddd6;
   align-items: center;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .hello{

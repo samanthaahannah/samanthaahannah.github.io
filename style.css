@@ -39,10 +39,10 @@ header{
 .logo-container{
   align-items: center;
   justify-content: center;
-  flex: 15%;
+  flex: 20%;
 }
 nav{
-  flex: 85%;
+  flex: 80%;
 }
 
 .nav-links{

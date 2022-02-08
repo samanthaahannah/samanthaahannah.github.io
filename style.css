@@ -123,10 +123,10 @@ footer{
       flex-direction: column;
     }
     .logo-container{
-      flex: 75%;
+      flex: 2;
       display: inline;
     }
     .nav{
-      flex: 25%;
+      flex: 1;
     }
   }

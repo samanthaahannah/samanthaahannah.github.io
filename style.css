@@ -42,7 +42,8 @@ nav{
 }
 
 .nav-links{
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
   list-style: none;
   flex-direction: row;
 }

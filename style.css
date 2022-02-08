@@ -85,6 +85,7 @@ nav{
   animation: drop 1.5s ease;
   animation-delay: 4s;
   animation-fill-mode: forwards;
+  font-size: 22px;
 }
 
 .blurb{
@@ -95,6 +96,7 @@ nav{
   animation: drop 1.5s ease;
   animation-delay: 7s;
   animation-fill-mode: forwards;
+  font-size: 20px;
 }
 footer{
   height: 10vh;

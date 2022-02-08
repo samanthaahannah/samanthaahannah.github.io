@@ -17,6 +17,7 @@ html, body{
 
 main{
   height: 80vh;
+  background-color: yellow;
 }
 
 header{
@@ -104,6 +105,7 @@ footer{
   animation: fade-in 1.5s ease;
   animation-delay: 9s;
   animation-fill-mode: forwards;
+  background-color: green
 }
 
 @keyframes drop{

@@ -42,6 +42,7 @@ nav{
 }
 
 .nav-links{
+  align-self: center;
   vertical-align: middle;
   justify-content: space-around;
   list-style: none;

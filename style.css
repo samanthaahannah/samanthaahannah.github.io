@@ -73,6 +73,7 @@ nav{
 .hello{
   text-align: center;
   font-size: 24px;
+  transform: translateY(-80px);
   animation: drop 1.5s ease;
   animation-fill-mode: forwards;
 }
@@ -104,7 +105,7 @@ footer{
   animation-fill-mode: forwards;
 }
 
-/@keyframes drop{
+@keyframes drop{
   0%{
     opacity: 0;
     transform: translateY(-80px);

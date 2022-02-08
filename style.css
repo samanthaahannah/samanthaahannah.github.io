@@ -35,10 +35,10 @@ header{
 .logo-container{
   align-items: center;
   justify-content: center;
-  flex: 1;
+  flex: 25%;
 }
 nav{
-  flex: 2;
+  flex: 75%;
 }
 
 .nav-links{

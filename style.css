@@ -14,6 +14,9 @@ html, body{
   font-family: "Montserrat Alternates", sans-serif;
   overflow-x: hidden; 
 }
+body{
+  flex-direction: column;
+}
 
 header{
   opacity: 1;

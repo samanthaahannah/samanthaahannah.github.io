@@ -36,7 +36,8 @@ header{
 .logo-container{
   align-items: center;
   justify-content: center;
-  flex: 3;
+  flex: 1;
+  max-height: 5vh;
 }
 nav{
   flex: 2;

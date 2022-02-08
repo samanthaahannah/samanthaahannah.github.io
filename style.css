@@ -16,14 +16,14 @@ html, body{
 }
 
 header{
-  opacity: 0;
+  opacity: 1;
   display: flex;
   width: 90%;
   height: 5vh;
   margin: auto;
-  animation: fade-in 1.5s ease;
+  /*animation: fade-in 1.5s ease;
   animation-delay: 8s;
-  animation-fill-mode: forwards;
+  animation-fill-mode: forwards;*/
   flex-direction: row;
   flex-wrap: wrap;
 }
@@ -69,37 +69,37 @@ nav{
 .hello{
   text-align: center;
   font-size: 24px;
-  animation: drop 1.5s ease;
-  animation-fill-mode: forwards;
+  /*animation: drop 1.5s ease;
+  animation-fill-mode: forwards;*/
 }
 
 .header-text{
   text-align: center;
-  opacity: 0;
-  transform: translateY(-80px);
+  opacity: 1;
+  /*transform: translateY(-80px);
   animation: drop 1.5s ease;
   animation-delay: 3s;
-  animation-fill-mode: forwards;
+  animation-fill-mode: forwards;*/
 }
 
 .blurb{
   text-align: left;
   max-width: 600px;
-  opacity: 0;
-  transform: translateY(-80px);
+  opacity: 1;
+  /*transform: translateY(-80px);
   animation: drop 1.5s ease;
   animation-delay: 6s;
-  animation-fill-mode: forwards;
+  animation-fill-mode: forwards;*/
 }
 footer{
-  opacity: 0;
+  opacity: 1;
   color: #e6ddd6;
-  animation: fade-in 1.5s ease;
+  /*animation: fade-in 1.5s ease;
   animation-delay: 8s;
-  animation-fill-mode: forwards;
+  animation-fill-mode: forwards;*/
 }
 
-@keyframes drop{
+/*@keyframes drop{
   0%{
     opacity: 0;
     transform: translateY(-80px);
@@ -117,7 +117,7 @@ footer{
       opacity: 1;
     }
 
-  }
+  }*/
 
   @media screen and (max-width: 1024px){
     header{

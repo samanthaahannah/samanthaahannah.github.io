@@ -24,7 +24,7 @@ header{
   /*animation: fade-in 1.5s ease;
   animation-delay: 8s;
   animation-fill-mode: forwards;*/
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   display: block;
 }

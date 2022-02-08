@@ -129,4 +129,7 @@ footer{
     display: block;
     flex-direction: row;
   }
+  main{
+    height: 60vh;
+  }
 }

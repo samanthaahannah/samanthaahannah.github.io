@@ -94,6 +94,7 @@ nav{
 footer{
   opacity: 1;
   color: #e6ddd6;
+  position: fixed;
   /*animation: fade-in 1.5s ease;
   animation-delay: 8s;
   animation-fill-mode: forwards;*/

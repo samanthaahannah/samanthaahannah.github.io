@@ -30,7 +30,7 @@ header{
 
 .logo-container,
 .nav-links{
-  display: flex;
+  display: block;
 }
 
 .logo-container{

@@ -42,8 +42,8 @@ nav{
 }
 
 .nav-links{
+  vertical-align: middle;
   justify-content: space-around;
-  height: 50vh;
   list-style: none;
   flex-direction: row;
 }

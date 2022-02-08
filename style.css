@@ -37,8 +37,7 @@ header{
   align-items: center;
   justify-content: center;
   flex: 1;
-  width: 50%;
-  height: 50%;
+  display: block;
   background-color: green;
 }
 nav{

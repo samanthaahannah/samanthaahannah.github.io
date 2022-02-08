@@ -30,6 +30,7 @@ header{
   animation-fill-mode: forwards;
   flex-direction: row;
   flex-wrap: wrap;
+  background-color: blue;
 }
 
 .logo-container,

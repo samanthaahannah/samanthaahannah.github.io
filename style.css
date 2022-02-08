@@ -16,7 +16,6 @@ html, body{
 }
 
 header{
-  position: fixed;
   opacity: 1;
   display: flex;
   width: 90%;
@@ -26,10 +25,6 @@ header{
   animation-fill-mode: forwards;*/
   flex-direction: row;
   flex-wrap: wrap;
-}
-
-main{
-  position: relative;
 }
 
 .logo-container,

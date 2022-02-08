@@ -16,7 +16,7 @@ html, body{
 }
 
 main{
-  height: 75vh;
+  height: 80vh;
 }
 
 header{
@@ -98,7 +98,7 @@ nav{
   animation-fill-mode: forwards;
 }
 footer{
-  height: 20vh;
+  height: 5vh;
   opacity: 0;
   color: #e6ddd6;
   animation: fade-in 1.5s ease;

@@ -124,6 +124,7 @@ footer{
     }
     .logo-container{
       flex: 75%;
+      display: inline;
     }
     .nav{
       flex: 25%;

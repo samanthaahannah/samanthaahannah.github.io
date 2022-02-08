@@ -30,6 +30,7 @@ header{
 .logo-container,
 .nav-links{
   display: flex;
+  max-height: 200px;
 }
 
 .logo-container{

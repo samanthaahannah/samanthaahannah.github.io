@@ -19,12 +19,12 @@ header{
   opacity: 0;
   display: flex;
   width: 90%;
-  height: 25vh;
+  height: 10vh;
   margin: auto;
   animation: fade-in 1.5s ease;
   animation-delay: 8s;
   animation-fill-mode: forwards;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 
@@ -36,10 +36,10 @@ header{
 .logo-container{
   align-items: center;
   justify-content: center;
-  flex: 75%;
+  flex: 1;
 }
 nav{
-  flex: 25%;
+  flex: 2;
 }
 
 .nav-links{
@@ -116,26 +116,15 @@ footer{
 
   }
 
-  @media screen and (max-width: 480px){
+  @media screen and (max-width: 1024px){
     header{
       flex-direction: column;
+      height: 25vh;
     }
     .logo-container{
       flex: 75%;
     }
-    .nav-links{
+    .nav{
       flex: 25%;
-    }
-  }
-
-  @media screen and (min-width: 1281){
-    header{
-      flex-direction: row;
-    }
-    .logo-container{
-      flex: 1;
-    }
-    .nav-links{
-      flex: 2;
     }
   }

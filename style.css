@@ -43,7 +43,7 @@ nav{
 
 .nav-links{
   justify-content: space-around;
-  align-items: center;
+  height: 50vh;
   list-style: none;
   flex-direction: row;
 }

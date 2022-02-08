@@ -127,14 +127,3 @@ footer{
       flex: 2;
     }
   }
-  @media screen and (max-width: 480px){
-    header{
-      flex-direction: column;
-    }
-    .logo-container{
-      flex: 75%;
-    }
-    .nav-links{
-      flex: 25%;
-    }
-  }

@@ -25,12 +25,12 @@ header{
   animation-fill-mode: forwards;*/
   flex-direction: row;
   flex-wrap: wrap;
+  max-height: 5vh;
 }
 
 .logo-container,
 .nav-links{
   display: flex;
-  max-height: 200px;
 }
 
 .logo-container{

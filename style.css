@@ -123,10 +123,9 @@ footer{
       flex-direction: column;
     }
     .logo-container{
-      flex: 2;
-      display: inline;
+      flex: 10%;
     }
     .nav{
-      flex: 1;
+      flex: 90%;
     }
   }

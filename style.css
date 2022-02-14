@@ -106,6 +106,34 @@ footer{
   animation-fill-mode: forwards;
 }
 
+#home header{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  #home .hello{
+    text-align: center;
+    font-size: 20px;
+  }
+
+  #home .header-text{
+    text-align: center;
+    font-size: 16px;
+  }
+
+  #home .blurb{
+    text-align: center;
+    font-size: 16px;
+  }
+
+  #home footer{
+    height: 5vh;
+    color: #e6ddd6;
+  }
+
 @keyframes drop{
   0%{
     opacity: 0;

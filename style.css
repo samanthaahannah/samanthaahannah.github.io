@@ -135,3 +135,9 @@ footer{
     height: 50vh;
   }
 }
+
+@media screen and (min-height: 1080px){
+  .presentation{
+    height: 50vh;
+  }
+}

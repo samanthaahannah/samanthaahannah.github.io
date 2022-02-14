@@ -139,6 +139,6 @@ footer{
 @media screen and (min-height: 1080px){
   
   main{
-    height: 75vh;
+    height: 100vh;
   }
 }

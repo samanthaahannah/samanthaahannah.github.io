@@ -22,7 +22,7 @@ main{
   display: block;
 }
 
-#LandingPage header{
+header{
   opacity: 0;
   display: flex;
   width: 90%;
@@ -33,14 +33,6 @@ main{
   flex-direction: row;
   flex-wrap: wrap;
 }
-
-#HomePage header{
-    display: flex;
-    width: 90%;
-    margin: auto;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
 
 .logo-container,
 .nav-links{
@@ -77,7 +69,7 @@ nav{
   overflow: visible;
 }
 
-#LandingPage .hello{
+.hello{
   opacity: 0;
   text-align: center;
   font-size: 20px;
@@ -86,12 +78,7 @@ nav{
   animation-delay: 1s;
 }
 
-#HomePage .hello{
-    text-align: center;
-    font-size: 20px;
-  }
-
-#LandingPage .header-text{
+.header-text{
   text-align: center;
   opacity: 0;
   transform: translateY(-80px);
@@ -101,12 +88,7 @@ nav{
   font-size: 16px;
 }
 
- #HomePage .header-text{
-    text-align: center;
-    font-size: 16px;
-  }
-
-#LandingPage .blurb{
+.blurb{
   text-align: center;
   opacity: 0;
   transform: translateY(-80px);
@@ -116,11 +98,7 @@ nav{
   font-size: 16px;
 }
 
-#HomePage .blurb{
-    text-align: center;
-    font-size: 16px;
-  }
-#LandingPage footer{
+footer{
   height: 5vh;
   opacity: 0;
   color: #e6ddd6;
@@ -128,11 +106,6 @@ nav{
   animation-delay: 9s;
   animation-fill-mode: forwards;
 }
-
-#HomePage footer{
-    height: 5vh;
-    color: #e6ddd6;
-  }
 
 @keyframes drop{
   0%{

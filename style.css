@@ -136,7 +136,7 @@ footer{
   }
 }
 
-@media screen and (min-height: 1080px){
+@media screen and (max-height: 1080px){
   
   .presentation{
     margin-top: 50%;

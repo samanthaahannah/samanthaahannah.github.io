@@ -137,8 +137,8 @@ footer{
 }
 
 @media screen and (min-height: 1080px){
-  .presentation{
-    margin-top: auto;
-    margin-bottom: auto;
+  
+  main{
+    height: 75vh;
   }
 }

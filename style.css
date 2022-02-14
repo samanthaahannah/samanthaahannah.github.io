@@ -138,6 +138,7 @@ footer{
 
 @media screen and (min-height: 1080px){
   .presentation{
-    height: 50vh;
+    margin-top: auto;
+    margin-bottom: auto;
   }
 }

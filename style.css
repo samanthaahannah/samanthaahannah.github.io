@@ -54,11 +54,8 @@ nav{
   flex-direction: row;
   padding-top: 5%;
   padding-bottom: 5%;
-}
-
-.nav-links.ul{
-  color: #e6ddd6;
   font-size: 10px;
+  color: #e6ddd6;
 }
 
 .nav-link{

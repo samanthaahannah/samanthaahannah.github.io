@@ -23,13 +23,9 @@ main{
 }
 
 header{
-  opacity: 0;
   display: flex;
   width: 90%;
   margin: auto;
-  animation: fade-in 1.5s ease;
-  animation-delay: 9s;
-  animation-fill-mode: forwards;
   flex-direction: row;
   flex-wrap: wrap;
 }
@@ -73,62 +69,24 @@ nav{
 }
 
 .hello{
-  opacity: 0;
   text-align: center;
   font-size: 20px;
-  animation: drop 1.5s ease;
-  animation-fill-mode: forwards;
-  animation-delay: 1s;
 }
 
 .header-text{
   text-align: center;
-  opacity: 0;
-  transform: translateY(-80px);
-  animation: drop 1.5s ease;
-  animation-delay: 4s;
-  animation-fill-mode: forwards;
   font-size: 16px;
 }
 
 .blurb{
   text-align: center;
-  opacity: 0;
-  transform: translateY(-80px);
-  animation: drop 1.5s ease;
-  animation-delay: 7s;
-  animation-fill-mode: forwards;
   font-size: 16px;
 }
 
 footer{
   height: 5vh;
-  opacity: 0;
   color: #e6ddd6;
-  animation: fade-in 1.5s ease;
-  animation-delay: 9s;
-  animation-fill-mode: forwards;
 }
-
-@keyframes drop{
-  0%{
-    opacity: 0;
-    transform: translateY(-80px);
-  }
-  100%{
-    opacity: 1;
-    transform: translateY(8px);
-  }
-}
-@keyframes fade-in{
-    0%{
-      opacity: 0;
-    }
-    100%{
-      opacity: 1;
-    }
-
-  }
 
 @media screen and (max-width: 600px){
   header{

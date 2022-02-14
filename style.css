@@ -22,7 +22,7 @@ main{
   display: block;
 }
 
-header{
+#LandingPage header{
   opacity: 0;
   display: flex;
   width: 90%;
@@ -33,6 +33,14 @@ header{
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+#HomePage header{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 
 .logo-container,
 .nav-links{
@@ -69,7 +77,7 @@ nav{
   overflow: visible;
 }
 
-.hello{
+#LandingPage .hello{
   opacity: 0;
   text-align: center;
   font-size: 20px;
@@ -78,7 +86,12 @@ nav{
   animation-delay: 1s;
 }
 
-.header-text{
+#HomePage .hello{
+    text-align: center;
+    font-size: 20px;
+  }
+
+#LandingPage .header-text{
   text-align: center;
   opacity: 0;
   transform: translateY(-80px);
@@ -88,7 +101,12 @@ nav{
   font-size: 16px;
 }
 
-.blurb{
+ #HomePage .header-text{
+    text-align: center;
+    font-size: 16px;
+  }
+
+#LandingPage .blurb{
   text-align: center;
   opacity: 0;
   transform: translateY(-80px);
@@ -97,7 +115,12 @@ nav{
   animation-fill-mode: forwards;
   font-size: 16px;
 }
-footer{
+
+#HomePage .blurb{
+    text-align: center;
+    font-size: 16px;
+  }
+#LandingPage footer{
   height: 5vh;
   opacity: 0;
   color: #e6ddd6;
@@ -106,30 +129,7 @@ footer{
   animation-fill-mode: forwards;
 }
 
-#home header{
-    display: flex;
-    width: 90%;
-    margin: auto;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  #home .hello{
-    text-align: center;
-    font-size: 20px;
-  }
-
-  #home .header-text{
-    text-align: center;
-    font-size: 16px;
-  }
-
-  #home .blurb{
-    text-align: center;
-    font-size: 16px;
-  }
-
-  #home footer{
+#HomePage footer{
     height: 5vh;
     color: #e6ddd6;
   }

@@ -162,14 +162,7 @@ nav{
   main{
     height: 50vh;
   }
-}
-
-@media screen and (max-height: 1080px){
-  
   .presentation{
     margin-top: 10%;
-  }
-  main{
-    height: 50vh;
   }
 }

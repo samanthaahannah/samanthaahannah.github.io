@@ -18,12 +18,8 @@ html, body{
 }
 
 hr{
-  height: 8px;
-    // background-color: red;
-    background-image: linear-gradient(90deg, red, transparent);
-    
-    border: 0;
-    height: 1px;
+  color:red; 
+  background-color:red;
   }
 
 main{

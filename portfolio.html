@@ -9,13 +9,11 @@
 	<title>Portfolio</title>
 	<script type="text/javascript">
 		
-		const target = document.getElementById("portfolio");
-		document.addEventListener("wheel", function(e){
-		// prevent the default scrolling event
-		e.preventDefault();
-		// scroll the div
-		target.scrollBy(e.deltaX, e.deltaY);
-	})
+		document.addEventListener("wheel", function(event) {
+  factor = event.deltaMode === 1 ? 16 : 1;
+  delta = factor * event.deltaY || -event.wheelDelta || event.detail;
+  document.getElementById("portfolio").scrollTop = document.getElementById("portfolio").scrollTop + delta
+  });
 	</script>
 </head>
 <body>

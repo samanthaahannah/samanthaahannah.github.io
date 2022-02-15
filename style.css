@@ -103,9 +103,10 @@ nav{
 
 hr {
     margin-top: 15px;
-  margin-bottom: 15px;
-  border: 0;
-  border-top: 5px solid #00ff00;
+    margin-bottom: 15px;
+    border: 0;
+    border-top: 5px solid #e6ddd6;
+}
 
 .modelling{
   flex: 1;

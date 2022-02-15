@@ -102,8 +102,11 @@ nav{
 }
 
 hr {
+  border: none;
+  height: 5px;
   background: linear-gradient(to right, red, yellow);
-  height: 15px;
+  
+  
 }
 
 .modelling{

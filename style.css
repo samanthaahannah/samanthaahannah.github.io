@@ -20,7 +20,7 @@ html, body{
 .line{
   background-image: linear-gradient(to right, rgba(230, 220, 214, 0), rgba(230, 220, 214, 1), rgba(230, 220, 214, 0));
   background-repeat: no-repeat;
-  height: 5px;
+  height: 25px;
 }
 
 main{

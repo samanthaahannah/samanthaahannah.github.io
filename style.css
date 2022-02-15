@@ -102,8 +102,10 @@ nav{
 }
 
 hr {
-    color: linear-gradient(to right, rgba(243, 243, 243, 0), rgba(243, 243, 243, 1), rgba(243, 243, 243, 0)) !important;
-}
+    margin-top: 15px;
+  margin-bottom: 15px;
+  border: 0;
+  border-top: 5px solid #00ff00;
 
 .modelling{
   flex: 1;

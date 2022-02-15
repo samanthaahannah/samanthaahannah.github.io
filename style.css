@@ -23,6 +23,7 @@ html, body{
 
 main{
   flex-grow: 1;
+  overflow-x: hidden;
   height: 80vh;
 }
 

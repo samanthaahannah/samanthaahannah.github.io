@@ -102,12 +102,7 @@ nav{
 }
 
 hr {
-    height: 20px;
-    background: red; 
-    background: -webkit-linear-gradient(red 50%, yellow 50%); 
-    background: -o-linear-gradient(red 50%, yellow 50%); 
-    background: -moz-linear-gradient(red 50%, yellow 50%);
-    background: linear-gradient(red 50%, yellow 50%); 
+    color: red;
 }
 
 .modelling{

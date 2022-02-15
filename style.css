@@ -18,7 +18,7 @@ html, body{
 }
 
 hr{
-  border-width: 2px 0 0 0;
+  border-width: 5px 0 0 0;
         border-style: solid;
         border-color: linear-gradient(90deg, rgba(230,221,214,0) 0%, rgba(230,221,214,1) 25%, rgba(230,221,214,1) 75%, rgba(230,221,214,0) 100%);
 }

@@ -18,7 +18,7 @@ html, body{
 }
 
 main{
-  flex-grow: 1;
+  flex-grow: 8;
   overflow-x: hidden;
   overflow-y: auto;
 }
@@ -29,6 +29,7 @@ header{
   margin: auto;
   flex-direction: row;
   flex-wrap: wrap;
+  flex: 2;
 }
 
 .logo-container,

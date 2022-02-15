@@ -101,14 +101,14 @@ nav{
   margin-bottom: 20px;
 }
 width: 10px;
-*::-webkit-scrollbar {
+.portfolio::-webkit-scrollbar{
   width: 30px;
 }
-*::-webkit-scrollbar-track {
+.portfolio::-webkit-scrollbar-track{
   background: green;
   /* change me to blue to match the background */
 }
-*::-webkit-scrollbar-thumb {
+.portfolio::-webkit-scrollbar-thumb{
   background: red;
   border: 10px yellow solid;
   /* change border color to blue to match the background */

@@ -17,11 +17,9 @@ html, body{
   flex-direction: column
 }
 
-hr{
-  color:red; 
-  background-color:red;
-  border: 0;
-  }
+  body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
 
 main{
   flex-grow: 8;

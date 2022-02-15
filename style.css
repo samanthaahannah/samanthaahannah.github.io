@@ -105,7 +105,7 @@ nav{
 hr {
   border: none;
   height: 1px;
-  background-image: linear-gradient (to right, rgba(0, 0, 0, 0), cornflowerblue, rgba(0, 0, 0, 0));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), cornflowerblue, rgba(0, 0, 0, 0));
 }
 
 

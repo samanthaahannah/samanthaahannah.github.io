@@ -3,9 +3,6 @@
   padding: 0px;
   box-sizing: border-box;
 }
-*::-webkit-scrollbar {
-  width: 12px;
-}
 
 html, body{
   width: 100%;
@@ -102,6 +99,9 @@ nav{
   overflow-x: hidden;
   overflow-y: auto;
   margin-bottom: 20px;
+}
+.portfolio::-webkit-scrollbar{
+  width: 12px;
 }
 
 .modelling{

@@ -68,6 +68,10 @@ nav{
   overflow: visible;
 }
 
+.introduction{
+  margin-bottom: 20px;
+}
+
 .hello{
   text-align: center;
   font-size: 20px;

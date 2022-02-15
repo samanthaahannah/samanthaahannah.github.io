@@ -2,7 +2,6 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  scrollbar-width: none;
 }
 
 html, body{
@@ -22,7 +21,6 @@ main{
   flex-grow: 1;
   overflow-x: hidden;
   overflow-y: auto;
-  height: 80vh;
 }
 
 header{
@@ -90,18 +88,15 @@ nav{
   font-size: 16px;
 }
 
-#target{
+.portfolio{
   display: flex;
   flex-direction: column;
   width: 90%;
   height: 75vh;
   margin-left: auto;
   margin-right: auto;
-  overflow-y: scroll;
-}
-#body{
-  max-height: 100vh;
-  max-width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .modelling{

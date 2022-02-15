@@ -128,13 +128,15 @@ nav{
 .modellingelement1blurb{
   flex: 1;
   font-size: 16px;
-  margin: auto;
+  margin-left: 20px;
+  margin-rightt: 20px;
 
 }
 .modellingelement2blurb{
   flex: 1;
   font-size: 16px;
-  margin: auto;
+  margin-left: 20px;
+  margin-rightt: 20px;
 }
 
 .traditional{
@@ -152,7 +154,8 @@ nav{
 .traditionalblurb{
   flex: 1;
   font-size: 16px;
-  margin: auto;
+  margin-left: 20px;
+  margin-rightt: 20px;
 }
 
 img{

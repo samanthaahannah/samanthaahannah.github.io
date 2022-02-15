@@ -102,15 +102,16 @@ nav{
 }
 width: 10px;
 
-.portfolio::-webkit-scrollbar{
-    border: solid 10px transparent;
-    }
+::-webkit-scrollbar {
+    width: 10px;
+}
 
-.portfolio::-webkit-scrollbar-thumb {
-     box-shadow: inset 0 0 10px 10px green;
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 10px 10px green;
     border: solid 3px transparent;
-  }
-  .portfolio::-webkit-scrollbar-thumb {
+}
+
+::-webkit-scrollbar-thumb {
     box-shadow: inset 0 0 10px 10px red;
     border: solid 3px transparent;
 }

@@ -103,6 +103,9 @@ nav{
 .portfolio::-webkit-scrollbar{
   width: 12px;
 }
+body::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0.2);        /* color of the tracking area */
+}
 
 .modelling{
   flex: 1;

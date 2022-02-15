@@ -101,7 +101,7 @@ nav{
   margin-bottom: 20px;
 }
 .portfolio::-webkit-scrollbar{
-  width: 12px;
+  width: 5px;
 }
 .portfolio::-webkit-scrollbar-track {
   background: rgba(0,0,0,0.1);        /* color of the tracking area */

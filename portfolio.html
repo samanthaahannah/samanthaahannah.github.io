@@ -9,11 +9,58 @@
 	<title>Portfolio</title>
 	<script type="text/javascript">
 		
-		document.addEventListener("wheel", function(event) {
-  factor = event.deltaMode === 1 ? 16 : 1;
-  delta = factor * event.deltaY || -event.wheelDelta || event.detail;
-  document.getElementById("portfolio").scrollTop = document.getElementById("portfolio").scrollTop + delta
-  });
+		$(function () {
+    var myCounter = 0,
+        myOtherCounter = 0;
+    var scroll = 0;
+
+    $("#portfolio").scroll(function () {
+        myCounter = myCounter + 1;
+        $("#log").html("<div>Handler for .scroll() called " + myCounter + " times.</div>");
+    });
+
+    //Firefox
+    // $(document).bind(...) this works as well
+    $('#body').bind('DOMMouseScroll', function (e) {
+        if (e.originalEvent.detail > 0) {
+            scrollDown();
+        } else {
+            scrollUp();
+        }
+
+        //prevent page fom scrolling
+        return false;
+    });
+
+    //IE, Opera, Safari
+    $('#body').bind('mousewheel', function (e) {
+        if (e.originalEvent.wheelDelta < 0) {
+            scrollDown();
+        } else {
+            scrollUp();
+        }
+        //prevent page fom scrolling
+        return false;
+    });
+
+    function scrollDown() {
+        //scroll down
+        console.log('Down ' + scroll);
+        if (scroll < $('#portfolio').find('div').height() - $('#portfolio').height() + 20) {
+            scroll = $('#portfolio').scrollTop() + 5;
+            $('#portfolio').scrollTop(scroll);
+        }
+    };
+
+    function scrollUp() {
+        //scroll up
+        console.log('Up ' + scroll);
+        if (scroll > 0) {
+            scroll = $('#portfolio').scrollTop() - 5;
+            $('#portfolio').scrollTop(scroll);
+        }
+    };
+});
 	</script>
 </head>
 <body>

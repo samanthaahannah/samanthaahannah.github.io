@@ -7,6 +7,16 @@
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="style.css" type="text/css" />
 	<title>Portfolio</title>
+	<script type="text/javascript">
+		
+		const target = document.getElementById("target");
+		document.addEventListener("wheel", function(e){
+		// prevent the default scrolling event
+		e.preventDefault();
+		// scroll the div
+		target.scrollBy(e.deltaX, e.deltaY);
+	})
+	</script>
 </head>
 <body>
 	<header>
@@ -33,7 +43,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="portfolio">
+			<div id="target" class="portfolio">
 				<div class="modelling">
 					<h3>Some examples of 3D renders, showcasing my ability to create and texture various models for a variety of media</h3>
 					<br>

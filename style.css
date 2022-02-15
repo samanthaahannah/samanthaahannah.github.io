@@ -103,7 +103,7 @@ nav{
 
 
 hr {
-  border:none; 
+  border: red; 
   height:1px;
   background-color:red
 }

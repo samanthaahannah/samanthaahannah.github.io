@@ -106,7 +106,7 @@ nav{
 }
 
 ::-webkit-scrollbar-track {
-    border: solid 3px transparent;
+    border: solid 10px transparent;
     }
 
 .portfolio::-webkit-scrollbar-thumb {

@@ -95,6 +95,8 @@ nav{
   height: 75vh;
   margin-left: auto;
   margin-right: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .modelling{

@@ -101,15 +101,6 @@ nav{
   margin-bottom: 20px;
 }
 
-hr {
-  border: 0;
-  clear:both;
-  display:block;
-  width: 96%;               
-  background-color:#FFFF00;
-  height: 1px;
-}
-
 .modelling{
   flex: 1;
   display: flex;

@@ -45,10 +45,6 @@ nav{
   flex: 80%;
 }
 
-#target{
-  overflow-y: scroll;
-}
-
 .nav-links{
   justify-content: space-around;
   list-style: none;
@@ -92,13 +88,15 @@ nav{
   font-size: 16px;
 }
 
-.portfolio{
+#portfolio{
   display: flex;
   flex-direction: column;
   width: 90%;
   height: 75vh;
   margin-left: auto;
   margin-right: auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .modelling{

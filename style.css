@@ -106,7 +106,7 @@ hr {
     margin-bottom: 5px;
     border: 0;
     border-top: 2.5px solid;
-    color: linear-gradient(to right, rgba(230,221,214,0), rgba(230,221,214,1), rgba(230,221,214,0);
+    background: linear-gradient(to right, rgba(230,221,214,0), rgba(230,221,214,1), rgba(230,221,214,0);
 }
 
 .modelling{

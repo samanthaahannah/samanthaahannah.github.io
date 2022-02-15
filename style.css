@@ -20,6 +20,7 @@ html, body{
 hr{
   color:red; 
   background-color:red;
+  border: 0;
   }
 
 main{

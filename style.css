@@ -103,8 +103,11 @@ nav{
 .portfolio::-webkit-scrollbar{
   width: 12px;
 }
-body::-webkit-scrollbar-track {
+.portfolio::-webkit-scrollbar-track {
   background: rgba(0,0,0,0.2);        /* color of the tracking area */
+}
+.portfolio::-webkit-scrollbar-thumb {
+  background: rgba(1,1,1,1);        /* color of the tracking area */
 }
 
 .modelling{

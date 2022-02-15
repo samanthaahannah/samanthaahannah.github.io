@@ -18,7 +18,10 @@ html, body{
 }
 
 hr{
-  border-image: linear-gradient(to right, green, lightgreen);
+  border: 0;
+    border-top: 2px solid #07234f;
+    height: 2px;
+    width: 300px
 }
 
 main{

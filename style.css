@@ -3,6 +3,9 @@
   padding: 0px;
   box-sizing: border-box;
 }
+*::-webkit-scrollbar {
+  width: 5px;
+}
 
 html, body{
   width: 100%;
@@ -15,10 +18,6 @@ html, body{
   overflow-x: hidden; 
   flex: display;
   flex-direction: column
-}
-
-  body::-webkit-scrollbar {
-  width: 2px;               /* width of the entire scrollbar */
 }
 
 main{

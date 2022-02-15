@@ -92,6 +92,7 @@ nav{
   flex-direction: column;
   width: 90%;
   height: 75vh;
+  align-content: center;
 }
 
 .modelling{

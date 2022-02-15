@@ -104,8 +104,7 @@ nav{
 hr{
   height: 1px;
         background-color: #ccc;
-        border: none;
-}
+      }
 
 .modelling{
   flex: 1;

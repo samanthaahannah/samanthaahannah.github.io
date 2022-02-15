@@ -139,7 +139,7 @@ nav{
   margin-rightt: 20px;
 }
 
-.traditional{
+.traditionalelement1{
   align-items: left;
   flex: 1;
   display: flex;
@@ -147,11 +147,11 @@ nav{
   margin-bottom: 20px;
 }
 
-.traditionalimg{
+.traditionalelement1img{
   flex: 1;
 }
 
-.traditionalblurb{
+.traditionalelement1blurb{
   flex: 1;
   font-size: 16px;
   margin-left: 20px;

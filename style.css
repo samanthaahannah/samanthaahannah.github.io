@@ -90,6 +90,18 @@ nav{
   height: 75vh;
 }
 
+.3dmodelling{
+  max-width: 600px;
+}
+
+.3delement2{
+  max-width: 600px;
+}
+
+.traditional{
+  max-width: 600px;
+}
+
 footer{
   height: 5vh;
   color: #e6ddd6;

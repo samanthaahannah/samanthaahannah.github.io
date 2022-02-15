@@ -14,7 +14,7 @@
         myOtherCounter = 0;
     var scroll = 0;
 
-    $("#portfolio").scroll(function () {
+    $("#target").scroll(function () {
         myCounter = myCounter + 1;
         $("#log").html("<div>Handler for .scroll() called " + myCounter + " times.</div>");
     });
@@ -46,9 +46,9 @@
     function scrollDown() {
         //scroll down
         console.log('Down ' + scroll);
-        if (scroll < $('#portfolio').find('div').height() - $('#portfolio').height() + 20) {
-            scroll = $('#portfolio').scrollTop() + 5;
-            $('#portfolio').scrollTop(scroll);
+        if (scroll < $('#target').find('div').height() - $('#target').height() + 20) {
+            scroll = $('#target').scrollTop() + 5;
+            $('#target').scrollTop(scroll);
         }
     };
 
@@ -56,8 +56,8 @@
         //scroll up
         console.log('Up ' + scroll);
         if (scroll > 0) {
-            scroll = $('#portfolio').scrollTop() - 5;
-            $('#portfolio').scrollTop(scroll);
+            scroll = $('#target').scrollTop() - 5;
+            $('#target').scrollTop(scroll);
         }
     };
 });
@@ -89,7 +89,7 @@
 					</div>
 				</div>
 			</div>
-			<div id="portfolio">
+			<div id="target">
 				<div class="modelling">
 					<h3>Some examples of 3D renders, showcasing my ability to create and texture various models for a variety of media</h3>
 					<br>

@@ -102,7 +102,7 @@ nav{
 }
 
 hr {
-    background: linear-gradient(to right, rgba(243, 243, 243, 0), rgba(243, 243, 243, 1), rgba(243, 243, 243, 0))
+    background: linear-gradient(90deg, rgba(243, 243, 243, 0), rgba(243, 243, 243, 1), rgba(243, 243, 243, 0))
 }
 
 .modelling{

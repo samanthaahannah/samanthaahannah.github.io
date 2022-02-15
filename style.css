@@ -17,15 +17,8 @@ html, body{
   flex-direction: column
 }
 
-.line{
-  background-image: linear-gradient(to right, rgba(230, 220, 214, 0), rgba(230, 220, 214, 1), rgba(230, 220, 214, 0));
-  background-repeat: no-repeat;
-  height: 5vh;
-}
-.line2{
-  background-image: linear-gradient(to right, rgba(230, 220, 214, 0), rgba(230, 220, 214, 1), rgba(230, 220, 214, 0));
-  background-repeat: no-repeat;
-  height: 5vh;
+hr{
+  border-image: linear-gradient(to right, green, lightgreen);
 }
 
 main{

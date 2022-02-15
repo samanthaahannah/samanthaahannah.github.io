@@ -90,16 +90,9 @@ nav{
   height: 75vh;
 }
 
-.modellingelement1{
-  max-width: 600px;
-}
-
-.modellingelement2{
-  max-width: 600px;
-}
-
-.traditional{
-  max-width: 600px;
+img{
+  max-width: 100%;
+  max-height: 100%;
 }
 
 footer{

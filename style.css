@@ -18,8 +18,7 @@ html, body{
 }
 
 main{
-  height: 175vh;
-  display: block;
+  flex-grow: 1;
 }
 
 header{
@@ -164,7 +163,7 @@ img{
 }
 
 footer{
-  height: 5vh;
+  flex-grow: 0;
   color: #e6ddd6;
 }
 

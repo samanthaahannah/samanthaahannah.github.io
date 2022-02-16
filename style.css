@@ -213,7 +213,11 @@ footer{
     height: 75vh;
   }
   .presentation{
-    height: 50vh;
+    height: 65vh;
+  }
+
+  .portfolio{
+    height: 65vh;
   }
   .modellingelement{
     flex-direction: column;
@@ -236,10 +240,10 @@ footer{
     font-size: 8px;
   }
   .portfolio{
-    height: 50vh;
+    height: 65vh;
   }
   .presentation{
-    height: 50vh;
+    height: 65vh;
   }
   main{
     height: 75%;
@@ -255,10 +259,10 @@ footer{
     font-size: 8px;
   }
   .portfolio{
-    height: 70vh;
+    height: 65vh;
   }
   .presentation{
-    height: 70vh;
+    height: 65vh;
   }
   main{
     height: 80vh;

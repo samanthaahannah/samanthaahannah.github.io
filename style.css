@@ -202,7 +202,11 @@ footer{
   main{
     height: 85vh;
   }
-}
+
+.modellingelementimg-circle{
+    width: 200px;
+    height: 200px;
+  }
 
 @media screen and (max-width: 600px){
   header{

@@ -70,7 +70,7 @@ nav{
   margin-right: 10%;
   color: #e6ddd6;
   overflow: visible;
-  height: 75vh;
+  height: 70vh;
 }
 
 .hello{
@@ -92,7 +92,7 @@ nav{
   display: flex;
   flex-direction: column;
   width: 90%;
-  height: 75vh;
+  height: 70vh;
   margin-left: auto;
   margin-right: auto;
   overflow-x: hidden;

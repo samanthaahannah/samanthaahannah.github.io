@@ -263,12 +263,12 @@ footer{
     font-size: 8px;
   }
   .portfolio{
-    height: 60vh;
+    height: 50vh;
   }
   .presentation{
-    height: 65vh;
+    height: 50vh;
   }
   main{
-    height: 80vh;
+    height: 50vh;
   }
 }

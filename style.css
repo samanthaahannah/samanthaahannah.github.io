@@ -241,4 +241,7 @@ footer{
   .portfolio{
     height: 80vh;
   }
+  .presentation{
+    height: 80vh;
+  }
 }

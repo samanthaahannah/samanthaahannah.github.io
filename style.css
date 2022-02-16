@@ -143,6 +143,12 @@ nav{
   border-radius: 50%;
 }
 
+.modellingelement1img-circle img{
+  width: auto; 
+  height: 100%; 
+  margin-left: -50px;
+}
+
 .modellingelement1img{
   flex: 1;
 }

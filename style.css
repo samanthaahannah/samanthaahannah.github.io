@@ -144,6 +144,7 @@ nav{
 }
 
 .modellingelementimg-circle .top{
+  opacity: 1;
   animation-name: imagefade;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
@@ -155,7 +156,9 @@ nav{
   -webkit-mask-image: -webkit-radial-gradient(rgba(0,0,0,1), rgba(0,0,0,1) 30%, rgba(0,0,0,0) 65%);
 }
 
-@keyframes imagefade {
+.bottom{}
+
+@keyframes imagefadetop {
   0% {
     opacity:1;
   }

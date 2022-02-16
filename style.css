@@ -143,7 +143,7 @@ nav{
   margin: 0 auto;
 }
 
-.modellingelementimg-circle .top{
+.modellingelementimg-circle .bottom{
   animation-name: imagefade;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
@@ -155,7 +155,7 @@ nav{
   -webkit-mask-image: -webkit-radial-gradient(rgba(0,0,0,1), rgba(0,0,0,1) 30%, rgba(0,0,0,0) 65%);
 }
 
-.modellingelementimg-circle.bottom{
+.modellingelementimg-circle .top{
   position: absolute;
   animation-name: imagefade;
   animation-timing-function: ease-in-out;

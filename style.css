@@ -136,7 +136,7 @@ nav{
 
 .modellingelementimg-circle{
   animation-name: swap;
-  animation: 5s ease-in-out infinite;
+  animation: 5s infinite;
   border-radius: 50%;
   overflow: hidden;
   width: 300px;
@@ -145,7 +145,6 @@ nav{
   margin: 0 auto;
   background-size: 600px;
   background-position: 40%;
-  background-image: url("http://hannahgraphics.com/images/samantha-hannah-metallic-mask.jpg");
 }
 
 @keyframes swap {

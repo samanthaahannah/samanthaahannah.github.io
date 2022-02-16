@@ -26,6 +26,7 @@ main{
 header{
   display: flex;
   width: 90%;
+  height: 10vh;
   margin: auto;
   flex-direction: row;
   flex-wrap: wrap;

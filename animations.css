@@ -148,8 +148,8 @@ nav{
 .serviceslink-circle{
   opacity: 0;
   animation-name: fade-in;
-  animation-delay: 2.5s;
   animation-duration: 1.5s;
+  animation-delay: 2.5s;
   animation-fill-mode: forwards;
   margin: 0 auto;
   background-size: 200%;
@@ -171,8 +171,8 @@ nav{
 .contactlink-circle{
   opacity: 0;
   animation-name: fade-in;
-  animation-delay: 3s;
   animation-duration: 1.5s;
+  animation-delay: 3s;
   animation-fill-mode: forwards;
   margin: 0 auto;
   background-size: 200%;

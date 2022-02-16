@@ -155,7 +155,7 @@ nav{
   -webkit-mask-image: -webkit-radial-gradient(rgba(0,0,0,1), rgba(0,0,0,1) 30%, rgba(0,0,0,0) 65%);
 }
 
-.bottom{
+.modellingelementimg-circle.bottom{
   position: absolute;
   animation-name: imagefade;
   animation-timing-function: ease-in-out;

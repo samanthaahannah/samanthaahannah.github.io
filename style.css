@@ -169,11 +169,6 @@ nav{
 
 }
 
-.traditional{
-  flex: display;
-  flex-direction: row;
-}
-
 .traditionalelement{
   align-items: left;
   flex: 1;
@@ -242,7 +237,7 @@ footer{
   .logo-container img{
     max-width: 200px;
   }
-  .traditional{
+  .traditionalelement{
     flex-direction: column;
   }
 }

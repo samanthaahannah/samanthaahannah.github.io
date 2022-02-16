@@ -148,14 +148,18 @@ nav{
 
 .serviceslink-circle{
   opacity: 0;
-  animation: swapPortfolio 15s infinite, fade-in 1.5s ease 9.5s;
+  animation: swapPortfolio 15s infinite, fade-in 1.5s ease 9s forwards;
+  margin: 0 auto;
+  background-size: 200%;
+  background-position: 40%;
   border-radius: 50%;
   overflow: hidden;
   height: 150px;
-  width: 150px;
-  display: block;
+  width: 150px;swapPortfolio 15s infinite, fade-in 1.5s ease 8s forwards;
+
   margin: 0 auto;
   background-size: 200%;
+  background-position: 40%;
   background-position: 40%;
   background-image: url("http://hannahgraphics.com/images/samantha-hannah-metallic-mask.jpg");
   flex: 1;
@@ -164,7 +168,10 @@ nav{
 
 .contactlink-circle{
   opacity: 0;
-  animation: swapPortfolio 15s infinite, fade-in 1.5s ease 11s;
+  animation: swapPortfolio 15s infinite, fade-in 1.5s ease 10s forwards;
+  margin: 0 auto;
+  background-size: 200%;
+  background-position: 40%;
   border-radius: 50%;
   overflow: hidden;
   height: 150px;
@@ -183,7 +190,7 @@ footer{
   opacity: 0;
   color: #e6ddd6;
   animation: fade-in 1.5s ease;
-  animation-delay: 12.5s;
+  animation-delay: 11s;
   animation-fill-mode: forwards;
 }
 

@@ -29,7 +29,7 @@ header{
   margin: auto;
   flex-direction: row;
   flex-wrap: wrap;
-  flex: 2;
+  flex: none;
 }
 
 .logo-container,

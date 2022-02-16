@@ -163,7 +163,7 @@ nav{
 
 .contactlink-circle{
   opacity: 0;
-  animation-name: fade-in 1.5s ease 11s forwards;
+  animation: fade-in 1.5s ease 11s forwards;
   margin: 0 auto;
   background-size: 200%;
   background-position: 40%;

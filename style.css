@@ -38,6 +38,10 @@ header{
   display: flex;
 }
 
+.logo-container img{
+  max-width: 300px;
+}
+
 .logo-container{
   align-items: center;
   justify-content: center;

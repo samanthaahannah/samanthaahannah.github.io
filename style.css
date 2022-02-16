@@ -135,6 +135,8 @@ nav{
 }
 
 .modellingelementimg-circle{
+  animation-name: swap;
+  animation: 15s ease-in-out infinite;
   border-radius: 50%;
   overflow: hidden;
   width: 300px;
@@ -146,21 +148,18 @@ nav{
   background-image: url("http://hannahgraphics.com/images/samantha-hannah-metallic-mask.jpg");
 }
 
-@keyframes imagefade {
+@keyframes swap {
   0% {
-    opacity:1;
-  }
-  17% {
-    opacity:1;
+    background-image: url("http://hannahgraphics.com/images/samantha-hannah-metallic-mask.jpg");
   }
   25% {
-    opacity:0;
+    background-image: url("http://hannahgraphics.com/images/samantha-hannah-sword-2.jpg");
   }
-  92% {
-    opacity:0;
+  75% {
+    background-image: url("http://hannahgraphics.com/images/samantha-hannah-asset.jpg");
   }
   100% {
-    opacity:1;
+    background-image: url("http://hannahgraphics.com/images/samantha-hannah-metallic-mask.jpg");
   }
 }
 

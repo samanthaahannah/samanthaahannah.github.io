@@ -101,6 +101,46 @@ nav{
   font-size: 16px;
 }
 
+@keyframes swapDrawing{
+  0%, 100%{
+    background-image: url("http://hannahgraphics.com/images/samantha-hannah-fish.jpg");
+  }
+  50% {
+    background-image: url("http://hannahgraphics.com/images/samantha-hannah-puffin.jpg");
+    background-position: 40% 50%;
+  }
+}
+
+@keyframes swapPortfolio{
+  0%, 100%{
+    background-image: url("http://hannahgraphics.com/images/samantha-hannah-fish.jpg");
+  }
+  50% {
+    background-image: url("http://hannahgraphics.com/images/samantha-hannah-fish.jpg");
+    background-position: 85% 90%;
+  }
+}
+
+.circles{
+  display: flex;
+  flex-direction: row;
+  height: 20vh;
+  flex: 2;
+}
+
+.portfoliolink-circle{
+  animation: swapPortfolio 15s infinite;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 250px;
+  width: 250px;
+  display: block;
+  margin: 0 auto;
+  background-size: 200%;
+  background-position: 40%;
+  background-image: url("http://hannahgraphics.com/images/samantha-hannah-metallic-mask.jpg");
+}
+
 footer{
   height: 5vh;
   opacity: 0;
@@ -130,15 +170,61 @@ footer{
 
   }
 
+footer{
+  flex-grow: 0;
+  color: #e6ddd6;
+}
+
+@media screen and (max-width: 900px){
+  main{
+    height: 85vh;
+  }
+
 @media screen and (max-width: 600px){
   header{
     display: block;
     flex-direction: row;
   }
   main{
-    height: 50vh;
+    height: 75vh;
   }
   .presentation{
-    margin-top: 10%;
+    height: 65vh;
+  }
+ 
+  .logo-container img{
+    max-width: 200px;
+  }
+}
+
+@media screen and (max-width: 420px){
+  .nav-links{
+    font-size: 8px;
+    padding-top: 0;
+  }
+  .nav-link{
+    font-size: 8px;
+  }
+  .presentation{
+    height: 65vh;
+  }
+  main{
+    height: 80%;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .nav-links{
+    font-size: 8px;
+    padding-top: 0;
+  }
+  .nav-link{
+    font-size: 8px;
+  }
+  .presentation{
+    height: 65vh;
+  }
+  main{
+    height: 80vh;
   }
 }

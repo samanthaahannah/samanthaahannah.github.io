@@ -17,14 +17,14 @@ html, body{
   flex-direction: column
 }
 
-#othermain{
+main{
   flex-grow: 8;
   overflow-x: hidden;
   overflow-y: auto;
   height: 75vh;
 }
 
-#homemain{
+main{
   flex: 2;
   height: 20vh;
 }
@@ -39,7 +39,7 @@ header{
   margin-bottom: 0px;
 }
 
-.indexwrapper{
+.wrapper{
   display: flex;
   flex-direction: column;
 }

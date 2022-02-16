@@ -28,7 +28,7 @@ header{
   width: 90%;
   margin: auto;
   animation: fade-in 1.5s ease;
-  animation-delay: 11s;
+  animation-delay: 12s;
   animation-fill-mode: forwards;
   flex-direction: row;
   flex-wrap: wrap;
@@ -130,7 +130,7 @@ nav{
 
 .portfoliolink-circle{
   opacity: 0;
-  animation: swapPortfolio 15s infinite, fade-in 1.5s ease;
+  animation: swapPortfolio 15s infinite, fade-in 1.5s ease 8s;
   animation-delay: 8s;
   border-radius: 50%;
   overflow: hidden;
@@ -147,8 +147,7 @@ nav{
 
 .serviceslink-circle{
   opacity: 0;
-  animation: swapPortfolio 15s infinite, fade-in 1.5s ease;
-  animation-delay: 9.5s;
+  animation: swapPortfolio 15s infinite, fade-in 1.5s ease 9.5s;
   border-radius: 50%;
   overflow: hidden;
   height: 150px;
@@ -164,8 +163,7 @@ nav{
 
 .contactlink-circle{
   opacity: 0;
-  animation: swapPortfolio 15s infinite, fade-in 1.5s ease;
-  animation-delay: 11s;
+  animation: swapPortfolio 15s infinite, fade-in 1.5s ease 11s;
   border-radius: 50%;
   overflow: hidden;
   height: 150px;

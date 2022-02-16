@@ -204,6 +204,7 @@ footer{
   header{
     display: block;
     flex-direction: row;
+    height: 10vh;
   }
   main{
     height: 70vh;

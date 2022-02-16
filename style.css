@@ -156,7 +156,6 @@ nav{
 }
 
 .bottom{
-  opacity: 0;
   position: absolute;
   animation-name: imagefade;
   animation-timing-function: ease-in-out;

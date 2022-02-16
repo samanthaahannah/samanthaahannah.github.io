@@ -21,7 +21,7 @@ main{
   flex-grow: 8;
   overflow-x: hidden;
   overflow-y: auto;
-  height: 80vh;
+  height: 75vh;
 }
 
 header{

@@ -18,7 +18,7 @@ html, body{
 }
 
 main{
-  flex-grow: 40;
+  flex-grow: 0 0 80%;
   overflow-x: hidden;
   overflow-y: auto;
 }
@@ -26,11 +26,10 @@ main{
 header{
   display: flex;
   width: 90%;
-  height: 10vh;
   margin: auto;
   flex-direction: row;
   flex-wrap: wrap;
-  flex: none;
+  flex: 0 0 15%;
 }
 
 .logo-container,
@@ -197,7 +196,7 @@ img{
 }
 
 footer{
-  flex-grow: 0;
+  flex: 0 0 5%;
   color: #e6ddd6;
 }
 

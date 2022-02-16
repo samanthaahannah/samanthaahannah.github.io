@@ -147,11 +147,10 @@ margin: 0 auto
 .modellingelementimg-circle img{
   width:100%;
   height:100%;
-  background: url("http://hannahgraphics.com/images/samantha-hannah-metallic-mask.jpg") fixed;
   object-fit: cover;
   object-position: 40% 60%;
-  animation-name: bgimage;
-  animation-duration: 5s;
+  animation-name: fade;
+  animation-duration: 65s;
   animation-iteration-count: infinite;
   -webkit-mask-image: -webkit-radial-gradient(rgba(0,0,0,1), rgba(0,0,0,1) 30%, rgba(0,0,0,0) 65%);
 }
@@ -197,19 +196,36 @@ footer{
   color: #e6ddd6;
 }
 
-@keyframes bgimage{
+@keyframes fade{
   0% {
-    background: url("http://hannahgraphics.com/images/samantha-hannah-metallic-mask.jpg") fixed;
+    opacity: 0;
+    }
+  20% {
+    opacity: 1;
+    }
+  33% {
+    opcaity: 1;
   }
-  25% {
-    background: url("http://hannahgraphics.com/images/samantha-hannah-sword-2.jpg") fixed;
-  }
-  50% {
-    background: url("http://hannahgraphics.com/images/samantha-hannah-asset.jpg") fixed;
+  53% {
+    opacity: 0;
   }
   100% {
-    background: url("http://hannahgraphics.com/images/samantha-hannah-metallic-mask.jpg") fixed;
+    opacity: 0;
   }
+}
+
+#Mod1{
+  background-image: url("http://hannahgraphics.com/images/samatha-hannah-mask.jpg");
+}
+
+#Mod2{
+  animation-delay: -5s;
+  background-image: url("http://hannahgraphics.com/images/samatha-hannah-sword-2.jpg");
+}
+
+#Mod3{
+    animation-delay: -2s;
+  background-image: url("http://hannahgraphics.com/images/samatha-hannah-asset.jpg");
 }
 
 @media screen and (max-width: 600px){

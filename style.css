@@ -228,6 +228,15 @@ footer{
   .nav-link{
     font-size: 8px;
   }
+  .portfolio{
+    height: 70vh;
+  }
+  .presentation{
+    height: 70vh;
+  }
+  main{
+    height: 80vh;
+  }
 }
 
 @media screen and (max-width: 320px){

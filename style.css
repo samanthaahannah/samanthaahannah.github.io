@@ -135,7 +135,7 @@ nav{
 }
 
 .modellingelementimg-circle{
-  animation: swap 8s infinite;
+  animation: swap 15s infinite;
   border-radius: 50%;
   overflow: hidden;
   width: 300px;

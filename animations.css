@@ -134,7 +134,6 @@ nav{
     -webkit-animation: swapPortfolio 15s infinite, fade-in 1.5s ease 8s forwards; /* Safari and Chrome */
     -o-animation: swapPortfolio 15s infinite, fade-in 1.5s ease 8s forwards; /* Opera */
   animation: swapPortfolio 15s infinite, fade-in 1.5s ease 8s forwards;
-  animation-delay: 8s;
   border-radius: 50%;
   overflow: hidden;
   height: 150px;
@@ -145,7 +144,6 @@ nav{
   background-position: 40%;
   background-image: url("http://hannahgraphics.com/images/samantha-hannah-metallic-mask.jpg");
   flex: 1;
-  animation-fill-mode: forwards;
 }
 
 .serviceslink-circle{

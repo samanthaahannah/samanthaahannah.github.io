@@ -29,7 +29,8 @@ header{
   margin: auto;
   flex-direction: row;
   flex-wrap: wrap;
-  flex: 2;
+  flex: 1;
+  display: flex;
 }
 
 .logo-container,
@@ -40,10 +41,10 @@ header{
 .logo-container{
   align-items: center;
   justify-content: center;
-  flex: 20%;
+  flex: 1;
 }
 nav{
-  flex: 80%;
+  flex: 2;
 }
 
 .nav-links{
@@ -204,10 +205,9 @@ footer{
   header{
     display: block;
     flex-direction: row;
-    flex: 0 1;
   }
   main{
-    flex: 2 2;
+    height: 50vh;
   }
   .presentation{
     margin-top: 10%;
@@ -218,8 +218,5 @@ footer{
   .modellingelementimg-circle{
     width: 150px;
     height: 150px;
-  }
-  footer{
-    flex: 0 1;
   }
 }

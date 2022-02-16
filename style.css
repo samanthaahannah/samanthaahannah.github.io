@@ -18,7 +18,7 @@ html, body{
 }
 
 main{
-  flex-grow: 20;
+  flex-grow: 40;
   overflow-x: hidden;
   overflow-y: auto;
 }

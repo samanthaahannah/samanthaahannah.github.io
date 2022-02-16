@@ -52,7 +52,7 @@ nav{
   list-style: none;
   flex-direction: row;
   padding-top: 5%;
-  padding-bottom: 5%;
+  padding-bottom: 0;
   font-size: 10px;
   color: #e6ddd6;
 }

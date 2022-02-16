@@ -135,11 +135,17 @@ nav{
 }
 
 .modellingelement1img-circle{
-  width: 200px;
-  height: 300px;
-  background: #F00;
-  border-radius: 50%;
-  transform: scale(.76, .5)
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    overflow:hidden;
+}
+
+.modellingelement1img-circle img{
+    width:100%;
 }
 
 .modellingelement1img{

@@ -13,12 +13,12 @@ html, body{
   background-repeat: no-repeat;
   font-family: "Montserrat Alternates", sans-serif;
   overflow-x: hidden; 
-  display: flex;
+  flex: display;
   flex-direction: column
 }
 
 main{
-  flex-grow: 40;
+  flex-grow: 8;
   overflow-x: hidden;
   overflow-y: auto;
 }
@@ -29,8 +29,7 @@ header{
   margin: auto;
   flex-direction: row;
   flex-wrap: wrap;
-  flex: 1;
-  display: flex;
+  flex: 2;
 }
 
 .logo-container,
@@ -38,18 +37,13 @@ header{
   display: flex;
 }
 
-.logo-container img{
-  max-width: 300px;
-}
-
 .logo-container{
   align-items: center;
   justify-content: center;
-  flex: 20;
+  flex: 20%;
 }
 nav{
-  flex: 2;
-  padding-top: -100em;
+  flex: 80%;
 }
 
 .nav-links{
@@ -223,5 +217,8 @@ footer{
   .modellingelementimg-circle{
     width: 150px;
     height: 150px;
+  }
+  .logo-container img{
+    max-width: 200px;
   }
 }

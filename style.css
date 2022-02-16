@@ -213,7 +213,9 @@ footer{
   }
   .modellingelement{
     flex-direction: column;
-    height: 200px;
-    width: 200px;
+  }
+  .modellingelement{
+    width: 150px;
+    height: 150px;
   }
 }

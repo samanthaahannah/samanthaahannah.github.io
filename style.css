@@ -24,6 +24,11 @@ html, body{
   height: 75vh;
 }
 
+#homemain{
+  flex: 2;
+  height: 20vh;
+}
+
 header{
   display: flex;
   width: 90%;
@@ -37,11 +42,6 @@ header{
 .indexwrapper{
   display: flex;
   flex-direction: column;
-}
-
-#homemain{
-  flex: 2;
-  height: 20vh;
 }
 
 .logo-container,

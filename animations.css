@@ -130,7 +130,7 @@ nav{
 
 .portfoliolink-circle{
   opacity: 0;
-  animation-name: fadein 1.5s ease 8s forwards;
+  animation-name: fade-in 1.5s ease 8s forwards;
   border-radius: 50%;
   overflow: hidden;
   height: 150px;
@@ -145,7 +145,7 @@ nav{
 
 .serviceslink-circle{
   opacity: 0;
-  animation-name: fadein 1.5s ease 9s forwards;
+  animation-name: fade-in 1.5s ease 9s forwards;
   margin: 0 auto;
   background-size: 200%;
   background-position: 40%;

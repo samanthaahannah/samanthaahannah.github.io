@@ -184,14 +184,14 @@ nav{
 }
 
 .traditionalelementimg{
-  flex: 1;
   border-radius: 50%;
   overflow: hidden;
   height: 250px;
   width: 250px;
   display: block;
   margin: 0 auto;
-  background-size: 50%;
+  background-size: 200%;
+  background-position: 40%;
   background-image: url("http://hannahgraphics.com/images/samantha-hannah-fish.jpg");
 }
 

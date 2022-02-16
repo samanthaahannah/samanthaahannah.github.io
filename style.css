@@ -143,7 +143,7 @@ nav{
   margin: 0 auto;
 }
 
-.modellingelementimg-circle .bottom{
+.modellingelementimg-circle .top{
   animation-name: imagefade;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;

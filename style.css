@@ -203,7 +203,7 @@ footer{
     flex-direction: row;
   }
   main{
-    height: 70vh;
+    height: 85vh;
   }
   .presentation{
     height: 50vh;
@@ -234,7 +234,6 @@ footer{
   .nav-links{
     font-size: 8px;
     padding-top: 0;
-  }
   }
   .nav-link{
     font-size: 8px;

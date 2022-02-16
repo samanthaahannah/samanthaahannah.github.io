@@ -129,6 +129,7 @@ nav{
 }
 
 .portfoliolink-circle{
+  opacity: 0;
   animation: swapPortfolio 15s infinite, fade-in 1.5s ease;
   animation-delay: 8s;
   border-radius: 50%;
@@ -144,6 +145,7 @@ nav{
 }
 
 .serviceslink-circle{
+  opacity: 0;
   animation: swapPortfolio 15s infinite, fade-in 1.5s ease;
   animation-delay: 9s;
   border-radius: 50%;
@@ -159,6 +161,7 @@ nav{
 }
 
 .contactlink-circle{
+  opacity: 0;
   animation: swapPortfolio 15s infinite, fade-in 1.5s ease;
   animation-delay: 10s;
   border-radius: 50%;

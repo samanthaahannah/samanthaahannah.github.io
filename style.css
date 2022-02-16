@@ -138,8 +138,8 @@ nav{
   animation: swap 15s infinite;
   border-radius: 50%;
   overflow: hidden;
-  width: 300px;
-  height: 300px;
+  width: 50%;
+  height: 50%;
   display: block;
   margin: 0 auto;
   background-size: contain;

@@ -132,7 +132,6 @@ nav{
   display: flex;
   flex-direction: row;
   margin-bottom: 20px;
-  overflow: hidden;
 }
 
 .modellingelement1img-circle{
@@ -144,7 +143,7 @@ nav{
 }
 
 .modellingelement1img-circle img{
-  margin-top: 50px;
+  margin-top: 25px;
   height: 100%;
   width: auto;
 }

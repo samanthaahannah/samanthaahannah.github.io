@@ -130,7 +130,9 @@ nav{
 
 .portfoliolink-circle{
   opacity: 0;
-  animation: fade-in 1.5s ease 8s forwards;
+  animation-name: fade-in;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
   border-radius: 50%;
   overflow: hidden;
   height: 150px;
@@ -145,7 +147,10 @@ nav{
 
 .serviceslink-circle{
   opacity: 0;
-  animation: fade-in 1.5s ease 9s forwards;
+  animation-name: fade-in;
+  animation-delay: 2.5s;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
   margin: 0 auto;
   background-size: 200%;
   background-position: 40%;
@@ -165,7 +170,10 @@ nav{
 
 .contactlink-circle{
   opacity: 0;
-  animation: fade-in 1.5s ease 10s forwards;
+  animation-name: fade-in;
+  animation-delay: 3s;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
   margin: 0 auto;
   background-size: 200%;
   background-position: 40%;

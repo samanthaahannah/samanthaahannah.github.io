@@ -139,6 +139,7 @@ nav{
   height:250px;
   object-fit:cover;
   border-radius: 50%;
+  overflow: hidden;
 }
 
 .modellingelement1img-circle img{

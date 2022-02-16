@@ -149,6 +149,11 @@ margin: 0 auto
   height:100%;
   object-fit: cover;
   object-position: 40% 60%;
+  -webkit-animation-name: bgimage;
+  -webkit-animation-duration: 15s;
+  animation-name: bgimage;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
   -webkit-mask-image: -webkit-radial-gradient(rgba(0,0,0,1), rgba(0,0,0,1) 30%, rgba(0,0,0,0) 65%);
 }
 
@@ -191,6 +196,36 @@ img{
 footer{
   flex-grow: 0;
   color: #e6ddd6;
+}
+
+@keyframes bgimage {
+  0% {
+    background-image: url("images/samantha-hannah-metallic-mask.jpg") fixed;
+  }
+  25% {
+    background-image: url("images/samantha-hannah-sword-2.jpg") fixed;
+  }
+  50% {
+    background-image: url("images/samantha-hannah-asset.jpg") fixed;
+  }
+  100% {
+    background-image: url("images/samantha-hannah-metallic-mask.jpg") fixed;
+  }
+}
+
+@-webkit-keyframes bgimage {
+  0% {
+    background-image: url("images/samantha-hannah-metallic-mask.jpg") fixed;
+  }
+  25% {
+    background-image: url("images/samantha-hannah-sword-2.jpg") fixed;
+  }
+  50% {
+    background-image: url("images/samantha-hannah-asset.jpg") fixed;
+  }
+  100% {
+    background-image: url("images/samantha-hannah-metallic-mask.jpg") fixed;
+  }
 }
 
 @media screen and (max-width: 600px){

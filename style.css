@@ -143,7 +143,7 @@ nav{
   margin: 0 auto;
 }
 
-.modellingelementimg-circle img{
+.modellingelementimg-circle .bottom{
   width:100%;
   height:100%;
   object-fit: cover;
@@ -157,11 +157,23 @@ nav{
   animation-iteration-count: infinite;
   animation-duration: 1s;
   animation-direction: alternate;
+  position: relative;
 }
 
 .middle{
+  position: absolute;
   animation-name: fade;
   animation-delay: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-direction: alternate;
+}
+
+.top{
+  position: absolute;
+  animation-name: fade;
+  animation-delay: 2s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   animation-duration: 1s;

@@ -204,10 +204,10 @@ footer{
   header{
     display: block;
     flex-direction: row;
-    height: 5vh;
+    flex-shrink: 2;
   }
   main{
-    flex: 0 0 85%;
+    flex-grow: 2;
   }
   .presentation{
     margin-top: 10%;
@@ -220,6 +220,6 @@ footer{
     height: 150px;
   }
   footer{
-    flex: 0 0 5%;
+    flex-shrink: 2;
   }
 }

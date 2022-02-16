@@ -151,7 +151,7 @@ nav{
   -webkit-mask-image: -webkit-radial-gradient(rgba(0,0,0,1), rgba(0,0,0,1) 30%, rgba(0,0,0,0) 65%);
 }
 
-.top{
+.bottom{
   animation-name: fade;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;

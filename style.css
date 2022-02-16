@@ -143,57 +143,12 @@ nav{
   margin: 0 auto;
 }
 
-.modellingelementimg-circle .bottom{
+.modellingelementimg-circle img{
   width:100%;
   height:100%;
   object-fit: cover;
   object-position: 40% 60%;
   -webkit-mask-image: -webkit-radial-gradient(rgba(0,0,0,1), rgba(0,0,0,1) 30%, rgba(0,0,0,0) 65%);
-}
-
-.bottom{
-  animation-name: fade;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-duration: 1s;
-  animation-direction: alternate;
-  position: relative;
-}
-
-.middle{
-  background-image: url("http://hannahgraphics.com/images/samantha-hannah-sword-2.jpg");
-  position: absolute;
-  animation-name: fade;
-  animation-delay: 1s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-duration: 1s;
-  animation-direction: alternate;
-}
-
-.top{
-  position: absolute;
-  animation-name: fade;
-  animation-delay: 2s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-duration: 1s;
-  animation-direction: alternate;
-}
-
-@keyframes fade{
-  0% {
-    opacity: 1;
-  }
-  25% {
-    opacity: 1;
-  }
-  75% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
 }
 
 .modellingelementimg{

@@ -163,6 +163,7 @@ nav{
   }
   50% {
     background-image: url("http://hannahgraphics.com/images/samantha-hannah-puffin.jpg");
+    background-position: 50% 50%;
   }
 }
 
@@ -184,7 +185,7 @@ nav{
 }
 
 .traditionalelementimg{
-  animation: swapDrawing 15s infinite;
+  animation: swapDrawing 10s infinite;
   border-radius: 50%;
   overflow: hidden;
   height: 250px;

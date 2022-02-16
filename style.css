@@ -150,7 +150,7 @@ margin: 0 auto
   object-fit: cover;
   object-position: 40% 60%;
   animation-name: fade;
-  animation-duration: 65s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
   -webkit-mask-image: -webkit-radial-gradient(rgba(0,0,0,1), rgba(0,0,0,1) 30%, rgba(0,0,0,0) 65%);
 }

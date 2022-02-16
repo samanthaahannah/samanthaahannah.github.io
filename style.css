@@ -161,6 +161,7 @@ nav{
 }
 
 .middle{
+  background-image: url("http://hannahgraphics.com/images/samantha-hannah-sword-2.jpg");
   position: absolute;
   animation-name: fade;
   animation-delay: 1s;

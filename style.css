@@ -135,8 +135,7 @@ nav{
 }
 
 .modellingelementimg-circle{
-  animation-name: swap;
-  animation: 2s infinite;
+  animation: swap 1s infinite;
   border-radius: 50%;
   overflow: hidden;
   width: 300px;
@@ -149,10 +148,10 @@ nav{
 }
 
 @keyframes swap{
-  from {
+  0%, 100%{
     background-image: url("http://hannahgraphics.com/images/samantha-hannah-metallic-mask.jpg");
   }
-  to {
+  50% {
     background-image: url("http://hannahgraphics.com/images/samantha-sword-2.jpg");
   }
 }

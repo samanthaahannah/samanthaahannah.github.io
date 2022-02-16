@@ -162,6 +162,11 @@ nav{
   animation-iteration-count: infinite;
   animation-duration: 8s;
   animation-delay: 4s;
+   width:100%;
+  height:100%;
+  object-fit: cover;
+  object-position: 40% 60%;
+  -webkit-mask-image: -webkit-radial-gradient(rgba(0,0,0,1), rgba(0,0,0,1) 30%, rgba(0,0,0,0) 65%);
   }
 
 @keyframes imagefade {

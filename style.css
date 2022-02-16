@@ -198,6 +198,12 @@ footer{
   color: #e6ddd6;
 }
 
+@media screen and (max-width: 900px){
+  main{
+    height: 85vh;
+  }
+}
+
 @media screen and (max-width: 600px){
   header{
     display: block;

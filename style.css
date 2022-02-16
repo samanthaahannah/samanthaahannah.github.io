@@ -184,6 +184,7 @@ nav{
 }
 
 .traditionalelementimg{
+  animation: swapDrawing 15s infinite;
   border-radius: 50%;
   overflow: hidden;
   height: 250px;

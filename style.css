@@ -149,7 +149,7 @@ margin: 0 auto
   height:100%;
   object-fit: cover;
   object-position: 40% 60%;
-  -webkit-mask-image: -webkit-radial-gradient(rgba(0,0,0,1), rgba(0,0,0,1) 50%, rgba(0,0,0,0) 75%);
+  -webkit-mask-image: -webkit-radial-gradient(rgba(0,0,0,1), rgba(0,0,0,1) 50%, rgba(0,0,0,0) 90%);
 }
 
 .modellingelementimg{

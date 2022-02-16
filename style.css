@@ -135,8 +135,8 @@ nav{
 }
 
 .modellingelement1img-circle{
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   position: relative;
   overflow: hidden;
   border-radius: 50%;
@@ -144,7 +144,7 @@ nav{
 
 .modellingelement1img-circle img{
   display: inline;
-  margin: 0 auto;
+  margin-left: -25px;
   height: 100%;
   width: auto;
 }

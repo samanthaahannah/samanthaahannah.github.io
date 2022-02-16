@@ -69,6 +69,7 @@ nav{
   margin-right: 10%;
   color: #e6ddd6;
   overflow: visible;
+  height: 70vh;
 }
 
 .hello{
@@ -205,8 +206,7 @@ footer{
     height: 80vh;
   }
   .presentation{
-    margin-top: 10%;
-    height: 100%;
+    height: 50vh;
   }
   .modellingelement{
     flex-direction: column;

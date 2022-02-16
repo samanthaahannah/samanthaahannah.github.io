@@ -135,19 +135,12 @@ nav{
 }
 
 .modellingelement1img-circle{
-  width: 200px;
-  height: 200px;
-  position: relative;
-  overflow: hidden;
-  border-radius: 50%;
 }
 
 .modellingelement1img-circle img{
-  display: inline;
-  margin: 0 auto;
-  margin-left: -25%; //centers the image
-  height: 100%;
-  width: auto;
+  width:300px;
+  height:300px;
+  object-fit:cover;
 }
 
 .modellingelement1img{

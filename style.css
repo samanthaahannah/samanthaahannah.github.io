@@ -204,9 +204,10 @@ footer{
   header{
     display: block;
     flex-direction: row;
+    flex: 0 0 5%;
   }
   main{
-    height: 50vh;
+    flex: 0 0 85%;
   }
   .presentation{
     margin-top: 10%;
@@ -217,5 +218,8 @@ footer{
   .modellingelementimg-circle{
     width: 150px;
     height: 150px;
+  }
+  footer{
+    flex: 0 0 5%;
   }
 }

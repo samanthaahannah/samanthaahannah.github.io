@@ -145,20 +145,15 @@ nav{
   margin: 0 auto;
   background-size: 600px;
   background-position: 40%;
+  background-image: url("http://hannahgraphics.com/images/samantha-hannah-metallic-mask.jpg");
 }
 
 @keyframes swap {
-  0% {
+  from {
     background-image: url("http://hannahgraphics.com/images/samantha-hannah-metallic-mask.jpg");
   }
-  25% {
-    background-image: url("http://hannahgraphics.com/images/samantha-hannah-sword-2.jpg");
-  }
-  75% {
-    background-image: url("http://hannahgraphics.com/images/samantha-hannah-asset.jpg");
-  }
-  100% {
-    background-image: url("http://hannahgraphics.com/images/samantha-hannah-metallic-mask.jpg");
+  to {
+    background-image: url("http://hannahgraphics.com/images/samantha-sword-2.jpg");
   }
 }
 

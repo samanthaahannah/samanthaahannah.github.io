@@ -17,7 +17,7 @@ html, body{
   flex-direction: column
 }
 
-main{
+#othermain{
   flex-grow: 8;
   overflow-x: hidden;
   overflow-y: auto;
@@ -39,7 +39,7 @@ header{
   flex-direction: column;
 }
 
-.homemain{
+#homemain{
   flex: 2;
   height: 20vh;
 }

@@ -125,6 +125,7 @@ nav{
   display: flex;
   flex-direction: row;
   height: 20vh;
+  justify-content: space-around;
 }
 
 .portfoliolink-circle{

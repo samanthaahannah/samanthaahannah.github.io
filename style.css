@@ -142,6 +142,7 @@ nav{
   display: block;
   margin: 0 auto;
   background-size: 600px;
+  background-position: -50px;
   background-image: url("http://hannahgraphics.com/images/samantha-hannah-metallic-mask.jpg");
 }
 

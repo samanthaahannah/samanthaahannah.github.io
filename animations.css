@@ -148,7 +148,7 @@ nav{
 
 .serviceslink-circle{
   opacity: 0;
-  animation: swapPortfolio 15s -1s infinite, fade-in 1.5s ease 8s forwards;
+  animation: swapPortfolio 15s -5s infinite, fade-in 1.5s ease 8s forwards;
   margin: 0 auto;
   background-size: 200%;
   background-position: 40%;
@@ -166,7 +166,7 @@ nav{
 
 .contactslink-circle{
   opacity: 0;
-  animation: swapPortfolio 15s -2s infinite, fade-in 1.5s ease 8.5s forwards;
+  animation: swapPortfolio 15s -10s infinite, fade-in 1.5s ease 8.5s forwards;
   margin: 0 auto;
   background-size: 200%;
   background-position: 40%;

@@ -198,16 +198,16 @@ footer{
 
 @keyframes bgimage{
   0% {
-    background-image: url("images/samantha-hannah-metallic-mask.jpg") fixed;
+    background-image: url("http://hannahgraphics.com/images/samantha-hannah-metallic-mask.jpg") fixed;
   }
   25% {
-    background-image: url("images/samantha-hannah-sword-2.jpg") fixed;
+    background-image: url("http://hannahgraphics.com/images/samantha-hannah-sword-2.jpg") fixed;
   }
   50% {
-    background-image: url("images/samantha-hannah-asset.jpg") fixed;
+    background-image: url("http://hannahgraphics.com/images/samantha-hannah-asset.jpg") fixed;
   }
   100% {
-    background-image: url("images/samantha-hannah-metallic-mask.jpg") fixed;
+    background-image: url("http://hannahgraphics.com/images/samantha-hannah-metallic-mask.jpg") fixed;
   }
 }
 

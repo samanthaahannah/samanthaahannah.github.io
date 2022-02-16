@@ -197,7 +197,7 @@ footer{
   color: #e6ddd6;
 }
 
-@media screen and ( max-width: 600px){
+@media screen and (max-width: 600px){
   header{
     display: block;
     flex-direction: row;
@@ -224,5 +224,8 @@ footer{
 @media screen and (max-width: 320px){
   nav-links{
     font-size: 1px;
+  }
+  nav{
+    background-color: green;
   }
 }

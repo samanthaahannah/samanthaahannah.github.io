@@ -136,6 +136,17 @@ nav{
 
 .modellingelement1img{
   flex: 1;
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.modellingelement1img img{
+  width: auto;
+  height: 100%;
+  margin-left: -50px;
 }
 .modellingelement2img{
   flex: 1;

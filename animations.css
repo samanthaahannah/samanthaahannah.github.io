@@ -130,7 +130,10 @@ nav{
 
 .portfoliolink-circle{
   opacity: 0;
-  animation: swapPortfolio 15s infinite, fade-in 1.5s ease 8s;
+  -moz-animation: swapPortfolio 15s infinite, fade-in 1.5s ease 8s forwards; /* Firefox */
+    -webkit-animation: swapPortfolio 15s infinite, fade-in 1.5s ease 8s forwards; /* Safari and Chrome */
+    -o-animation: swapPortfolio 15s infinite, fade-in 1.5s ease 8s forwards; /* Opera */
+  animation: swapPortfolio 15s infinite, fade-in 1.5s ease 8s forwards;
   animation-delay: 8s;
   border-radius: 50%;
   overflow: hidden;

@@ -223,6 +223,9 @@ footer{
 
 @media screen and (max-width: 320px){
   .nav-links{
-    font-size: 1px;
+    font-size: 5px;
+  }
+  .nav-link{
+    font-size: 5px;
   }
 }

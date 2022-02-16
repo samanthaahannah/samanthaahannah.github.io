@@ -130,9 +130,9 @@ nav{
 
 .portfoliolink-circle{
   opacity: 0;
-  animation: fade-in 1.5s ease 8s forwards;
+  animation: swapPortfolio 15s infinite, fade-in 1.5s ease 8s forwards;
   border-radius: 50%;
-  overflow: hidden;
+  overflow: hidden;, 
   height: 150px;
   width: 150px;
   display: block;
@@ -145,7 +145,7 @@ nav{
 
 .serviceslink-circle{
   opacity: 0;
-  animation: fade-in 1.5s ease 9.5s forwards;
+  animation: swapPortfolio 15s infinite, fade-in 1.5s ease 9.5s forwards;
   margin: 0 auto;
   background-size: 200%;
   background-position: 40%;
@@ -163,7 +163,7 @@ nav{
 
 .contactslink-circle{
   opacity: 0;
-  animation: fade-in 1.5s ease 11s forwards;
+  animation: swapPortfolio 15s infinite, fade-in 1.5s ease 11s forwards;
   margin: 0 auto;
   background-size: 200%;
   background-position: 40%;

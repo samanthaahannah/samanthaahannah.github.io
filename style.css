@@ -17,11 +17,29 @@ html, body{
   flex-direction: column
 }
 
-main{
+.othermain{
   flex-grow: 8;
   overflow-x: hidden;
   overflow-y: auto;
   height: 75vh;
+}
+
+.indexmain{
+  flex-grow: 8;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.indexpresentation{
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #e6ddd6;
+  overflow: visible;
+  height: 65vh;
+  flex: 1;
 }
 
 header{
@@ -65,7 +83,7 @@ nav{
 
 }
 
-.presentation{
+.otherpresentation{
   margin-left: 10%;
   margin-right: 10%;
   color: #e6ddd6;
@@ -181,6 +199,7 @@ nav{
   display: flex;
   flex-direction: row;
   height: 50vh;
+  flex: 1;
 }
 
 .portfoliolink-circle{
@@ -194,7 +213,6 @@ nav{
   background-size: 200%;
   background-position: 40%;
   background-image: url("http://hannahgraphics.com/images/samantha-hannah-metallic-mask.jpg");
-}
 }
 
 
@@ -247,7 +265,7 @@ footer{
 }
 
 @media screen and (max-width: 900px){
-  main{
+  .othermain{
     height: 85vh;
   }
 
@@ -265,10 +283,10 @@ footer{
     display: block;
     flex-direction: row;
   }
-  main{
+  .othermain{
     height: 75vh;
   }
-  .presentation{
+  .otherpresentation{
     height: 65vh;
   }
 
@@ -301,10 +319,10 @@ footer{
   .portfolio{
     height: 65vh;
   }
-  .presentation{
+  .otherpresentation{
     height: 65vh;
   }
-  main{
+  .othermain{
     height: 80%;
   }
 }
@@ -320,10 +338,10 @@ footer{
   .portfolio{
     height: 65vh;
   }
-  .presentation{
+  .otherpresentation{
     height: 65vh;
   }
-  main{
+  .othermain{
     height: 80vh;
   }
 }

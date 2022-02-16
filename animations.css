@@ -131,8 +131,8 @@ nav{
   animation: swapPortfolio 15s infinite;
   border-radius: 50%;
   overflow: hidden;
-  height: 250px;
-  width: 250px;
+  height: 150px;
+  width: 150px;
   display: block;
   margin: 0 auto;
   background-size: 200%;

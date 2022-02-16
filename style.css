@@ -149,12 +149,6 @@ margin: 0 auto
   height:100%;
   object-fit: cover;
   object-position: 40% 60%;
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 6s;
-  -webkit-animation-iteration-count: infinite;
-  animation-name: fade;
-  animation-duration: 6s;
-  animation-iteration-count: infinite;
   -webkit-mask-image: -webkit-radial-gradient(rgba(0,0,0,1), rgba(0,0,0,1) 30%, rgba(0,0,0,0) 65%);
 }
 
@@ -197,56 +191,6 @@ img{
 footer{
   flex-grow: 0;
   color: #e6ddd6;
-}
-
-@-webkit-keyframes fade{
-  0% {
-    opacity: 0;
-    }
-  20% {
-    opacity: 1;
-    }
-  33% {
-    opcaity: 1;
-  }
-  53% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes fade{
-  0% {
-    opacity: 0;
-    }
-  20% {
-    opacity: 1;
-    }
-  33% {
-    opcaity: 1;
-  }
-  53% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-#mod1{
-  background-image: url("http://hannahgraphics.com/images/samatha-hannah-mask.jpg");
-}
-
-#mod2{
-  animation-delay: -5s;
-  background-image: url("http://hannahgraphics.com/images/samatha-hannah-sword-2.jpg");
-}
-
-#mod3{
-    animation-delay: -2s;
-  background-image: url("http://hannahgraphics.com/images/samatha-hannah-asset.jpg");
 }
 
 @media screen and (max-width: 600px){

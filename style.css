@@ -90,7 +90,6 @@ nav{
   display: flex;
   flex-direction: column;
   width: 90%;
-  height: 50vh;
   margin-left: auto;
   margin-right: auto;
   overflow-x: hidden;

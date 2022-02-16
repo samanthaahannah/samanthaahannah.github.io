@@ -238,4 +238,7 @@ footer{
   .nav-link{
     font-size: 8px;
   }
+  .portfolio{
+    height: 70vh;
+  }
 }

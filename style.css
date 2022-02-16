@@ -141,7 +141,7 @@ nav{
   height: 300px;
   display: block;
   margin: 0 auto;
-  background-image: url('/images/samantha-hannah-mask.jpg');
+  background-image: url(../images/samantha-hannah-mask.jpg);
 }
 
 @keyframes imagefade {

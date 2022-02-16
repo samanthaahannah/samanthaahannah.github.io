@@ -145,7 +145,8 @@ nav{
 .modellingelement1img-circle img{
   display: inline;
   margin: 0 auto;
-  margin-left: 25%; //centers the image
+  margin-left: 25%;
+  margin-top: 25%;
   height: 100%;
   width: auto;
 }

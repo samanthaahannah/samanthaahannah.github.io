@@ -161,7 +161,7 @@ nav{
   flex: 1;
 }
 
-.contactlink-circle{
+.contactslink-circle{
   opacity: 0;
   animation: fade-in 1.5s ease 11s forwards;
   margin: 0 auto;

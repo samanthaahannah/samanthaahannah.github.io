@@ -130,10 +130,7 @@ nav{
 
 .portfoliolink-circle{
   opacity: 0;
-  -moz-animation: swapPortfolio 15s infinite, fade-in 1.5s ease 8s forwards; /* Firefox */
-    -webkit-animation: swapPortfolio 15s infinite, fade-in 1.5s ease 8s forwards; /* Safari and Chrome */
-    -o-animation: swapPortfolio 15s infinite, fade-in 1.5s ease 8s forwards; /* Opera */
-  animation: swapPortfolio 15s infinite, fade-in 1.5s ease 8s forwards;
+  animation-name: fadein 1.5s ease 8s forwards;
   border-radius: 50%;
   overflow: hidden;
   height: 150px;
@@ -148,7 +145,7 @@ nav{
 
 .serviceslink-circle{
   opacity: 0;
-  animation: swapPortfolio 15s infinite, fade-in 1.5s ease 9s forwards;
+  animation-name: fadein 1.5s ease 9s forwards;
   margin: 0 auto;
   background-size: 200%;
   background-position: 40%;
@@ -168,7 +165,7 @@ nav{
 
 .contactlink-circle{
   opacity: 0;
-  animation: swapPortfolio 15s infinite, fade-in 1.5s ease 10s forwards;
+  animation: fade-in 1.5s ease 10s forwards;
   margin: 0 auto;
   background-size: 200%;
   background-position: 40%;

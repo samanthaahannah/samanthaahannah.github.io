@@ -135,12 +135,12 @@ nav{
 }
 
 .modellingelement1img-circle{
-  display: inline-block;
   border-radius: 50%;
   overflow: hidden;
   width: 250px;
   height: 250px;
-  margin-left: auto;
+  display: block;
+margin: 0 auto
 
 }
 

@@ -222,10 +222,7 @@ footer{
 }
 
 @media screen and (max-width: 320px){
-  nav-links{
-    font-size: 1px;
-  }
-  nav{
-    background-color: green;
+  .nav-links{
+    font-size: 6px;
   }
 }

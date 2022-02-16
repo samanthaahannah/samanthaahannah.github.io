@@ -133,7 +133,7 @@ nav{
 }
 
 .modellingelementimg-circle{
-  animation: swap 15s infinite;
+  animation: swap3D 15s infinite;
   border-radius: 50%;
   overflow: hidden;
   height: 250px;
@@ -145,7 +145,7 @@ nav{
   background-image: url("http://hannahgraphics.com/images/samantha-hannah-metallic-mask.jpg");
 }
 
-@keyframes swap{
+@keyframes swap3D{
   0%, 100%{
     background-image: url("http://hannahgraphics.com/images/samantha-hannah-metallic-mask.jpg");
   }
@@ -167,6 +167,11 @@ nav{
   margin-left: 20px;
   margin-rightt: 20px;
 
+}
+
+.traditional{
+  flex: display;
+  flex-direction: row;
 }
 
 .traditionalelement{
@@ -236,6 +241,9 @@ footer{
   }
   .logo-container img{
     max-width: 200px;
+  }
+  .traditional{
+    flex-direction: column;
   }
 }
 

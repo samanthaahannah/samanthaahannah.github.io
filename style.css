@@ -40,10 +40,10 @@ header{
 .logo-container{
   align-items: center;
   justify-content: center;
-  flex: 5%;
+  flex: 0 0 5%;
 }
 nav{
-  flex: 95%;
+  flex: 0 0 95%;
 }
 
 .nav-links{

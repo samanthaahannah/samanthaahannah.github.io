@@ -235,7 +235,7 @@ footer{
     height: 50vh;
   }
   main{
-    height: 50vh;
+    max-height: 800px;
   }
 }
 

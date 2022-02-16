@@ -127,7 +127,7 @@ nav{
 }
 
 .modellingelement1{
-  align-items: left;
+  align-items: center;
   flex: 1;
   display: flex;
   flex-direction: row;

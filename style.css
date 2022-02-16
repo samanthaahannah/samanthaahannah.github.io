@@ -204,9 +204,10 @@ footer{
   header{
     display: block;
     flex-direction: row;
+    flex: 0 0 5%;
   }
   main{
-    height: 50vh;
+    flex: 0 0 90%;
   }
   .presentation{
     margin-top: 10%;

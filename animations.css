@@ -131,8 +131,11 @@ nav{
 .portfoliolink-circle{
   opacity: 0;
   animation: swapPortfolio 15s infinite, fade-in 1.5s ease 8s forwards;
+  margin: 0 auto;
+  background-size: 200%;
+  background-position: 40%;
   border-radius: 50%;
-  overflow: hidden;, 
+  overflow: hidden;
   height: 150px;
   width: 150px;
   display: block;

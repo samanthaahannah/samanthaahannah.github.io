@@ -34,6 +34,15 @@ header{
   margin-bottom: 0px;
 }
 
+.indexwrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+.homemain{
+  flex: 2;
+}
+
 .logo-container,
 .nav-links{
   display: flex;
@@ -181,6 +190,7 @@ nav{
   display: flex;
   flex-direction: row;
   height: 50vh;
+  flex: 2;
 }
 
 .portfoliolink-circle{

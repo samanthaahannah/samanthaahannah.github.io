@@ -214,14 +214,14 @@ footer{
     flex-direction: row;
   }
   main{
-    height: 70vh;
+    height: 75vh;
   }
   .presentation{
-    height: 70vh;
+    height: 65vh;
   }
 
   .portfolio{
-    height: 70vh;
+    height: 65vh;
   }
   .modellingelement{
     flex-direction: column;

@@ -263,27 +263,18 @@ footer{
 }
 
 .portfoliolink-circle{
-  margin-top: 2.5px;
   margin-bottom: 2.5px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .serviceslink-circle{
-  margin-top: 2.5px;
   margin-bottom: 2.5px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.contactslink-circle{
-  margin-top: 2.5px;
-  margin-bottom: 2.5px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.break1, .break2{
+.break1, .break2, .break3{
   display: none;
 }
 }

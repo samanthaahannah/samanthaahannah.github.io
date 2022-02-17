@@ -222,7 +222,7 @@ nav{
   position: relative;
   z-index: 0;
   width: 250px;
-  transform: translateX(-20%) translateY(-24%);
+  transform: translateX(-20%) translateY(-28%);
 }
 
 .overlay2{

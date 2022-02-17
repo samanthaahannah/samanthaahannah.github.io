@@ -173,11 +173,8 @@ nav{
   height: 150px;
   width: 150px;
   margin: 0 auto;
-  background-size: 200%;
-  background-position: 40%;
-  background-position: 40%;
-  background-image: url("http://hannahgraphics.com/images/samantha-hannah-metallic-mask.jpg");
   flex: 1;
+  position: relative;
   font-size: 16px;
   color: #e6ddd6;
   line-height: 150px;
@@ -210,13 +207,6 @@ nav{
   transform: translateX(-20%) translateY(-18%);
 }
 
-.contactslink-circle video{
-  position: relative;
-  z-index: 0;
-  width: 250px;
-  transform: translateX(-20%) translateY(-18%);
-}
-
 .overlay1{
   opacity: 0;
   margin-top: 45px;
@@ -226,6 +216,13 @@ nav{
   left: 0;
   z-index: 1;
   animation: fade-in 1.5s ease 10.5s forwards;
+}
+
+.contactslink-circle video{
+  position: relative;
+  z-index: 0;
+  width: 250px;
+  transform: translateX(-20%) translateY(-18%);
 }
 
 .overlay2{

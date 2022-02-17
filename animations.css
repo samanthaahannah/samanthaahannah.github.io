@@ -207,6 +207,7 @@ nav{
   position: relative;
   z-index: 0;
   width: 210px;
+  transform: translateX(-17%) translateY(-29%);
 }
 
 .overlay{
@@ -277,6 +278,7 @@ footer{
 
 .contactslink-circle video{
   width: 160px;
+  transform: translateX(-18.5%) translateY(-26%);
 }
 
 @media screen and (max-width: 900px){

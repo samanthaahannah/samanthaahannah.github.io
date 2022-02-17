@@ -239,7 +239,7 @@ footer{
     height: 85vh;
   }
 
-.modellingelementimg-circle{
+  .modellingelementimg-circle{
     width: 200px;
     height: 200px;
   }
@@ -270,6 +270,11 @@ footer{
   }
   .modellingelement{
     flex-direction: column;
+  }
+
+  .modellingelementimg-circle{
+    width: 150px;
+    height: 150px;
   }
   .logo-container img{
     max-width: 200px;

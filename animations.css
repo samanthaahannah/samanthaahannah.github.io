@@ -132,6 +132,14 @@ nav{
   text-decoration: none;
 }
 
+.serviceslink a{
+  text-decoration: none;
+}
+
+.contactslink a{
+  text-decoration: none;
+}
+
 .portfoliolink-circle{
   opacity: 1;
   animation: swapPortfolio 15s infinite/*, fade-in 1.5s ease 7.5s forwards*/;

@@ -282,6 +282,10 @@ footer{
   margin-left: auto;
   margin-right: auto;
 }
+
+.break1, .break2{
+  display: none;
+}
 }
 
 @media screen and (max-width: 420px){

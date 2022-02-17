@@ -246,7 +246,7 @@ footer{
     flex-direction: row;
   }
   main{
-    height: 150vh;
+    height: 100vh;
   }
   .presentation{
     height: 65vh;
@@ -263,22 +263,22 @@ footer{
 }
 
 .portfoliolink-circle{
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 2.5px;
+  margin-bottom: 2.5px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .serviceslink-circle{
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 2.5px;
+  margin-bottom: 2.5px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .contactslink-circle{
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 2.5px;
+  margin-bottom: 2.5px;
   margin-left: auto;
   margin-right: auto;
 }

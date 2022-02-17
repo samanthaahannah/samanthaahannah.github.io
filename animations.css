@@ -28,7 +28,7 @@ header{
   width: 90%;
   margin: auto;
   animation: fade-in 1.5s ease;
-  animation-delay: 9s;
+  animation-delay: 12s;
   animation-fill-mode: forwards;
   flex-direction: row;
   flex-wrap: wrap;
@@ -164,7 +164,7 @@ nav{
 
 .serviceslink-circle{
   opacity: 0;
-  animation: swapPortfolio 15s -5s infinite, fade-in 1.5s ease 8s forwards;
+  animation: swapPortfolio 15s -5s infinite, fade-in 1.5s ease 9s forwards;
   margin: 0 auto;
   background-size: 200%;
   background-position: 40%;
@@ -186,7 +186,7 @@ nav{
 
 .contactslink-circle{
   opacity: 0;
-  animation: fade-in 1.5s ease 8.5s forwards;
+  animation: fade-in 1.5s ease 10.5s forwards;
   margin: 0 auto;
   background-size: 200%;
   background-position: 40%;
@@ -226,7 +226,7 @@ footer{
   opacity: 0;
   color: #e6ddd6;
   animation: fade-in 1.5s ease;
-  animation-delay: 9s;
+  animation-delay: 12s;
   animation-fill-mode: forwards;
 }
 

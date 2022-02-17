@@ -207,7 +207,7 @@ nav{
   position: relative;
   z-index: 0;
   width: 250px;
-  transform: translateX(-20%) translateY(-40%);
+  transform: translateX(-20%) translateY(-20%);
 }
 
 .contactslink-circle video{

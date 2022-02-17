@@ -243,8 +243,16 @@ footer{
   height: 60vh;
 }
 
+.portfoliolink-circle{
+  margin: 10px;
+}
+
+.serviceslink-circle{
+  margin: 10px;
+}
+
 .contactslink-circle{
-  margin-top: 10px;
+  margin: 10px;
 }
 }
 

@@ -187,29 +187,6 @@ nav{
   }
 }
 
-.circles{
-  display: flex;
-  flex-direction: row;
-  height: 20vh;
-  flex: 2;
-}
-
-.portfoliolink-circle{
-  animation: swapPortfolio 15s infinite;
-  border-radius: 50%;
-  overflow: hidden;
-  height: 250px;
-  width: 250px;
-  display: block;
-  margin: 0 auto;
-  background-size: 200%;
-  background-position: 40%;
-  background-image: url("http://hannahgraphics.com/images/samantha-hannah-metallic-mask.jpg");
-}
-
-
-
-
 .modellingelementblurb{
   margin-top: 50px;
   flex: 1;
@@ -267,6 +244,11 @@ footer{
     height: 200px;
   }
 
+  .traditionalelementimg-circle{
+    width: 200px;
+    height: 200px;
+  }
+
   .portfolio{
     height: 78vh;
   }
@@ -298,6 +280,10 @@ footer{
   }
   .traditionalelement{
     flex-direction: column;
+  }
+  .traditionalelementimg-circle{
+    width: 150px;
+    height: 150px;
   }
 }
 

@@ -236,6 +236,11 @@ footer{
   .logo-container img{
     max-width: 200px;
   }
+
+  .circles{
+  display: flex;
+  flex-direction: column;
+}
 }
 
 @media screen and (max-width: 420px){

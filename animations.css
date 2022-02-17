@@ -227,7 +227,7 @@ footer{
     flex-direction: row;
   }
   main{
-    height: 75vh;
+    height: 100vh;
   }
   .presentation{
     height: 65vh;

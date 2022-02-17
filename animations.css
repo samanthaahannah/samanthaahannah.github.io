@@ -93,7 +93,7 @@ nav{
 
 .blurb{
   text-align: center;
-  opacity: 1;
+  opacity: 0;
   transform: translateY(-80px);
   animation: drop 1.5s ease;
   animation-delay: 7s;
@@ -164,7 +164,7 @@ nav{
 
 .serviceslink-circle{
   opacity: 0;
-  animation: swapPortfolio 15s -5s infinite/*, fade-in 1.5s ease 8s forwards*/;
+  animation: swapPortfolio 15s -5s infinite, fade-in 1.5s ease 8s forwards;
   margin: 0 auto;
   background-size: 200%;
   background-position: 40%;

@@ -128,6 +128,10 @@ nav{
   justify-content: space-around;
 }
 
+.portfoliolink{
+  text-decoration: none;
+}
+
 .portfoliolink-circle{
   opacity: 1;
   animation: swapPortfolio 15s infinite/*, fade-in 1.5s ease 7.5s forwards*/;
@@ -146,7 +150,6 @@ nav{
   flex: 1;
   font-size: 10px;
   color: #e6ddd6;
-  text-decoration: none;
 }
 
 .serviceslink-circle{
@@ -167,7 +170,6 @@ nav{
   flex: 1;
   font-size: 10px;
   color: #e6ddd6;
-  text-decoration: none;
 }
 
 .contactslink-circle{
@@ -188,7 +190,6 @@ nav{
   flex: 1;
   font-size: 10px;
   color: #e6ddd6;
-  text-decoration: none;
 }
 
 footer{

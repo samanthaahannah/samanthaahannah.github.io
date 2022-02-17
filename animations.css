@@ -23,13 +23,13 @@ main{
 }
 
 header{
-  opacity: 0;
+  opacity: 1;
   display: flex;
   width: 90%;
   margin: auto;
-  animation: fade-in 1.5s ease;
+  /*animation: fade-in 1.5s ease;
   animation-delay: 9s;
-  animation-fill-mode: forwards;
+  animation-fill-mode: forwards;*/
   flex-direction: row;
   flex-wrap: wrap;
 }
@@ -73,31 +73,31 @@ nav{
 }
 
 .hello{
-  opacity: 0;
+  opacity: 1;
   text-align: center;
   font-size: 20px;
-  animation: drop 1.5s ease;
+  /*animation: drop 1.5s ease;
   animation-fill-mode: forwards;
-  animation-delay: 1s;
+  animation-delay: 1s;*/
 }
 
 .header-text{
   text-align: center;
-  opacity: 0;
-  transform: translateY(-80px);
+  opacity: 1;
+  /*transform: translateY(-80px);
   animation: drop 1.5s ease;
   animation-delay: 4s;
-  animation-fill-mode: forwards;
+  animation-fill-mode: forwards;*/
   font-size: 16px;
 }
 
 .blurb{
   text-align: center;
-  opacity: 0;
-  transform: translateY(-80px);
+  opacity: 1;
+  /*transform: translateY(-80px);
   animation: drop 1.5s ease;
   animation-delay: 7s;
-  animation-fill-mode: forwards;
+  animation-fill-mode: forwards;*/
   font-size: 16px;
 }
 
@@ -129,8 +129,8 @@ nav{
 }
 
 .portfoliolink-circle{
-  opacity: 0;
-  animation: swapPortfolio 15s infinite, fade-in 1.5s ease 7.5s forwards;
+  opacity: 1;
+  animation: swapPortfolio 15s infinite/*, fade-in 1.5s ease 7.5s forwards*/;
   margin: 0 auto;
   background-size: 200%;
   background-position: 40%;
@@ -147,8 +147,8 @@ nav{
 }
 
 .serviceslink-circle{
-  opacity: 0;
-  animation: swapPortfolio 15s -5s infinite, fade-in 1.5s ease 8s forwards;
+  opacity: 1;
+  animation: swapPortfolio 15s -5s infinite/*, fade-in 1.5s ease 8s forwards*/;
   margin: 0 auto;
   background-size: 200%;
   background-position: 40%;
@@ -165,8 +165,8 @@ nav{
 }
 
 .contactslink-circle{
-  opacity: 0;
-  animation: swapPortfolio 15s -10s infinite, fade-in 1.5s ease 8.5s forwards;
+  opacity: 1;
+  animation: swapPortfolio 15s -10s infinite/*, fade-in 1.5s ease 8.5s forwards*/;
   margin: 0 auto;
   background-size: 200%;
   background-position: 40%;
@@ -184,14 +184,14 @@ nav{
 
 footer{
   height: 5vh;
-  opacity: 0;
+  opacity: 1;
   color: #e6ddd6;
-  animation: fade-in 1.5s ease;
+  /*animation: fade-in 1.5s ease;
   animation-delay: 9s;
-  animation-fill-mode: forwards;
+  animation-fill-mode: forwards;*/
 }
 
-@keyframes drop{
+/*@keyframes drop{
   0%{
     opacity: 0;
     transform: translateY(-80px);
@@ -209,7 +209,7 @@ footer{
       opacity: 1;
     }
 
-  }
+  }*/
 
 footer{
   flex-grow: 0;

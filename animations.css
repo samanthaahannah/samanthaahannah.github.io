@@ -159,7 +159,7 @@ nav{
   font-size: 16px;
   color: #e6ddd6;
   line-height: 150px;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .serviceslink-circle{
@@ -181,7 +181,7 @@ nav{
   font-size: 16px;
   color: #e6ddd6;
   line-height: 150px;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .contactslink-circle{
@@ -198,6 +198,9 @@ nav{
   margin: 0 auto;
   flex: 1;
   position: relative;
+  font-size: 16px;
+  color: #e6ddd6;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .contactslink-circle video{

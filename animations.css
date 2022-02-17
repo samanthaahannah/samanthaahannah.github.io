@@ -216,6 +216,25 @@ footer{
   color: #e6ddd6;
 }
 
+@media screen and (max-width: 940px){
+  main{
+    height: 85vh;
+  }
+  .portfoliolink-circle{
+  height: 100px;
+  width: 100px;
+}
+
+.serviceslink-circle{
+  height: 100px;
+  width: 100px;
+}
+
+.contactslink-circle{
+  height: 100px;
+  width: 100px;
+}
+
 @media screen and (max-width: 900px){
   main{
     height: 85vh;

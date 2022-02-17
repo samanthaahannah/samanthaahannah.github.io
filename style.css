@@ -244,7 +244,7 @@ footer{
     height: 200px;
   }
 
-  .traditionalelementimg-circle{
+  .traditionalelementimg{
     width: 200px;
     height: 200px;
   }
@@ -271,17 +271,13 @@ footer{
   .modellingelement{
     flex-direction: column;
   }
-  .modellingelementimg-circle{
-    width: 150px;
-    height: 150px;
-  }
   .logo-container img{
     max-width: 200px;
   }
   .traditionalelement{
     flex-direction: column;
   }
-  .traditionalelementimg-circle{
+  .traditionalelementimg{
     width: 150px;
     height: 150px;
   }

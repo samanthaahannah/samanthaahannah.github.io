@@ -244,15 +244,24 @@ footer{
 }
 
 .portfoliolink-circle{
-  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .serviceslink-circle{
-  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contactslink-circle{
-  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 }
 

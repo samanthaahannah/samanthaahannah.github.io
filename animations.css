@@ -159,6 +159,7 @@ nav{
   font-size: 10px;
   color: #e6ddd6;
   line-height: 150px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000
 }
 
 .serviceslink-circle{
@@ -180,6 +181,7 @@ nav{
   font-size: 10px;
   color: #e6ddd6;
   vertical-align: middle;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000
 }
 
 .contactslink-circle{
@@ -201,6 +203,7 @@ nav{
   font-size: 10px;
   color: #e6ddd6;
   vertical-align: middle;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000
 }
 
 footer{

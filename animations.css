@@ -158,6 +158,7 @@ nav{
   flex: 1;
   font-size: 10px;
   color: #e6ddd6;
+  vertical-align: middle;
 }
 
 .serviceslink-circle{
@@ -178,6 +179,7 @@ nav{
   flex: 1;
   font-size: 10px;
   color: #e6ddd6;
+  vertical-align: middle;
 }
 
 .contactslink-circle{
@@ -198,6 +200,7 @@ nav{
   flex: 1;
   font-size: 10px;
   color: #e6ddd6;
+  vertical-align: middle;
 }
 
 footer{

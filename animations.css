@@ -203,6 +203,13 @@ nav{
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
+.serviceslink-circle video{
+  position: relative;
+  z-index: 0;
+  width: 250px;
+  transform: translateX(-20%) translateY(-29%);
+}
+
 .contactslink-circle video{
   position: relative;
   z-index: 0;
@@ -210,7 +217,7 @@ nav{
   transform: translateX(-20%) translateY(-29%);
 }
 
-.overlay{
+.overlay1{
   opacity: 0;
   margin-top: 45px;
   transform: translateX(25%) translateY(100%);
@@ -218,7 +225,18 @@ nav{
   top: 0;
   left: 0;
   z-index: 1;
-  animation: fade-in 1.5s ease 8.5s forwards;
+  animation: fade-in 1.5s ease 9s forwards;
+}
+
+.overlay2{
+  opacity: 0;
+  margin-top: 45px;
+  transform: translateX(25%) translateY(100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  animation: fade-in 1.5s ease 10.5s forwards;
 }
 
 footer{
@@ -280,12 +298,26 @@ footer{
   font-size: 10px;
 }
 
+.serviceslink-circle video{
+  width: 160px;
+  transform: translateX(-18.5%) translateY(-26%);
+}
+
 .contactslink-circle video{
   width: 160px;
   transform: translateX(-18.5%) translateY(-26%);
 }
 
-.overlay{
+.overlay1{
+  margin-top: 0;
+  transform: translateX(0) translateY(0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.overlay2{
   margin-top: 0;
   transform: translateX(0) translateY(0);
   position: absolute;

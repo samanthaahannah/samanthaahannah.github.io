@@ -41,7 +41,21 @@
 				<br>
 
 				<input type="submit" name="" value="submit">
-			</form>			
+			</form>		
+
+			<iframe name="hidden-iframe" id="hidden-iframe" style="display:none;" onload="if(submitted){}"></iframe>
+
+			<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+			<script type="text/javascript">
+				var submitted = false;
+			</script>
+			<script type="text/javascript">
+				$('#gform').on('submit', function(e){
+					$('#gform *').fadeOut(2000);
+					$('#gform').prepend('Your comment has been sent. Thank you for your input. We will get back to you in due course.');
+				});
+			</script>
+
 		</section>
 	</main>
 	<footer>

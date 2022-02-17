@@ -228,7 +228,7 @@ nav{
 .overlay2{
   opacity: 0;
   margin-top: 45px;
-  transform: translateX(25%) translateY(80%);
+  transform: translateX(25%) translateY(130%);
   position: absolute;
   top: 0;
   left: 0;

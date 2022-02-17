@@ -204,7 +204,7 @@ nav{
   position: relative;
   z-index: 0;
   width: 250px;
-  transform: translateX(-20%) translateY(-30%);
+  transform: translateX(-20%) translateY(100%);
 }
 
 .overlay1{

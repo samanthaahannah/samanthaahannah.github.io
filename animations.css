@@ -297,12 +297,12 @@ footer{
 
 .serviceslink-circle video{
   width: 160px;
-  transform: translateX(-18.5%) translateY(-26%);
+  transform: translateX(-18.5%) translateY(-18%);
 }
 
 .contactslink-circle video{
   width: 160px;
-  transform: translateX(-18.5%) translateY(-26%);
+  transform: translateX(-18.5%) translateY(-28%);
 }
 
 .overlay1{

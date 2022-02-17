@@ -144,7 +144,7 @@ nav{
   background-position: 40%;
   background-image: url("http://hannahgraphics.com/images/samantha-hannah-metallic-mask.jpg");
   flex: 1;
-  margin 1Opx;
+  padding: 10px;
 }
 
 .serviceslink-circle{
@@ -163,6 +163,7 @@ nav{
   background-position: 40%;
   background-image: url("http://hannahgraphics.com/images/samantha-hannah-metallic-mask.jpg");
   flex: 1;
+  padding: 10px;
 }
 
 .contactslink-circle{
@@ -181,6 +182,7 @@ nav{
   background-position: 40%;
   background-image: url("http://hannahgraphics.com/images/samantha-hannah-metallic-mask.jpg");
   flex: 1;
+  padding: 10px;
 }
 
 footer{

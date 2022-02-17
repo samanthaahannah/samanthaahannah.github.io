@@ -223,7 +223,7 @@ nav{
 
 footer{
   height: 5vh;
-  opacity: 1;
+  opacity: 0;
   color: #e6ddd6;
   animation: fade-in 1.5s ease;
   animation-delay: 9s;

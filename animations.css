@@ -225,7 +225,7 @@ nav{
   top: 0;
   left: 0;
   z-index: 1;
-  /*animation: fade-in 1.5s ease 9s forwards;*/
+  animation: fade-in 1.5s ease 9s forwards;
 }
 
 .overlay2{

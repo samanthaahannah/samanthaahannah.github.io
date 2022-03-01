@@ -197,6 +197,10 @@ nav{
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
+.contactslink-circle img{
+  size: 25%;
+}
+
 .artstationlink-circle{
   margin: 0 auto;
   background-size: 50%;

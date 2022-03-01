@@ -155,10 +155,10 @@ nav{
   background-image: url("http://hannahgraphics.com/images/samantha-hannah-metallic-mask.jpg");
 }
 
-.modetiongraphics{
+.motiongraphics{
   flex: 1;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .modtiongraphicselement{

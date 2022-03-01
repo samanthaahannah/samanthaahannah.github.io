@@ -107,17 +107,11 @@ nav{
   margin-right: auto;
   overflow-x: hidden;
   overflow-y: auto;
-
-}
-.overlayall{
-  display: flex;
-  position: absolute;
-  z-index: 1;
-  width: 90%;
-  height: 65vh;
   background-image: url('images/arrows.png');
   background: no-repeat;
+
 }
+
 .portfolio::-webkit-scrollbar {
   width: 14px;
 }

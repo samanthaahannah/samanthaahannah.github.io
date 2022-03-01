@@ -111,7 +111,7 @@ nav{
   background-repeat: no-repeat;
 
 }
-.portfolio{
+.overlayall{
   display: flex;
   position: absolute;
   z-index: 2;

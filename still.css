@@ -198,8 +198,8 @@ nav{
 }
 
 .artstationlink-circle img{
-  height: 100px;
-  width: 100px;
+  height: 125px;
+  width: 125px;
 }
 
 .artstationlink-circle{
@@ -217,6 +217,11 @@ nav{
   color: #e6ddd6;
   line-height: 150px;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.linkdinlink-circle img{
+  height: 125px;
+  width: 125px;
 }
 
 .linkdinlink-circle{

@@ -138,26 +138,6 @@ nav{
   display: none;
 }
 
-.overlayall::-webkit-scrollbar {
-  width: 14px;
-}
-
-/* 4px scroll thumb. 10px margin from right margin */
-.overlayall::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 24px 24px transparent;
-  border: solid 18px transparent;
-}
-
-.overlayall::-webkit-scrollbar-thumb {
-  box-shadow: inset 24px 24px 24px 24px #bbbbbe;
-  border: solid 6px transparent;
-  border-radius: 14px;
-}
-
-.overlayall::-webkit-scrollbar-button {
-  display: none;
-}
-
 .modelling{
   flex: 1;
   display: flex;

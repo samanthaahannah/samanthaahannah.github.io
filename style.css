@@ -355,12 +355,18 @@ footer{
   .motiongraphicselement{
     flex-direction: column;
   }
-
-  .motiongraphicselementblurb{
+   .modellingelementblurb{
     order: 1;
   }
-  .motiongraphicselementimg{
+   .modellingelementimg{
     order: 2;
+  }
+
+  .motiongraphicselementblurb{
+    order: 3;
+  }
+  .motiongraphicselementimg{
+    order: 4;
   }
 
   .motiongraphicselementimg-circle{
@@ -382,6 +388,12 @@ footer{
   .traditionalelementimg{
     width: 150px;
     height: 150px;
+    order: 6;
+  }
+  .traditionalelementblurb{
+    width: 150px;
+    height: 150px;
+    order: 5;
   }
 }
 

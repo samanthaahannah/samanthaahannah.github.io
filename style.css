@@ -403,4 +403,7 @@ footer{
   main{
     height: 80vh;
   }
+  .portfolioBG{
+    background-image: none;
+  }
 }

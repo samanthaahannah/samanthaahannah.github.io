@@ -107,18 +107,18 @@ nav{
   margin-right: auto;
   overflow-x: hidden;
   overflow-y: auto;
+  background-image: url('images/arrows.png');
+  background-attachment: scroll;
 }
 
 .portfolio::-webkit-scrollbar {
   width: 14px;
-  background-image: url('images/arrows.png');
 }
 
 /* 4px scroll thumb. 10px margin from right margin */
 .portfolio::-webkit-scrollbar-track {
   box-shadow: inset 0 0 24px 24px transparent;
   border: solid 18px transparent;
-  background-image: url('images/arrows.png');
 }
 
 .portfolio::-webkit-scrollbar-thumb {

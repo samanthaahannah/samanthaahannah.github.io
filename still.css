@@ -199,8 +199,8 @@ nav{
 
 .artstationlink-circle{
   margin: 0 auto;
-  background-size: 200%;
-  background-position: 40%;
+  background-size: 100%;
+  background-position: 25%;
   border-radius: 50%;
   overflow: hidden;
   height: 150px;

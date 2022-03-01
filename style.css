@@ -113,8 +113,13 @@ nav{
   display: flex;
   position: absolute;
   z-index: 2;
+  width: 90%;
+  height: 65vh;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
   background-image: url('images/arrows.png');
-  background-size: 50%;
 }
 .portfolio::-webkit-scrollbar {
   width: 14px;

@@ -115,7 +115,7 @@ nav{
 /* 4px scroll thumb. 10px margin from right margin */
 .portfolio::-webkit-scrollbar-track {
   box-shadow: inset 24px 24px 24px 24px transparent;
-  border: solid 18px transparent;
+  border: solid 28px transparent;
 }
 
 .portfolio::-webkit-scrollbar-thumb {

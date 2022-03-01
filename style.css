@@ -114,7 +114,6 @@ nav{
   position: absolute;
   z-index: 2;
   background-image: url('images/arrows.png');
-  background: no-repeat;
 }
 .portfolio::-webkit-scrollbar {
   width: 14px;

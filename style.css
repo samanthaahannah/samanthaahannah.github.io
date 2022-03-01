@@ -107,7 +107,7 @@ nav{
   margin-right: auto;
   overflow-x: hidden;
   overflow-y: auto;
-  background-image: url('arrows.png');
+  background-image: url('images/arrows.png');
 }
 .portfolio::-webkit-scrollbar {
   width: 14px;

@@ -111,8 +111,8 @@ nav{
   flex-direction: column;
   background-size: 75%;
   background: url('images/arrows.png');
+  background-position: -1844px 1160px;
   background: no-repeat;
-  background-attachment: scroll;
 }
 
 .portfolio::-webkit-scrollbar {

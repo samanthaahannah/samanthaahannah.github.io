@@ -357,10 +357,11 @@ footer{
   }
    .modellingelementblurb{
     order: 1;
-  }
-   .modellingelementimg{
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+   .modellingelementimg{
+
     order: 2;
   }
 

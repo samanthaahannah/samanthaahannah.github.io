@@ -111,6 +111,18 @@ nav{
   background: no-repeat;
 
 }
+.overlayall{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 65vh;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: 2;
+
+}
 
 .portfolio::-webkit-scrollbar {
   width: 14px;

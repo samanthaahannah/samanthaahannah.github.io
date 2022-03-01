@@ -107,12 +107,15 @@ nav{
   margin-right: auto;
   overflow-x: hidden;
   overflow-y: auto;
+  background-image: url('images/arrows.png');
+  background-repeat: no-repeat;
+
 }
 .overlayall{
   display: flex;
   position: absolute;
   z-index: 2;
-
+  
 }
 .portfolio::-webkit-scrollbar {
   width: 14px;

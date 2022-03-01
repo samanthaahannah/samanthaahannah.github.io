@@ -149,7 +149,6 @@ nav{
   height: 250px;
   width: 250px;
   display: block;
-  margin-left: 50px;
   margin: 0 auto;
   background-size: 200%;
   background-position: 40%;
@@ -177,7 +176,6 @@ nav{
   height: 250px;
   width: 250px;
   display: block;
-  margin-right: 50px;
   margin: 0 auto;
   background-size: 200%;
   background-position: 40%;
@@ -261,7 +259,6 @@ nav{
   height: 250px;
   width: 250px;
   display: block;
-  margin-left: 50px;
   margin: 0 auto;
   background-size: 200%;
   background-position: 85% 90%;

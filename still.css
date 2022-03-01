@@ -204,15 +204,13 @@ nav{
 
 .artstationlink-circle{
   margin: 0 auto;
-  background-size: 50%;
-  background-position: 25%;
   border-radius: 50%;
   overflow: hidden;
   height: 150px;
   width: 150px;
+  display: block;
   margin: 0 auto;
   flex: 1;
-  position: relative;
   font-size: 16px;
   color: #e6ddd6;
   line-height: 150px;
@@ -234,15 +232,13 @@ nav{
 
 .linkdinlink-circle{
   margin: 0 auto;
-  background-size: 50%;
-  background-position: 25%;
   border-radius: 50%;
   overflow: hidden;
   height: 150px;
   width: 150px;
+  display: block;
   margin: 0 auto;
   flex: 1;
-  position: relative;
   font-size: 16px;
   color: #e6ddd6;
   line-height: 150px;
@@ -251,8 +247,6 @@ nav{
 
 .emaillink-circle{
   margin: 0 auto;
-  background-size: 200%;
-  background-position: 40%;
   border-radius: 50%;
   overflow: hidden;
   height: 150px;
@@ -260,9 +254,9 @@ nav{
   display: block;
   margin: 0 auto;
   flex: 1;
-  position: relative;
   font-size: 16px;
   color: #e6ddd6;
+  line-height: 150px;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 

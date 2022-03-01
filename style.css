@@ -323,6 +323,9 @@ footer{
   .portfolio{
     height: 78vh;
   }
+  .portfolioBG{
+    background-image: none;
+  }
 
 @media screen and (max-width: 600px){
   header{
@@ -402,8 +405,5 @@ footer{
   }
   main{
     height: 80vh;
-  }
-  .portfolioBG{
-    background-image: none;
   }
 }

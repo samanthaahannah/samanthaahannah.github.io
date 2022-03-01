@@ -310,6 +310,11 @@ footer{
     height: 200px;
   }
 
+  .motiongraphicselementimg-circle{
+    width: 200px;
+    height: 200px;
+  }
+
   .traditionalelementimg{
     width: 200px;
     height: 200px;
@@ -336,6 +341,14 @@ footer{
   }
   .modellingelement{
     flex-direction: column;
+  }
+
+  .motiongraphicselement{
+    flex-direction: column;
+  }
+  .motiongraphicselementimg-circle{
+    width: 150px;
+    height: 150px;
   }
 
   .modellingelementimg-circle{

@@ -109,7 +109,7 @@ nav{
 .portfolioBG{
   display: flex;
   flex-direction: column;
-  background-size: 50%;
+  background-size: 25%;
   background: url('images/arrows.png');
   background-position: 100px 100px;
 }

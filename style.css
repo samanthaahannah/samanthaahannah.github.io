@@ -232,7 +232,7 @@ nav{
   font-size: 16px;
   margin-left: auto;
   margin-right: auto;
-
+  text-align: center;
 }
 
 .motiongraphicselementblurb{
@@ -241,7 +241,7 @@ nav{
   font-size: 16px;
   margin-left: auto;
   margin-right: auto;
-
+  text-align: center;
 }
 
 .traditionalelement{
@@ -270,6 +270,7 @@ nav{
   font-size: 16px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
 img{

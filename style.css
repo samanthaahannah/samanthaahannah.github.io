@@ -111,6 +111,12 @@ nav{
   background-repeat: no-repeat;
 
 }
+.portfolio{
+  display: flex;
+  position: absolute;
+  z-index: 2;
+
+}
 .portfolio::-webkit-scrollbar {
   width: 14px;
 }

@@ -105,6 +105,7 @@ nav{
   height: 65vh;
   margin-left: auto;
   margin-right: auto;
+  overflow-x: hidden;
   background-image: url('images/arrows.png');
   background-repeat: no-repeat;
 

@@ -359,11 +359,15 @@ footer{
     order: 1;
   }
    .modellingelementimg{
+    margin-top: 10px;
+    margin-bottom: 10px;
     order: 2;
   }
 
   .motiongraphicselementblurb{
     order: 3;
+      margin-top: 10px;
+    margin-bottom: 10px;
   }
   .motiongraphicselementimg{
     order: 4;
@@ -391,9 +395,9 @@ footer{
     order: 6;
   }
   .traditionalelementblurb{
-    width: 150px;
-    height: 150px;
     order: 5;
+      margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
 

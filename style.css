@@ -111,6 +111,7 @@ nav{
 
 .portfolio::-webkit-scrollbar {
   width: 14px;
+  background-image: url('images/arrows.png');
 }
 
 /* 4px scroll thumb. 10px margin from right margin */

@@ -309,6 +309,15 @@ footer{
   }
 }
 
+@media screen and (max-width: 1150px){
+   .portfolioBG{
+    background-size: 40%;
+    background-position: 250px 125px;
+    background-repeat: no-repeat;
+    background-image: url('images/arrows3.png');
+  }
+}
+
 @media screen and (max-width: 900px){
   main{
     height: 85vh;

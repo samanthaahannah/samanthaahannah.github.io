@@ -9,7 +9,7 @@ html, body{
   height: 100vh;
   margin: 0px;
   padding: 0px;
-  background-image: url('arrows-01.png'),linear-gradient(180deg, #3a3153, #5f43b2);
+  background-image: url('arrows.png'),linear-gradient(180deg, #3a3153, #5f43b2);
   background-repeat: no-repeat;
   font-family: "Montserrat Alternates", sans-serif;
   overflow-x: hidden; 

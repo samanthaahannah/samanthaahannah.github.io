@@ -302,7 +302,7 @@ footer{
 
 @media screen and (max-width: 1300px){
    .portfolioBG{
-    background-image: none;
+    background-image: url('images/arrows2.png');
   }
 }
 

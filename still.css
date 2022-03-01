@@ -110,6 +110,13 @@ nav{
   justify-content: space-around;
 }
 
+.contactcircles{
+  display: flex;
+  flex-direction: row;
+  height: 20vh;
+  justify-content: space-around;
+}
+
 .portfoliolink a{
   text-decoration: none;
 }
@@ -119,6 +126,18 @@ nav{
 }
 
 .contactslink a{
+  text-decoration: none;
+}
+
+.artstationlink a{
+  text-decoration: none;
+}
+
+.linkdinlink a{
+  text-decoration: none;
+}
+
+.emaillink a{
   text-decoration: none;
 }
 
@@ -162,6 +181,62 @@ nav{
 }
 
 .contactslink-circle{
+  margin: 0 auto;
+  background-size: 200%;
+  background-position: 40%;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 150px;
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+  flex: 1;
+  position: relative;
+  font-size: 16px;
+  color: #e6ddd6;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.artstationlink-circle{
+  animation: swapPortfolio 15s infinite;
+  margin: 0 auto;
+  background-size: 200%;
+  background-position: 40%;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 150px;
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+  background-size: 200%;
+  background-position: 40%;
+  background-image: url("http://hannahgraphics.com/images/Artstation_Artboard 1.png");
+  flex: 1;
+  font-size: 16px;
+  color: #e6ddd6;
+  line-height: 150px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.linkdinlink-circle{
+  animation: swapPortfolio 15s -5s infinite;
+  margin: 0 auto;
+  background-size: 200%;
+  background-position: 40%;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 150px;
+  width: 150px;
+  margin: 0 auto;
+  flex: 1;
+  position: relative;
+  font-size: 16px;
+  color: #e6ddd6;
+  line-height: 150px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.emaillink-circle{
   margin: 0 auto;
   background-size: 200%;
   background-position: 40%;

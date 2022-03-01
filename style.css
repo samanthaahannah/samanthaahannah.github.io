@@ -112,13 +112,9 @@ nav{
 .overlayall{
   display: flex;
   position: absolute;
-  z-index: 2;
+  z-index: 1;
   width: 90%;
   height: 65vh;
-  margin-left: auto;
-  margin-right: auto;
-  overflow-x: hidden;
-  overflow-y: auto;
   background-image: url('images/arrows.png');
   background: no-repeat;
 }

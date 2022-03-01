@@ -107,13 +107,10 @@ nav{
   margin-right: auto;
   overflow-x: hidden;
   overflow-y: auto;
-  background-image: url('images/arrows.png');
-  background: no-repeat;
 
 }
 .overlayall{
-  display: flex;
-  flex-direction: column;
+  position: absolute;
   width: 90%;
   height: 65vh;
   margin-left: auto;

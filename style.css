@@ -106,6 +106,7 @@ nav{
   margin-left: auto;
   margin-right: auto;
   overflow-x: hidden;
+  overflow-y: auto;
   background-image: url('images/arrows.png');
   background-repeat: no-repeat;
 

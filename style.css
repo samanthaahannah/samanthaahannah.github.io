@@ -110,7 +110,7 @@ nav{
   display: flex;
   flex-direction: column;
   background-size: 40%;
-  background-image: url('images/arrows2.png');
+  background-image: url('images/arrows.png');
   background-position: 250px 125px;
   background-repeat: no-repeat;
 }

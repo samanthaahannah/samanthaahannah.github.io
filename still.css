@@ -141,6 +141,13 @@ nav{
   text-decoration: none;
 }
 
+.hachimitsu{
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(-999em);
+}
+
 .portfoliolink-circle{
   animation: swapPortfolio 15s infinite;
   margin: 0 auto;

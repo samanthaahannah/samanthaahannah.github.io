@@ -1,0 +1,461 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html, body{
+  width: 100%;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  background-image: linear-gradient(180deg, #3a3153, #5f43b2);
+  background-repeat: no-repeat;
+  font-family: "Montserrat Alternates", sans-serif;
+  overflow-x: hidden; 
+  flex: display;
+  flex-direction: column
+}
+
+main{
+  flex-grow: 8;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 75vh;
+}
+
+main{
+  flex: 2;
+  height: 75vh;
+}
+
+header{
+  display: flex;
+  width: 90%;
+  margin: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 2;
+  margin-bottom: 0px;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-container,
+.nav-links{
+  display: flex;
+}
+
+.logo-container{
+  align-items: center;
+  justify-content: center;
+  flex: 20%;
+}
+nav{
+  flex: 80%;
+}
+
+.nav-links{
+  justify-content: space-around;
+  list-style: none;
+  flex-direction: row;
+  padding-top: 6%;
+  padding-bottom: 0;
+  font-size: 10px;
+  color: #e6ddd6;
+}
+
+.nav-link{
+  color: #e6ddd6;
+  font-size: 10px;
+  text-decoration: none;
+
+}
+
+.presentation{
+  margin-left: 20%;
+  margin-right: 20%;
+  color: #e6ddd6;
+  overflow: visible;
+  height: 65vh;
+}
+
+.hello{
+  text-align: center;
+  font-size: 20px;
+}
+
+.header-text{
+  text-align: center;
+  font-size: 16px;
+}
+
+.blurb{
+  text-align: center;
+  font-size: 16px;
+}
+
+.portfolio{
+  width: 90%;
+  height: 65vh;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.portfolioBG{
+  display: flex;
+  flex-direction: column;
+  background-size: 40%;
+  background-image: url('images/arrows.png');
+  background-position: 250px 125px;
+  background-repeat: no-repeat;
+}
+
+.portfolio::-webkit-scrollbar {
+  width: 14px;
+}
+
+/* 4px scroll thumb. 10px margin from right margin */
+.portfolio::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 24px 24px transparent;
+  border: solid 18px transparent;
+}
+
+.portfolio::-webkit-scrollbar-thumb {
+  box-shadow: inset 24px 24px 24px 24px #bbbbbe;
+  border: solid 6px transparent;
+  border-radius: 14px;
+}
+
+.portfolio::-webkit-scrollbar-button {
+  display: none;
+}
+
+.modelling{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.modellingelement{
+  align-items: left;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.modellingelementimg-circle{
+  animation: swap3D 15s infinite;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 250px;
+  width: 250px;
+  display: block;
+  margin: 0 auto;
+  background-size: 200%;
+  background-position: 40%;
+  background-image: url("http://hannahgraphics.com/images/samantha-hannah-metallic-mask.jpg");
+}
+
+.motiongraphics{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+}
+
+.motiongraphicselement{
+  align-items: left;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.motiongraphicselementimg-circle{
+  animation: swapMotionGraphics 15s infinite;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 250px;
+  width: 250px;
+  display: block;
+  margin: 0 auto;
+  background-size: 200%;
+  background-position: 40%;
+  background-image: url("http://hannahgraphics.com/images/samantha-hannah-metallic-mask.jpg");
+}
+
+@keyframes swap3D{
+  0%, 100%{
+    background-image: url("http://hannahgraphics.com/images/samantha-hannah-metallic-mask.jpg");
+  }
+  25% {
+    background-image: url("http://hannahgraphics.com/images/samantha-hannah-sword-2.jpg");
+  }
+   75% {
+    background-image: url("http://hannahgraphics.com/images/samantha-hannah-asset.jpg");
+  }
+}
+
+@keyframes swapMotionGraphics{
+  0%, 100%{
+    background-image: url("http://hannahgraphics.com/images/samantha-hannah-metallic-mask.jpg");
+  }
+  25% {
+    background-image: url("http://hannahgraphics.com/images/samantha-hannah-sword-2.jpg");
+  }
+   75% {
+    background-image: url("http://hannahgraphics.com/images/samantha-hannah-asset.jpg");
+  }
+}
+
+@keyframes swapDrawing{
+  0%, 100%{
+    background-image: url("http://hannahgraphics.com/images/samantha-hannah-fish.jpg");
+  }
+  50% {
+    background-image: url("http://hannahgraphics.com/images/samantha-hannah-puffin.jpg");
+    background-position: 40% 50%;
+  }
+}
+
+@keyframes swapPortfolio{
+  0%, 100%{
+    background-image: url("http://hannahgraphics.com/images/samantha-hannah-fish.jpg");
+  }
+  50% {
+    background-image: url("http://hannahgraphics.com/images/samantha-hannah-fish.jpg");
+    background-position: 85% 90%;
+  }
+}
+
+.modellingelementblurb{
+  margin-top: 50px;
+  flex: 1;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.motiongraphicselementblurb{
+  margin-top: 50px;
+  flex: 1;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.traditionalelement{
+  align-items: left;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.traditionalelementimg{
+  animation: swapDrawing 10s infinite;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 250px;
+  width: 250px;
+  display: block;
+  margin: 0 auto;
+  background-size: 200%;
+  background-position: 85% 90%;
+  background-image: url("http://hannahgraphics.com/images/samantha-hannah-fish.jpg");
+}
+
+.traditionalelementblurb{
+  margin-top: 50px;
+  flex: 1;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    width: 100%;
+}
+
+footer{
+  flex-grow: 0;
+  color: #e6ddd6;
+}
+
+@media screen and (max-width: 1300px){
+   .portfolioBG{
+    background-size: 40%;
+    background-position: 250px 125px;
+    background-repeat: no-repeat;
+    background-image: url('images/arrows2.png');
+  }
+}
+
+@media screen and (max-width: 1050px){
+   .portfolioBG{
+    background-size: 40%;
+    background-position: 250px 125px;
+    background-repeat: no-repeat;
+    background-image: url('images/arrows3.png');
+  }
+}
+
+@media screen and (max-width: 1000px){
+   .portfolioBG{
+    background-image: none;
+  }
+}
+
+@media screen and (max-width: 900px){
+  main{
+    height: 85vh;
+  }
+
+  .modellingelementimg-circle{
+    width: 200px;
+    height: 200px;
+  }
+
+  .motiongraphicselementimg-circle{
+    width: 200px;
+    height: 200px;
+  }
+
+  .traditionalelementimg{
+    width: 200px;
+    height: 200px;
+  }
+
+  .portfolio{
+    height: 78vh;
+  }
+
+@media screen and (max-width: 600px){
+  header{
+    display: block;
+    flex-direction: row;
+  }
+  main{
+    height: 75vh;
+  }
+  .presentation{
+    height: 65vh;
+  }
+
+  .portfolio{
+    height: 65vh;
+  }
+  .modellingelement{
+    flex-direction: column;
+  }
+
+  .motiongraphicselement{
+    flex-direction: column;
+  }
+   .modellingelementblurb{
+    order: 1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+   .modellingelementimg{
+
+    order: 2;
+  }
+
+  .motiongraphicselementblurb{
+    order: 3;
+      margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .motiongraphicselementimg{
+    order: 4;
+  }
+
+  .motiongraphicselementimg-circle{
+    width: 150px;
+    height: 150px;
+  }
+
+
+  .modellingelementimg-circle{
+    width: 150px;
+    height: 150px;
+  }
+  .logo-container img{
+    max-width: 200px;
+  }
+  .traditionalelement{
+    flex-direction: column;
+  }
+  .traditionalelementimg{
+    width: 150px;
+    height: 150px;
+    order: 6;
+  }
+  .traditionalelementblurb{
+    order: 5;
+      margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 546px){
+  .hello{
+    font-size:16px;
+  }
+}
+
+@media screen and (max-width: 420px){
+  .nav-links{
+    font-size: 8px;
+    padding-top: 0;
+  }
+  .nav-link{
+    font-size: 8px;
+  }
+  .portfolio{
+    height: 65vh;
+  }
+  .presentation{
+    height: 65vh;
+  }
+  main{
+    height: 80%;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .nav-links{
+    font-size: 8px;
+    padding-top: 0;
+  }
+  .nav-link{
+    font-size: 8px;
+  }
+  .portfolio{
+    height: 65vh;
+  }
+  .presentation{
+    height: 65vh;
+  }
+  main{
+    height: 80vh;
+  }
+}

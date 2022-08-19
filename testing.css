@@ -13,7 +13,8 @@ html, body{
   font-family: "Roboto", sans-serif;
   overflow-x: hidden; 
   flex: display;
-  flex-direction: column  
+  flex-direction: column;
+  background-color: #E7E4F9;
 }
 
 main{
@@ -32,7 +33,7 @@ header{
 }
 
 .floatingImg {
-  z-index: 1000; 
+  z-index: 2; 
   position: absolute;
 }
 
@@ -94,6 +95,23 @@ header{
     background-color: #120348;
 }
 
+.headerContainerBGIMG{
+  opacity: 33%;
+  width: 100%;
+  height: 82.8vh;
+  background-image: url('images/orc face.jpg');
+  background-size: cover;
+  position: absolute;
+  -webkit-filter: blur(10px);
+}
+
+.headerContainer2{
+    width: 100%;
+    height: 82.8vh;
+      z-index: 3;
+      position: absolute;
+}
+
 .logo-container,
 .nav-links{
   display: flex;
@@ -110,6 +128,7 @@ header{
 
 .orcContainer img{
   position: absolute;
+  z-index: 1;
 }
 
 nav{
@@ -159,4 +178,8 @@ textarea {
 footer{
   flex-grow: 0;
   color: #e6ddd6;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }

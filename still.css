@@ -18,8 +18,15 @@ html, body{
 }
 
 main{
+  flex-grow: 8;
+  overflow-x: hidden;
+  overflow-y: auto;
   height: 75vh;
-  display: block;
+}
+
+main{
+  flex: 2;
+  height: 75vh;
 }
 
 header{
@@ -28,6 +35,13 @@ header{
   margin: auto;
   flex-direction: row;
   flex-wrap: wrap;
+  flex: 2;
+  margin-bottom: 0px;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
 }
 
 .logo-container,
@@ -48,8 +62,8 @@ nav{
   justify-content: space-around;
   list-style: none;
   flex-direction: row;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 6%;
+  padding-bottom: 0;
   font-size: 10px;
   color: #e6ddd6;
 }

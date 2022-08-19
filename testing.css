@@ -5,43 +5,36 @@
 }
 
 html, body{
+
   width: 100%;
   height: 100vh;
   margin: 0px;
   padding: 0px;
-  background-image: linear-gradient(180deg, #3a3153, #5f43b2);
-  background-repeat: no-repeat;
-  font-family: "Montserrat Alternates", sans-serif;
+  font-family: "Roboto", sans-serif;
   overflow-x: hidden; 
   flex: display;
-  flex-direction: column
+  flex-direction: column  
 }
 
 main{
-  flex-grow: 8;
-  overflow-x: hidden;
-  overflow-y: auto;
   height: 75vh;
-}
-
-main{
-  flex: 2;
-  height: 75vh;
+  display: block;
 }
 
 header{
   display: flex;
-  width: 90%;
-  margin: auto;
+  width: 80%;
+  margin-left: 18%;
+  margin-right: 40%;
   flex-direction: row;
   flex-wrap: wrap;
-  flex: 2;
-  margin-bottom: 0px;
+  height: 15vh;
+  background-color: #120348;
 }
-
-.wrapper{
-  display: flex;
-  flex-direction: column;
+.shock{
+    width: 100%;
+    background-color: #120348;
+    height: 80vh;
 }
 
 .logo-container,
@@ -50,27 +43,28 @@ header{
 }
 
 .logo-container{
-  align-items: center;
-  justify-content: center;
-  flex: 20%;
+  flex: 16%;
+  margin-bottom: 80%;
 }
 nav{
   flex: 80%;
+  padding-left: 4.25%;
+  padding-right: 8%;
 }
 
 .nav-links{
   justify-content: space-around;
   list-style: none;
   flex-direction: row;
-  padding-top: 6%;
-  padding-bottom: 0;
-  font-size: 10px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-size: 1.25vw;
   color: #e6ddd6;
 }
 
 .nav-link{
   color: #e6ddd6;
-  font-size: 10px;
+  font-size: 1.25vw;
   text-decoration: none;
 
 }
@@ -298,164 +292,4 @@ textarea {
 footer{
   flex-grow: 0;
   color: #e6ddd6;
-}
-
-@media screen and (max-width: 1300px){
-   .portfolioBG{
-    background-size: 40%;
-    background-position: 250px 125px;
-    background-repeat: no-repeat;
-    background-image: url('images/arrows2.png');
-  }
-}
-
-@media screen and (max-width: 1050px){
-   .portfolioBG{
-    background-size: 40%;
-    background-position: 250px 125px;
-    background-repeat: no-repeat;
-    background-image: url('images/arrows3.png');
-  }
-}
-
-@media screen and (max-width: 1000px){
-   .portfolioBG{
-    background-image: none;
-  }
-}
-
-@media screen and (max-width: 900px){
-  main{
-    height: 85vh;
-  }
-
-  .modellingelementimg-circle{
-    width: 200px;
-    height: 200px;
-  }
-
-  .motiongraphicselementimg-circle{
-    width: 200px;
-    height: 200px;
-  }
-
-  .traditionalelementimg{
-    width: 200px;
-    height: 200px;
-  }
-
-  .portfolio{
-    height: 78vh;
-  }
-
-@media screen and (max-width: 600px){
-  header{
-    display: block;
-    flex-direction: row;
-  }
-  main{
-    height: 75vh;
-  }
-  .presentation{
-    height: 65vh;
-  }
-
-  .portfolio{
-    height: 65vh;
-  }
-  .modellingelement{
-    flex-direction: column;
-  }
-
-  .motiongraphicselement{
-    flex-direction: column;
-  }
-   .modellingelementblurb{
-    order: 1;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-   .modellingelementimg{
-
-    order: 2;
-  }
-
-  .motiongraphicselementblurb{
-    order: 3;
-      margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  .motiongraphicselementimg{
-    order: 4;
-  }
-
-  .motiongraphicselementimg-circle{
-    width: 150px;
-    height: 150px;
-  }
-
-
-  .modellingelementimg-circle{
-    width: 150px;
-    height: 150px;
-  }
-  .logo-container img{
-    max-width: 200px;
-  }
-  .traditionalelement{
-    flex-direction: column;
-  }
-  .traditionalelementimg{
-    width: 150px;
-    height: 150px;
-    order: 6;
-  }
-  .traditionalelementblurb{
-    order: 5;
-      margin-top: 10px;
-    margin-bottom: 10px;
-  }
-}
-@media screen and (max-width: 546px){
-  .hello{
-    font-size:16px;
-  }
-}
-
-@media screen and (max-width: 420px){
-  .nav-links{
-    font-size: 8px;
-    padding-top: 0;
-  }
-  .nav-link{
-    font-size: 8px;
-  }
-  .portfolio{
-    height: 65vh;
-  }
-  .presentation{
-    height: 65vh;
-  }
-  main{
-    height: 80%;
-  }
-}
-
-@media screen and (max-width: 320px){
-  .nav-links{
-    font-size: 8px;
-    padding-top: 0;
-  }
-  .nav-link{
-    font-size: 8px;
-  }
-  .portfolio{
-    height: 65vh;
-  }
-  .presentation{
-    height: 65vh;
-  }
-  main{
-    height: 80vh;
-  }
 }

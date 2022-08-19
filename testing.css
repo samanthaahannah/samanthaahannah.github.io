@@ -29,12 +29,69 @@ header{
   flex-direction: row;
   flex-wrap: wrap;
   height: 15vh;
-  background-color: #120348;
 }
-.shock{
+
+.floatingImg {
+  z-index: 1000; 
+  position: absolute;
+}
+
+.floatingImg img{
+  width: 65%;
+  height: 65%;
+  margin-left: 37%;
+  margin-top: 5%;
+
+}
+
+.TitleSection{
+  color: #e6ddd6;
+  display: flex;
+  flex-direction: row;
+  margin-left: 2.2%;
+  margin-right: 2.2%;
+  margin-top: 7.6%;
+}
+
+.arrowContainer1{
+  margin-top: 1.45%;
+  flex: 2.3%;
+}
+
+.arrowContainer2{
+  margin-top: 1.45%;
+  flex: 2.3%;
+}
+.arrowContainer1 img{
+  opacity: 33%;
+}
+.arrowContainer2 img{
+  transform: rotate(180deg);
+  opacity: 33%;
+}
+
+.TitleText{
+  flex: 95.2%;
+  margin-left: 15.3%;
+}
+.TitleText h1{
+  flex: 90%;
+  font-size: 3.65vw;
+  color: #E7E4F9;
+}
+.TitleText h2{
+  margin-top: 0.8%;
+  flex: 90%;
+  font-size: 2.45vw;
+  font-weight: normal;
+  opacity: 66%;
+  color: #E7E4F9;
+}
+
+.headerContainer{
     width: 100%;
+    height: 82.8vh;
     background-color: #120348;
-    height: 80vh;
 }
 
 .logo-container,
@@ -46,6 +103,15 @@ header{
   flex: 16%;
   margin-bottom: 80%;
 }
+
+.orcContainer{
+  position: relative;
+}
+
+.orcContainer img{
+  position: absolute;
+}
+
 nav{
   flex: 80%;
   padding-left: 4.25%;
@@ -59,221 +125,22 @@ nav{
   padding-top: 5%;
   padding-bottom: 5%;
   font-size: 1.25vw;
-  color: #e6ddd6;
 }
 
 .nav-link{
-  color: #e6ddd6;
+  color: #EEC8ED;
+  font-size: 1.25vw;
+  text-decoration: none;
+}
+
+.nav-link-highlighted{
+  border-radius: 25px;
+  background-color: #3A2081;
+  box-shadow: 0 0 39px 39px #3A2081;
+  color: #E7E4F9;
   font-size: 1.25vw;
   text-decoration: none;
 
-}
-
-.presentation{
-  margin-left: 20%;
-  margin-right: 20%;
-  color: #e6ddd6;
-  overflow: visible;
-  height: 65vh;
-}
-
-.hello{
-  text-align: center;
-  font-size: 20px;
-}
-
-.header-text{
-  text-align: center;
-  font-size: 16px;
-}
-
-.blurb{
-  text-align: center;
-  font-size: 16px;
-}
-
-.portfolio{
-  width: 90%;
-  height: 65vh;
-  margin-left: auto;
-  margin-right: auto;
-  overflow-x: hidden;
-  overflow-y: auto;
-}
-.portfolioBG{
-  display: flex;
-  flex-direction: column;
-  background-size: 40%;
-  background-image: url('images/arrows.png');
-  background-position: 250px 125px;
-  background-repeat: no-repeat;
-}
-
-.portfolio::-webkit-scrollbar {
-  width: 14px;
-}
-
-/* 4px scroll thumb. 10px margin from right margin */
-.portfolio::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 24px 24px transparent;
-  border: solid 18px transparent;
-}
-
-.portfolio::-webkit-scrollbar-thumb {
-  box-shadow: inset 24px 24px 24px 24px #bbbbbe;
-  border: solid 6px transparent;
-  border-radius: 14px;
-}
-
-.portfolio::-webkit-scrollbar-button {
-  display: none;
-}
-
-.modelling{
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-}
-
-.modellingelement{
-  align-items: left;
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 20px;
-}
-
-.modellingelementimg-circle{
-  animation: swap3D 15s infinite;
-  border-radius: 50%;
-  overflow: hidden;
-  height: 250px;
-  width: 250px;
-  display: block;
-  margin: 0 auto;
-  background-size: 200%;
-  background-position: 40%;
-  background-image: url("http://hannahgraphics.com/images/samantha-hannah-metallic-mask.jpg");
-}
-
-.motiongraphics{
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  margin-right: 20px;
-}
-
-.motiongraphicselement{
-  align-items: left;
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 20px;
-}
-
-.motiongraphicselementimg-circle{
-  animation: swapMotionGraphics 15s infinite;
-  border-radius: 50%;
-  overflow: hidden;
-  height: 250px;
-  width: 250px;
-  display: block;
-  margin: 0 auto;
-  background-size: 200%;
-  background-position: 40%;
-  background-image: url("http://hannahgraphics.com/images/samantha-hannah-metallic-mask.jpg");
-}
-
-@keyframes swap3D{
-  0%, 100%{
-    background-image: url("http://hannahgraphics.com/images/samantha-hannah-metallic-mask.jpg");
-  }
-  25% {
-    background-image: url("http://hannahgraphics.com/images/samantha-hannah-sword-2.jpg");
-  }
-   75% {
-    background-image: url("http://hannahgraphics.com/images/samantha-hannah-asset.jpg");
-  }
-}
-
-@keyframes swapMotionGraphics{
-  0%, 100%{
-    background-image: url("http://hannahgraphics.com/images/samantha-hannah-metallic-mask.jpg");
-  }
-  25% {
-    background-image: url("http://hannahgraphics.com/images/samantha-hannah-sword-2.jpg");
-  }
-   75% {
-    background-image: url("http://hannahgraphics.com/images/samantha-hannah-asset.jpg");
-  }
-}
-
-@keyframes swapDrawing{
-  0%, 100%{
-    background-image: url("http://hannahgraphics.com/images/samantha-hannah-fish.jpg");
-  }
-  50% {
-    background-image: url("http://hannahgraphics.com/images/samantha-hannah-puffin.jpg");
-    background-position: 40% 50%;
-  }
-}
-
-@keyframes swapPortfolio{
-  0%, 100%{
-    background-image: url("http://hannahgraphics.com/images/samantha-hannah-fish.jpg");
-  }
-  50% {
-    background-image: url("http://hannahgraphics.com/images/samantha-hannah-fish.jpg");
-    background-position: 85% 90%;
-  }
-}
-
-.modellingelementblurb{
-  margin-top: 50px;
-  flex: 1;
-  font-size: 16px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-
-.motiongraphicselementblurb{
-  margin-top: 50px;
-  flex: 1;
-  font-size: 16px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-
-.traditionalelement{
-  align-items: left;
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 20px;
-}
-
-.traditionalelementimg{
-  animation: swapDrawing 10s infinite;
-  border-radius: 50%;
-  overflow: hidden;
-  height: 250px;
-  width: 250px;
-  display: block;
-  margin: 0 auto;
-  background-size: 200%;
-  background-position: 85% 90%;
-  background-image: url("http://hannahgraphics.com/images/samantha-hannah-fish.jpg");
-}
-
-.traditionalelementblurb{
-  margin-top: 50px;
-  flex: 1;
-  font-size: 16px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
 }
 
 img{

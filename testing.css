@@ -7,7 +7,7 @@
 html, body{
 
   width: 100%;
-  height: 100vh;
+  height: 200vh;
   margin: 0px;
   padding: 0px;
   font-family: "Roboto", sans-serif;
@@ -18,7 +18,7 @@ html, body{
 }
 
 main{
-  height: 75vh;
+  height: 200vh;
   display: block;
 }
 
@@ -29,7 +29,8 @@ header{
   margin-right: 40%;
   flex-direction: row;
   flex-wrap: wrap;
-  height: 15vh;
+  height: 0vh;
+  padding-bottom: 5%;
 }
 
 .floatingImg {
@@ -74,6 +75,7 @@ header{
 .TitleText{
   flex: 95.2%;
   margin-left: 15.3%;
+  height: 10vh;
 }
 .TitleText h1{
   flex: 90%;
@@ -91,14 +93,14 @@ header{
 
 .headerContainer{
     width: 100%;
-    height: 82.8vh;
+    padding-bottom: 38%;
     background-color: #120348;
 }
 
 .headerContainerBGIMG{
   opacity: 33%;
   width: 100%;
-  height: 82.8vh;
+  padding-bottom: 38%;
   background-image: url('images/orc face.jpg');
   background-size: cover;
   position: absolute;
@@ -155,24 +157,100 @@ nav{
 .nav-link-highlighted{
   border-radius: 25px;
   background-color: #3A2081;
-  box-shadow: 0 0 39px 39px #3A2081;
+  box-shadow: 0 0 39px 15px #3A2081;
   color: #E7E4F9;
   font-size: 1.25vw;
   text-decoration: none;
 
 }
 
-img{
-  max-width: 100%;
-  max-height: 100%;
+.floatingDots{
+  display: flex;
+  flex-direction: row;
+  margin-top: 35%;
+  margin-left: 47.5%;
+  margin-right: 47.5%;
+  justify-content: center;
+  position: absolute;
 }
 
-textarea {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+.dot {
+  opacity: 66%;
+  flex: 20%;
+  height: 1.1vw;
+  width: 1.6vw;
+  margin: 6%;
+  background-color: #E7E4F9;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot-highlighted {
+  flex: 20%;
+  height: 1.1vw;
+  width: 1.6vw;
+  margin: 6%;
+  background-color: #2E2C9A;
+  border-radius: 50%;
+  display: inline-block;
+}
 
-    width: 100%;
+.AboutMeShort{
+
+  padding-bottom: 4.5%;
+
+}
+
+.aboutMeContainer{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin-left: 19%;
+  margin-top: 4%;
+  padding-bottom: 0%;
+}
+
+.profileContainer{
+  flex: 38%;
+  margin-top: 1.2%;
+  margin-bottom: 1.2%;
+}
+
+.profileContainer img{
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.aboutText{
+  flex: 62%;
+  color: #120348;
+  margin-left: 6%;
+  margin-right: 25%;
+}
+
+.titleText h1{
+  color: #120348;
+  font-size: 3.4vw;
+}
+
+.titleText h2{
+  color: #120348;
+  opacity: 66%;
+  font-size: 2.4vw;
+  font-weight: normal;
+}
+
+.normalText {
+  color: #120348;
+  opacity: 66%;
+  font-weight: normal;
+  font-size: 1.2vw;
+}
+
+.UpdatesShort{
+  padding-bottom: 5%;
+  background-color: #3A2081;
+  opacity: 75%;
 }
 
 footer{

@@ -4,21 +4,27 @@
   box-sizing: border-box;
 }
 
-html, body{
-
+html{
+  height: 100%;
+  margin: 0%;
   width: 100%;
-  height: 200vh;
-  margin: 0px;
   padding: 0px;
+  overflow-x: visible;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body{
   font-family: "Roboto", sans-serif;
-  overflow-x: hidden; 
   flex: display;
   flex-direction: column;
   background-color: #E7E4F9;
 }
 
 main{
-  height: 200vh;
+  padding-bottom: 0%;
   display: block;
 }
 
@@ -253,11 +259,227 @@ nav{
   opacity: 75%;
 }
 
-footer{
-  flex-grow: 0;
-  color: #e6ddd6;
+.UpdatesTitle{
+  padding-top: 6%;
+  text-align: center;
+  color: #E7E4F9;
 }
 
-::-webkit-scrollbar {
-    display: none;
+.UpdatesTitle h1{
+  font-size: 3.65vw;
+}
+
+.UpdatesTitle h2{
+  font-size: 2vw;
+  font-weight: normal;
+  opacity: 66%;
+  padding-bottom: 5.5%;
+}
+
+.UpdatesContainer {
+  margin-left: 18%;
+  margin-right: 18%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Update1 {
+  flex: 33.66667%;
+  margin-right: 0.5%;
+  background-color: #E7E4F9;
+  padding-bottom: 18%;
+}
+
+.Update2 {
+  flex: 33.66667%;
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+  background-color: #E7E4F9;
+  padding-bottom: 18%;
+}
+
+.Update3 {
+  flex: 33.66667%;
+  margin-left: 0.5%;
+  background-color: #E7E4F9;
+  padding-bottom: 18%;
+}
+
+footer{
+  background-color: #120348;
+  color: #e6ddd6;
+  
+}
+
+footer h1{
+  color: #E7E4F9;
+  font-size: 1.1vw;
+
+}
+.footerMain{
+  margin-left: 18.5%;
+  margin-right: 11%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 2%;
+}
+.ContactMe{
+  font-size: 0.7vw;
+  margin-top: 3.5%;
+  color: #E7E4F9;
+  opacity: 66%;
+  flex: 1 1 0;
+  width: 0;
+}
+
+.AddressContainer{
+  margin-top: 7%;
+  display: flex;
+  flex-direction: row;
+}
+
+.LetterIconContainer{
+  width: 10%;
+  height: 10%;
+}
+
+.Address{
+  margin-left: 5%;
+}
+
+.PhoneContainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.PhoneIconContainer{
+  width: 9%;
+  height: 9%;
+}
+
+.PhoneNumber{
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+.MobileContainer{
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+}
+
+.MobileIconContainer{
+  width: 7%;
+  height: 7%;
+  margin-left: 2%;
+}
+
+.MobileNumber{
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
+.EmailContainer{
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+}
+
+.EmailIconContainer{
+  width: 9%;
+  height: 9%;
+}
+
+.Email{
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
+.NavSiteContainer{
+  margin-top: 3.5%;
+  margin-left: 12%;
+  opacity: 66%;
+  flex: 1 1 0;
+  width: 0;
+}
+
+.NavSiteLinksContainer{
+  color: #E7E4F9;
+  font-size: 1vw;
+  text-decoration: none;
+  margin-left: 8%;
+  margin-top: 2%;
+  font-weight: normal;
+}
+
+.site-links{
+  list-style: none;
+  flex-direction: column;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-size: 0.7vw;
+  font-weight: normal;
+}
+
+.site-link{
+  display: inline-block;
+  color: #E7E4F9;
+  font-size: 0.7vw;
+  text-decoration: none;
+  font-weight: normal;
+  margin-bottom: 3%;
+}
+
+.Connections{
+  margin-top: 3.5%;
+  opacity: 66%;
+  color: #E7E4F9;
+  flex: 1 1 0;
+  width: 0;
+}
+
+.ConnectionsTitle{
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.IconsContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ArtstationContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.LinkedInContainer{
+  display: flex;
+  justify-content: center;
+}
+.ArtstationContainer img{
+  width: 19%;
+  height: 19%;
+  margin-right: 2%;
+}
+
+.LinkedInContainer img{
+  width: 12%;
+  height: 12%;
+}
+
+.copyrightSection{
+  padding-top: 2%;
+  background-color: #3A2081;
+  padding-bottom: 2%;
+}
+
+.CopyrightText{
+  color: #E7E4F9;
+  opacity: 33%;
+  font-size: 1.25vw;
+  text-align: center;
 }

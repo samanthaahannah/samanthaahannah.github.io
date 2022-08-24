@@ -360,14 +360,21 @@ nav{
 }
 
 .Button{
+  position: relative;
   font-size: 1.2vw;
   color: #E7E4F9;
   background-color: #120348;
-  width: 10%;
-  height: 5vh;
   text-align: center;
-  line-height: 5vh;
+  line-height: 2em;
   margin-left: 44.5%;
+  width: 9em;
+  height: 2em;
+  z-index: 5;
+}
+
+.Button a{
+  color: #E7E4F9;
+  text-decoration: none;
 }
 
 .UpdatesShort{

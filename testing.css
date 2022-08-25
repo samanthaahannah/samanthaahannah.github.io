@@ -329,7 +329,7 @@ nav{
 .profileContainer img{
   height: 100%;
   width: 100%;
-  display: block;
+  object-fit:scale-down;
 }
 
 .aboutText{
@@ -358,6 +358,15 @@ nav{
   font-weight: normal;
   font-size: 1.2vw;
 }
+
+.TextExpanded{
+  font-weight: normal;
+  font-size: 1.2vw;
+  opacity: 66%;
+  margin-left: 20%;
+  margin-right: 20%;
+  color: #120348;
+  }
 
 .Button{
   position: relative;

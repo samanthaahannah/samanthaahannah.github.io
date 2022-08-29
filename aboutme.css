@@ -1,0 +1,91 @@
+html{
+  height: 60vh;
+  margin: 0%;
+  width: 100%;
+  padding: 0px;
+}
+
+body{
+  font-family: "Ailerons", sans-serif;
+  background-color: #120348;
+  color: #E7E4F9;
+  overflow-x: hidden;
+}
+
+h1{
+  opacity: 0%;
+  font-size: 6vw;
+  animation: fade-in 4s ease forwards;
+  animation-delay: 1s;
+}
+h2{
+  opacity: 0%;
+  font-size: 3vw;
+  animation: fade-in2 4s ease forwards;
+  animation-delay: 2s;
+}
+
+.headercontainer{
+  margin-left: 30%;
+  position: absolute;
+  height: 100vh;
+  z-index: 2;
+
+}
+
+.bgcontainer{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: 1;
+  
+}
+
+header{
+
+}
+
+.bgcontainer svg{
+  vertical-align:top;
+  margin: auto;
+}
+
+#TLCircleGroup{
+  transform: translate(-2.8%, -3.8%) scale(1.1);
+}
+
+#wipingcircle2{
+
+  r: 1;
+  
+  animation: wipepage 1s ease forwards;
+  
+}
+
+@font-face { font-family: Ailerons; src: url('Ailerons-Typeface.otf'); } 
+
+@keyframes wipepage{
+  0%{
+    r: 1;
+  }
+  100%{
+    r: 6000;
+  }
+}
+@keyframes fade-in{
+  0%{
+    opacity: 0%;
+  }
+  100%{
+    opacity: 100%;
+  }
+}
+
+  @keyframes fade-in2{
+  0%{
+    opacity: 0%;
+  }
+  100%{
+    opacity: 100%;
+  }
+}

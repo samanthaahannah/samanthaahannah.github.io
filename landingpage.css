@@ -1,0 +1,59 @@
+
+
+body{
+  font-family: "Ailerons", sans-serif;
+  background-color: #120348;
+  overflow: hidden;
+}
+
+.bgcontainer svg{
+  vertical-align:top;
+  margin: auto;
+}
+
+#TLCircleGroup{
+  transition: all 0.5s ease;
+}
+
+#TRCircleGroup{
+  transition: all 0.5s ease;
+}
+#BLCircleGroup{
+  transition: all 0.5s ease;
+}
+#BRCircleGroup{
+  transition: all 0.5s ease;
+}
+
+#TLCircleGroup:hover, #TLCircleGroup:active{
+  transform: translate(-2.8%, -3.8%) scale(1.1);
+}
+
+#TRCircleGroup:hover, #TRCircleGroup:active{
+  transform: translate(-6.8%, -3.8%) scale(1.1);
+}
+#BLCircleGroup:hover, #BLCircleGroup:active{
+  transform: translate(-2.8%, -6.4%) scale(1.1);
+}
+#BRCircleGroup:hover, #BRCircleGroup:active{
+  transform: translate(-6.8%, -6.2%) scale(1.1);
+}
+
+#wipingcircle2{
+
+  r: 6000;
+  
+  animation: wipepage 1s ease forwards;
+  
+}
+
+@font-face { font-family: Ailerons; src: url('Ailerons-Typeface.otf'); } 
+
+@keyframes wipepage{
+  0%{
+    r: 6000;
+  }
+  100%{
+    r: 0;
+  }
+}

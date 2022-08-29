@@ -41,19 +41,9 @@ body{
 
 #wipingcircle2{
 
-  r: 6000;
-  
-  animation: wipepage 1s ease forwards;
+  r: 0;
+  opacity: 0%;
   
 }
 
 @font-face { font-family: Ailerons; src: url('Ailerons-Typeface.otf'); } 
-
-@keyframes wipepage{
-  0%{
-    r: 6000;
-  }
-  100%{
-    r: 0;
-  }
-}

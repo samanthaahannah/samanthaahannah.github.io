@@ -6,9 +6,13 @@ body{
   overflow: hidden;
 }
 
-.bgcontainer svg{
-  vertical-align:top;
+svg{
+  display: block;
   margin: auto;
+}
+
+#Logo{
+  transition: all 0.5s ease;
 }
 
 #TLCircleGroup{
@@ -25,18 +29,34 @@ body{
   transition: all 0.5s ease;
 }
 
+#TLCircle_bg{
+  transition: all 0.5s ease;
+}
+
+#TRCircle_bg{
+  transition: all 0.5s ease;
+}
+#BLCircle_bg{
+  transition: all 0.5s ease;
+}
+#BRCircle_bg{
+  transition: all 0.5s ease;
+}
+
+
+
 #TLCircleGroup:hover, #TLCircleGroup:active{
-  transform: translate(-2.8%, -3.8%) scale(1.1);
+  transform: translate(-2.8%, -1%) scale(1.1);
 }
 
 #TRCircleGroup:hover, #TRCircleGroup:active{
-  transform: translate(-6.8%, -3.8%) scale(1.1);
+  transform: translate(-6.8%, -1%) scale(1.1);
 }
 #BLCircleGroup:hover, #BLCircleGroup:active{
-  transform: translate(-2.8%, -6.4%) scale(1.1);
+  transform: translate(-2.8%, -1.5%) scale(1.1);
 }
 #BRCircleGroup:hover, #BRCircleGroup:active{
-  transform: translate(-6.8%, -6.2%) scale(1.1);
+  transform: translate(-6.8%, -1.5%) scale(1.1);
 }
 
 #wipingcircle2{
@@ -47,3 +67,75 @@ body{
 }
 
 @font-face { font-family: Ailerons; src: url('Ailerons-Typeface.otf'); } 
+
+@media (max-width: 900px) and (orientation: portrait){
+
+  .bgcontainer{
+    padding-top: 10%;
+  }
+
+@media (max-width: 600px){
+
+  .bgcontainer{
+    padding-top: 0%;
+  }
+
+  #Logo{
+    transform: translate(-50%, 0%) scale(2);
+    transition: all 0.5s ease;
+  }
+
+  #TLCircleGroup{
+    transform: translate(-30%, 0%) scale(2);
+    transition: all 0.5s ease;
+  }
+  #TRCircleGroup{
+    transform: translate(-70%, 0%) scale(2);
+    transition: all 0.5s ease;
+  }
+  #BLCircleGroup{
+    transform: translate(-30%, 0%) scale(2);
+    transition: all 0.5s ease;
+  }
+  #BRCircleGroup{
+    transform: translate(-70%, 0%) scale(2);
+    transition: all 0.5s ease;
+  }
+
+  #TLCircle_bg{
+    transform: translate(-30%, 0%) scale(2);
+    transition: all 0.5s ease;
+  }
+  #TRCircle_bg{
+    transform: translate(-70%, 0%) scale(2);
+    transition: all 0.5s ease;
+  }
+  #BLCircle_bg{
+    transform: translate(-30%, 0%) scale(2);
+    transition: all 0.5s ease;
+  }
+  #BRCircle_bg{
+    transform: translate(-70%, 0%) scale(2);
+    transition: all 0.5s ease;
+  }
+
+
+  #TLCircleGroup:hover, #TLCircleGroup:active{
+    transform: translate(-33%, -1.4%) scale(2.1);
+  }
+
+  #TRCircleGroup:hover, #TRCircleGroup:active{
+    transform: translate(-77%, -1.4%) scale(2.1);
+  }
+  #BLCircleGroup:hover, #BLCircleGroup:active{
+    transform: translate(-33%, -1.8%) scale(2.1);
+  }
+  #BRCircleGroup:hover, #BRCircleGroup:active{
+    transform: translate(-77%, -1.8%) scale(2.1);
+  }
+ 
+}
+
+
+ 
+}

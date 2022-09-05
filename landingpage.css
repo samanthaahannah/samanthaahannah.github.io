@@ -68,16 +68,24 @@ svg{
 
 @font-face { font-family: Ailerons; src: url('Ailerons-Typeface.otf'); } 
 
-@media (max-width: 900px) and (orientation: portrait){
+@media (max-width: 900px) {
 
   .bgcontainer{
     padding-top: 10%;
   }
 
-@media (max-width: 600px){
+  svg{
+    transform: translateY(18%) scale(1.4);
+  }
+
+@media (max-width: 630px){
 
   .bgcontainer{
     padding-top: 0%;
+  }
+
+  svg{
+    transform: scale(1);
   }
 
   #Logo{

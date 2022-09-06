@@ -12,12 +12,14 @@ h1{
   font-size: 6vw;
   animation: fade-in 4s ease forwards;
   animation-delay: 1s;
+  margin: 0;
 }
 h2{
   opacity: 0%;
   font-size: 3vw;
   animation: fade-in2 4s ease forwards;
   animation-delay: 2s;
+  margin: 0;
 }
 
 .headercontainer{

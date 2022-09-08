@@ -45,13 +45,13 @@ h2{
   overflow: hidden;
 }
 
-.maincontent{
+.maincontentscroll{
   overflow: auto;
   font-family: "Roboto", sans-serif;
   opacity: 0%;
   margin-top: 12%;
   margin-left: 25%;
-  width: 50%;
+  width: 60%;
   height: 70vh;
   position: absolute;
   z-index: 3;
@@ -60,9 +60,37 @@ h2{
   animation-delay: 3s;
 }
 
+.maincontent{
+  display: flex;
+  flex-direction: column;
+}
+
 .bgcontainer svg{
   vertical-align:top;
   margin: auto;
+
+}
+
+.Text1Container{
+  flex: 60%;
+}
+
+.PhotoTextContainer{
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+}
+
+.PhotoContainer{
+  margin-right: -10%;
+  width: 100%;
+  flex: 40%;
+}
+
+.PhotoContainer img{
+  height: auto;
+  width: 50%;
+  display: block;
 }
 
 

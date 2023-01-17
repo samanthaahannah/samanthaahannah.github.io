@@ -6,6 +6,35 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.startup {
+  flex-direction: row;
+  display: flex;
+  position: absolute;
+  pointer-events:none
+}
+
+.everything {
+  position: relative;
+}
+
+.maincontent {
+  z-index: 9;
+}
+
+.space1 {
+  flex: 10%;
+}
+.videoframe {
+  flex: 80%;
+}
+.space2 {
+  flex: 10%;
+}
+
+video {
+  max-width: 100%;
+}
+
 ul {
   display: flex;
   list-style: none;
@@ -18,6 +47,11 @@ ul li {
   align-content: center;
   flex: 25%;
   text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #e6ddd6;
 }
 .portfolio_container {
   flex-direction: row;

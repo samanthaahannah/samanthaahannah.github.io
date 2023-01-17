@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  flex-direction: row;
+  background-color: #120348;
+}
+
+.space1 {
+  flex: 10%;
+}
+.videoframe {
+  flex: 80%;
+}
+.space2 {
+  flex: 10%;
+}
+
+video {
+  max-width: 100%;
+}

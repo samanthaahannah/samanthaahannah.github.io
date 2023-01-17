@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #120348;
+  color: #E7E4F9;
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin-right: 15%;
+  margin-left: 10%;
+  margin-top: 5vh;
+}
+
+ul li {
+  align-content: center;
+  flex: 25%;
+  text-align: center;
+}
+.portfolio_container {
+  flex-direction: row;
+}
+
+.about_container {
+  flex-direction: row;
+}
+
+.socialmedia_container {
+  flex-direction: row;
+}
+
+.footer {
+  flex-direction: row;
+}

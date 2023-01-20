@@ -19,6 +19,15 @@ body {
 
 .maincontent {
   z-index: 9;
+  animation: scaleup 2s ease-in-out;
+  animation-delay: 3.6s;
+  animation-fill-mode: forwards;
+  transform: scale(0);
+}
+
+@keyframes scaleup {
+  from {transform: scale(0);}
+  to {transform: scale(1.0);}
 }
 
 .space1 {

@@ -10,34 +10,17 @@ body {
     margin-right: auto;
 }
 
-header {
-    max-width: 60%;
+.header-nav{
+    display: flex;
 }
 
-nav {
-    margin-bottom: 40px;
+header img {
+    width: 100%;
 }
 
-ul{
-    padding: 0%;
-}
-li {
-    display: inline-block;
-    font-size: 24px;
-    
-}
-
-.about {
-    margin-right: 4%;
-}
-
-.work, .services, .publications {
-    margin-left: 4%;
-    margin-right: 4%;
-}
-
-.contact {
-    margin-left: 4%;
+nav .li-wrapper ul {
+    display: flex;
+    flex-direction: row;
 }
 
 main {
@@ -48,13 +31,8 @@ main {
 .contactme  {
     padding-bottom: 20px;
 }
+
 a {
     text-decoration: none;
     color: #dfe5ec;
-}
-
-/* FOOTER */
-
-footer {
-    text-align: center;
 }

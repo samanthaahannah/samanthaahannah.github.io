@@ -1,0 +1,60 @@
+body {
+    background-color: #11172a;
+    color: #dfe5ec;
+    font-family: futura-pt, sans-serif;
+}
+
+.container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    max-width: 60%;
+}
+
+nav {
+    margin-bottom: 40px;
+}
+
+ul{
+    padding: 0%;
+}
+li {
+    display: inline-block;
+    font-size: 30px;
+    
+}
+
+.about {
+    margin-right: 4%;
+}
+
+.work, .services {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.contact {
+    margin-left: 4%;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactme  {
+    padding-bottom: 20px;
+}
+a {
+    text-decoration: none;
+    color: #dfe5ec;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+}

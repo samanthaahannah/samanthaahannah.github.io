@@ -1,7 +1,7 @@
 # Hannah Graphics
 
 NOTE: My website is currently being redesigned and rewritten to match some new business cards I made, and to be more semantic.
-Feel free to visit http://hannahgraphics/index_copy.html for my new design, though, it is just a work in progress for now.
+Feel free to visit http://hannahgraphics.com/index_copy.html for my new design, though, it is just a work in progress for now.
 ---
 Welcome to Hannah Graphics; a website dedicated to my business and showcasing my work in motion graphics, 3D animation, game design, and graphics design.
 

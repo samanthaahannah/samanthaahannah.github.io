@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-    width: 70%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -14,13 +14,23 @@ body {
     display: flex;
 }
 
-header img {
-    width: 100%;
+header {
+    flex: 1 1 0;
+}
+
+.nav-wrapper {
+    flex: 2.5 1 0;
 }
 
 nav .li-wrapper ul {
     display: flex;
-    flex-direction: row;
+    align-items:center;
+    justify-content: space-evenly;
+    height: 9.55vh;
+}
+
+li {
+    list-style-type: none;
 }
 
 main {

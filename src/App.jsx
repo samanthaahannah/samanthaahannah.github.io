@@ -9,13 +9,13 @@ import Header from "./Header.jsx";
 function App() {
   const info = {name: "Samantha", location: "Edinburgh"}
   return (
-    <Router>
+    <>
     <Navbar />
       <Routes>
         <Route path="/" element={<Intro info={info} />} />
         <Route path="/projects" element={<Projects />} />
       </Routes>
-    </Router>
+    </>
   )
 }
 

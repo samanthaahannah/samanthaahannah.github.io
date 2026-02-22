@@ -1,7 +1,9 @@
 # Hannah Graphics Portfolio Website
 
-This repository contains the source code for my personal portfolio website hosted on GitHub Pages.
+This repository contains compiled production build of personal portfolio website deployed on GitHub Pages.
 It showcases my 3D art, Unity Projects, technical art and ability to create a responsive React-based website.
+
+The full React source code (including components routing and project structure) is on a separate repository.
 
 ## Tech Stack
 

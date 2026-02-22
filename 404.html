@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta http-equiv="refresh" content="0; URL='/'" />
-  </head>
+  <head></head>
   <body></body>
+  <script>
+  if (window.location.pathname === '/projects') {
+    window.location.replace('/portfolio');
+  } else {
+    window.location.replace('/');
+  }
+  </script>
 </html>

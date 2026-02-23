@@ -1,14 +1,12 @@
 # Hannah Graphics Portfolio Website
 
-This repository contains compiled production build of personal portfolio website deployed on GitHub Pages.
+This repository contains the source code of my personal portfolio website deployed on Vercel.
 It showcases my 3D art, Unity Projects, technical art and ability to create a responsive React-based website.
-
-The full React source code (including components routing and project structure) is on a separate repository.
 
 ## Tech Stack
 
 - HTML / CSS / JavaScript / React.js
-- GitHub Pages hosting
+- Vercel hosting
 - Responsive layout for desktop and mobile
 
 ## Purpose 
@@ -22,6 +20,6 @@ This website serves as my professional portfolio, linking Projects, ArtStation w
 - Optimised media such as compressed images and WebGL builds to boost performance
 - Clean UI/UX for clarity and accessibility
 - Modular component structure for efficient website maintenance
-- integrated external links to ArtStation, GitHub, LinkedIn, Orcid and publications
+- integrated external links to ArtStation, GitHub, LinkedIn, ORCID and publications
 - SEO metadata for discoverability and search engine indexing
-- GitHub Pages hosting for fast access and version control
+- Vecel hosting for fast access and version control, integration with GitHub and compatibility with Google Search Console indexing

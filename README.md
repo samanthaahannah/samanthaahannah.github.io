@@ -22,4 +22,4 @@ This website serves as my professional portfolio, linking Projects, ArtStation w
 - Modular component structure for efficient website maintenance
 - integrated external links to ArtStation, GitHub, LinkedIn, ORCID and publications
 - SEO metadata for discoverability and search engine indexing
-- Vecel hosting for fast access and version control, integration with GitHub and compatibility with Google Search Console indexing
+- Vercel hosting for fast access and version control, integration with GitHub and compatibility with Google Search Console indexing

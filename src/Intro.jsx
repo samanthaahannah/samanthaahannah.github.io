@@ -1,0 +1,18 @@
+import './index.css'
+import Experience from './Experience.jsx';
+import Education from './Education.jsx';
+import AboutMe from './AboutMe.jsx';
+
+export default function Intro ({info, roles, qualifications}){
+    return  (
+        <div className="sayHi">
+            <div id="intro-top"></div>
+            <h1 id="about">About</h1>
+            <AboutMe info={info} />
+            <h2 id="experience">Experience</h2>
+            <Experience roles={roles} />
+            <h2 id="education">Education</h2>
+            <Education qualifications={qualifications} />
+        </div>
+    );
+}

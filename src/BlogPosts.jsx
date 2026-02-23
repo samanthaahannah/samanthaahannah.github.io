@@ -33,10 +33,9 @@ export default function BlogPosts({ posts, loadMore, hasMore}) {
                             })}
                             </em>
                         </small>
-
+                        <hr></hr>
                     </article>
                 ))}
-                <hr></hr>
                 {hasMore && (<button className="load-more" onClick={loadMore}>
   Load more posts
 </button>)}

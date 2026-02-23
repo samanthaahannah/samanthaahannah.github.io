@@ -40,12 +40,13 @@ export default function Blog() {
 
     return (
         <div className="blog-page">
-            console.log("POST DATA:", post);
             <h1>Blog</h1>
-            <BlogPosts posts={filteredPosts} 
-            loadMore={() => setPage((prev) => prev + 1)}
-            hasMore={hasMore}/>
-            <Sidebar setFilter={setFilter} categories={categories}/>
+            <div className="blog-main-wrapper">
+                <BlogPosts posts={filteredPosts} 
+                loadMore={() => setPage((prev) => prev + 1)}
+                hasMore={hasMore}/>
+                <Sidebar setFilter={setFilter} categories={categories}/>
+            </div>
         </div>
     )
 }

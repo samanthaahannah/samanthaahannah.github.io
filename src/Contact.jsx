@@ -1,16 +1,15 @@
 import './index.css'
-import artStationLogo from "./assets/ArtStation-logomark-white.svg"
-import LinkedInLogo from "./assets/InBug-White.png"
-import GitHubLogo from "./assets/GitHub_Invertocat_White_Clearspace.svg"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArtstation, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 export default function Contact() {
     return (
         <div className='contact-me'>
             <h2 className='contact-title'>Feel free to contact me, or see more content!</h2>
             <div className='contact-imgs'>
-                <a href="https://www.artstation.com/samhannah"><img src={artStationLogo} alt="ArtStation Logo" /></a>
-                <a href="https://www.linkedin.com/in/samanthaahannah"><img src={LinkedInLogo} alt="LinkedIn Logo"/></a>
-                <a href="https://github.com/samanthaahannah"><img src={GitHubLogo} alt="GitHub Logo"/></a>
+                <a href="https://www.artstation.com/samhannah"><FontAwesomeIcon icon={faArtstation} /></a>
+                <a href="https://www.linkedin.com/in/samanthaahannah"><FontAwesomeIcon icon={faLinkedin} /></a>
+                <a href="https://github.com/samanthaahannah"><FontAwesomeIcon icon={faGithub} /></a>
             </div>
         </div>
     )

@@ -11,6 +11,7 @@ import { papers } from './data/papers.js';
 import { roles } from './data/roles.js';
 import { qualifications } from './data/qualifications.js';
 import NotFound from "./NotFound";
+import BlogPost from './BlogPost.jsx';
 
 function App() {
   const info = {name: "Samantha Hannah", location: "Edinburgh"}
@@ -25,6 +26,7 @@ function App() {
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/:slug" element={<BlogPost />} />
             <Route path="/publications" element={<Publications papers={papers} />} />
           </Routes>
         </main>

@@ -319,6 +319,23 @@ a {
   padding-top: 6vh;
   gap: 8vh;
 }
+.contact-imgs {
+  font-size: 5rem;
+}
+
+.contact-imgs a:hover {
+  color: #b4bac1;
+  text-shadow: 0 0 10px rgba(255,255,255,0.2);
+}
+
+  .post-wrapper {
+    width: 75%;
+    margin: auto;
+    }
+    .post-wrapper h1 {
+      margin-left: 0;
+    }
+
 
 .contact-title {
   margin-bottom: 2rem;

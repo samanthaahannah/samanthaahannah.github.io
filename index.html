@@ -10,7 +10,13 @@
     <meta property="og:image" content="/website-screenshot.png" />
     <meta property="og:url" content="https://hannahgraphics.com" />
     <meta property="og:type" content="website" />
-
+    <script>
+  var redirect = sessionStorage.getItem("redirect");
+  if (redirect) {
+    sessionStorage.removeItem("redirect");
+    window.history.replaceState(null, "", redirect);
+  }
+</script>
     <title>Hannah Graphics</title>
     <script type="module" crossorigin src="/assets/main-CXOyT88k.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/main-BNC_8lzg.css">

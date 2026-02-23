@@ -2,12 +2,13 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>404 Not Found</title>
-
-    <meta http-equiv="refresh" content="0; url=/#/404" />
+    <title>Redirecting…</title>
 
     <script>
-      window.location.replace("/#/404");
+      var redirect = window.location.pathname + window.location.search;
+      sessionStorage.setItem("redirect", redirect);
+
+      window.location.replace("/");
     </script>
   </head>
   <body>

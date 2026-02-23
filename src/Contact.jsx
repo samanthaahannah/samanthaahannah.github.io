@@ -1,6 +1,6 @@
 import './index.css'
 import artStationLogo from "./assets/ArtStation-logomark-white.svg"
-import LinkedInLogo from "./assets/InBug-white.png"
+import LinkedInLogo from "./assets/InBug-White.png"
 import GitHubLogo from "./assets/GitHub_Invertocat_White_Clearspace.svg"
 
 export default function Contact() {

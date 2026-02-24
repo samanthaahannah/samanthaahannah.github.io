@@ -321,7 +321,34 @@ a {
 }
 .contact-imgs {
   font-size: 5rem;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
 }
+
+.admin-share {
+  margin: 20px;
+  padding: 12px;
+  background: #11172a;
+  border-radius: 6px;
+  border: 1px solid #dfe5ec;
+  display: inline-block;
+}
+
+.admin-share a {
+  display: inline;
+  margin: 5px;
+  color: #dfe5ec;
+  font-weight: 600;
+}
+
+.admin-share a:hover {
+  display: inline;
+  margin: 5px;
+  color: #b4bac1;
+  font-weight: 600;
+}
+
 
 .contact-imgs a:hover {
   color: #b4bac1;
@@ -339,11 +366,6 @@ a {
 
 .contact-title {
   margin-bottom: 2rem;
-}
-.contact-imgs {
-  width: 60vw;
-  display: flex;
-  justify-content: space-between;
 }
 
 .contact-me img {

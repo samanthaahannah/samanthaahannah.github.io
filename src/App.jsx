@@ -15,8 +15,13 @@ import BlogPost from './BlogPost.jsx';
 
 function App() {
   const info = {name: "Samantha Hannah", location: "Edinburgh"}
+    const isAdmin = import.meta.env.VITE_ADMIN_MODE === "true"
+
   return (
     <div id="site-wrapper">
+      {isAdmin && (
+        <div className="admin-badge">Admin</div>
+      )}
       <Navbar />
       <div className="app-wrapper">
         <main>

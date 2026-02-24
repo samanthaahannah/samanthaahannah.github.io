@@ -8,7 +8,9 @@ export default function BlogPost() {
   const isAdmin = import.meta.env.VITE_ADMIN_MODE === "true"
       console.log("Admin mode:", import.meta.env.VITE_ADMIN_MODE);
 
-const currentUrl = window.location.href.split("?")[0];
+const localUrl = window.location.href.split("?")[0];
+const currentUrl = localUrl.replace("http://localhost:5173", "https://www.hannahgraphics.com");
+
 const emailShareUrl = `mailto:?subject=Check out this blog post&body=${encodeURIComponent(currentUrl)}`;
 
   useEffect(() => {

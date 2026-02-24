@@ -326,6 +326,15 @@ a {
   justify-content: space-between;
 }
 
+.admin-badge {
+  position: fixed;
+  font-weight: bold;
+  top: 10px;
+  left: 10px;
+  z-index: 2000;
+  color: gold;
+}
+
 .admin-share {
   margin: 20px;
   padding: 12px;

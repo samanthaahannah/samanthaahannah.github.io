@@ -1,15 +1,20 @@
 import UnityPlayer from "./UnityPlayer.jsx";
 import "./index.css"
+import { useState } from "react"
+import animScriptFull from "./assets/animation-script-setup-full.png"
 import animScript1000 from "./assets/animation-script-setup-1000.png"
 import animScript700 from "./assets/animation-script-setup-700.png"
 import animScript400 from "./assets/animation-script-setup-400.png"
+import animContrFull from "./assets/Animator-controller-setup-full.png"
 import animContr1000 from "./assets/Animator-controller-setup-1000.png"
 import animContr700 from "./assets/Animator-controller-setup-700.png"
 import animContr400 from "./assets/Animator-controller-setup-400.png"
+import blenderFull from "./assets/Blender-screenshot-full.png"
 import blender1000 from "./assets/Blender-screenshot-1000.png"
 import blender700 from "./assets/Blender-screenshot-700.png"
 import blender400 from "./assets/Blender-screenshot-400.png"
 export default function Portfolio() {
+    const [selectedImage, setSelectedImage] = useState(null)
     return (
         <div className="portfolio-page" id="portfolio-main">
             <div id="top"></div>
@@ -39,6 +44,8 @@ export default function Portfolio() {
                             (max-width: 900px) 700px,
                             1000px"
                         alt="animation script example in Unity"
+                        className="img-thumb"
+                        onClick={() => setSelectedImage(animScriptFull)}
                     />
                     <img 
                         src={animContr1000}
@@ -51,6 +58,8 @@ export default function Portfolio() {
                             (max-width: 900px) 700px,
                             1000px"
                         alt="animation Controller setup in Unity"
+                        className="img-thumb"
+                        onClick={() => setSelectedImage(animContrFull)}
                     />
                     <img 
                         src={blender1000}
@@ -63,7 +72,16 @@ export default function Portfolio() {
                             (max-width: 900px) 700px,
                             1000px"
                         alt="animation Controller setup in Unity"
+                        className="img-thumb"
+                        onClick={() => setSelectedImage(blenderFull)}
                     />
+                    {selectedImage && (
+                        <div className="img-full" onClick={() => setSelectedImage(null)}>
+                            <div className="img-style">
+                                <img src={selectedImage} alt="Full view" className="full-img" />
+                            </div>
+                        </div>
+                    )}
                 </div>
             </div>
             </div>

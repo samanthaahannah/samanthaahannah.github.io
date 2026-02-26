@@ -3,7 +3,6 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  publicDir: 'public',
   build: {
     rollupOptions: {
       input: {
@@ -12,7 +11,7 @@ export default defineConfig({
         publications: 'publications/index.html',
         blog: 'blog/index.html',
         contact: 'contact/index.html',
-        notfound: 'public/404.html'
+        blogpost: 'blog/post.html'
       }
     }
   }

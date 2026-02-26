@@ -1,4 +1,4 @@
-import "./index.css"
+import "../index.css"
 
 function decodeHTML(str) {
     const txt = document.createElement("textArea")

@@ -1,7 +1,8 @@
-import "./index.css"
+import "../index.css"
 import EducationCard from "./EducationCard.jsx";
+import qualifications from "../data/qualifications.js"
 
-export default function Education({ qualifications }) {
+export default function Education() {
     return (
         <div className="qualification-cards">
             {qualifications.map((qualification) => (

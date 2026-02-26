@@ -1,4 +1,4 @@
-export const papers = [
+const papers = [
     {
       id: "paper-001-card",
       title: "NeFT‑Net: N‑window extend frequency transformer for rhythmic motion prediction",
@@ -40,3 +40,5 @@ export const papers = [
       link: "doi: 10.1109/MCG.2025.3553780"
     }
   ];
+
+  export default papers;

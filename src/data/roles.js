@@ -1,4 +1,4 @@
-export const roles = [
+const roles = [
     {id: "role-001-card",
      company: "Edinburgh Napier University",
      title: "Research Assistant (Technical Art & Rendering)",
@@ -21,3 +21,5 @@ export const roles = [
      description: "Designed and ensured the functionality of interactive training presentations for oil, gas, & construction training packages with Photoshop, Illustrator, After Eﬀects and PowerPoint. Collaborated with colleagues and worked to various deadlines"
     }
 ]
+
+export default roles;

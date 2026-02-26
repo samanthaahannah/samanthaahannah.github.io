@@ -1,4 +1,4 @@
-export const qualifications = [
+const qualifications = [
     {id: "qualification-001-card",
      institution: "Edinburgh Napier University",
      type: "BSc (Hons)",
@@ -16,3 +16,5 @@ export const qualifications = [
      description: "Areas covered include: 3D prop & character modelling in Maya, sculpting in Mudbox, video editing, motion graphics & VFX, traditional media & gesture drawing. Also involved in planning and organising end-of-year exhibition."
     }
 ]
+
+export default qualifications;

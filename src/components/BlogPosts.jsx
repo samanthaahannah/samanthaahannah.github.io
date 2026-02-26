@@ -1,5 +1,4 @@
-import { Link } from "react-router-dom";
-import './index.css';
+import '../index.css';
 
 export default function BlogPosts({ posts, loadMore, hasMore }) {
     const authors = { 100395726: "Samantha Hannah" };
@@ -8,7 +7,7 @@ export default function BlogPosts({ posts, loadMore, hasMore }) {
         <div className="blog-page">
             <div className="blog-wrapper">
                 {Array.isArray(posts) && posts.map(post => (
-                    <Link to={`/blog/${post.slug}`} className="blog-card-link" key={post.id}>
+                    <a href={`/blog/${post.slug}`} className="blog-card-link" key={post.id}>
                         <article>
                             <h2 dangerouslySetInnerHTML={{ __html: post.title.rendered }} />
                             
@@ -37,7 +36,7 @@ export default function BlogPosts({ posts, loadMore, hasMore }) {
 
                             <hr />
                         </article>
-                    </Link>
+                    </a>
                 ))}
 
                 {hasMore && (

@@ -1,7 +1,8 @@
-import "./index.css";
-import PublicationCard from "./PublicationCard";
+import "../index.css";
+import PublicationCard from "./PublicationCard.jsx";
+import papers from "../data/papers.js"
 
-export default function Publications({ papers }) {
+export default function Publications() {
 
   return (
     <div className="publications-page">

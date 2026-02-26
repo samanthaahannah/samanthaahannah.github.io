@@ -1,13 +1,14 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-export default {
+export default defineConfig({
+  plugins: [react()],
   build: {
     rollupOptions: {
       input: {
         main: 'index.html',
-        404: '404.html'
+        notfound: '404.html'
       }
     }
   }
-}
+})

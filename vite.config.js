@@ -3,11 +3,12 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
+  publicDir: 'public',
   build: {
     rollupOptions: {
       input: {
         main: 'index.html',
-        notfound: '404.html'
+        notfound: 'public/404.html'
       }
     }
   }

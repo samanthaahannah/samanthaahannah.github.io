@@ -1,18 +1,18 @@
-import UnityPlayer from "./UnityPlayer.jsx";
-import "../index.css"
-import { useState } from "react"
-import animScriptFull from "../assets/animation-script-setup-full.png"
-import animScript1000 from "../assets/animation-script-setup-1000.png"
-import animScript700 from "../assets/animation-script-setup-700.png"
-import animScript400 from "../assets/animation-script-setup-400.png"
-import animContrFull from "../assets/Animator-controller-setup-full.png"
-import animContr1000 from "../assets/Animator-controller-setup-1000.png"
-import animContr700 from "../assets/Animator-controller-setup-700.png"
-import animContr400 from "../assets/Animator-controller-setup-400.png"
-import blenderFull from "../assets/Blender-screenshot-full.png"
-import blender1000 from "../assets/Blender-screenshot-1000.png"
-import blender700 from "../assets/Blender-screenshot-700.png"
-import blender400 from "../assets/Blender-screenshot-400.png"
+import UnityPlayer from "../components/UnityPlayer.jsx";
+import "../index.css";
+import { useState } from "react";
+import animScriptFull from "../assets/animation-script-setup-full.png";
+import animScript1000 from "../assets/animation-script-setup-1000.png";
+import animScript700 from "../assets/animation-script-setup-700.png";
+import animScript400 from "../assets/animation-script-setup-400.png";
+import animContrFull from "../assets/Animator-controller-setup-full.png";
+import animContr1000 from "../assets/Animator-controller-setup-1000.png";
+import animContr700 from "../assets/Animator-controller-setup-700.png";
+import animContr400 from "../assets/Animator-controller-setup-400.png";
+import blenderFull from "../assets/Blender-screenshot-full.png";
+import blender1000 from "../assets/Blender-screenshot-1000.png";
+import blender700 from "../assets/Blender-screenshot-700.png";
+import blender400 from "../assets/Blender-screenshot-400.png";
 export default function Portfolio() {
     const [selectedImage, setSelectedImage] = useState(null)
     return (

@@ -19,6 +19,45 @@ export default function BlogPost() {
       .then(data => setPost(data[0]));
   }, [slug]);
 
+  useEffect(() => {
+  if (!post) return;
+
+  // Title
+// 1. Replace the FIRST hyphen with " - "
+let base = slug;
+
+// 2. Replace all REMAINING hyphens with spaces
+base = base.replace(/-/, " - ").replace(/([a-zA-Z0-9])-([a-zA-Z0-9])/,"$1 $2");
+
+// 3. Capitalize the first letter
+const title = base.charAt(0).toUpperCase() + base.slice(1);
+
+document.title = title;
+
+  // Description (use excerpt or first 150 chars of content)
+  const description = post.excerpt?.rendered
+    ?.replace(/<[^>]+>/g, "")
+    ?.slice(0, 150) || "Blog post on Hannah Graphics";
+
+  const setMeta = (selector, value) => {
+    let tag = document.querySelector(selector);
+    if (!tag) return;
+    tag.setAttribute("content", value);
+  };
+
+  setMeta('meta[name="description"]', description);
+  setMeta('meta[property="og:title"]', title);
+  setMeta('meta[property="og:description"]', description);
+  setMeta('meta[property="og:url"]', window.location.href);
+
+  // Optional: use the first image in the post content as OG image
+  const imgMatch = post.content.rendered.match(/<img[^>]+src="([^">]+)"/);
+  if (imgMatch) {
+    setMeta('meta[property="og:image"]', imgMatch[1]);
+  }
+
+}, [post]);
+
   if (!post) return <p>Loading...</p>;
 
   return (

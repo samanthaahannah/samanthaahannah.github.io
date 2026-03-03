@@ -8,7 +8,7 @@ The full React source code (including components routing and project structure) 
 ## Tech Stack
 
 - HTML / CSS / JavaScript / React.js
-- GitHub Pages hosting
+- GitHub for source code, Vercel fir deployment
 - Responsive layout for desktop and mobile
 
 ## Purpose 

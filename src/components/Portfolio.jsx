@@ -1,6 +1,7 @@
 import UnityPlayer from "../components/UnityPlayer.jsx";
 import "../index.css";
 import { useState } from "react";
+import { useEffect } from "react";
 import animScriptFull from "../assets/animation-script-setup-full.png";
 import animScript1000 from "../assets/animation-script-setup-1000.png";
 import animScript700 from "../assets/animation-script-setup-700.png";
@@ -19,6 +20,7 @@ import unityStats700 from "../assets/Unity-batches-draw-calls-700.png";
 import unityStats400 from "../assets/Unity-batches-draw-calls-400.png";
 export default function Portfolio() {
     const [selectedImage, setSelectedImage] = useState(null)
+    
     return (
         <div className="portfolio-page" id="portfolio-main">
             <div id="top"></div>

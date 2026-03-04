@@ -6,7 +6,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   const links = [
-    { id: "link-001-nav", href: "/", text: "About", dropdown: true },
+    { id: "link-001-nav", href: "#intro-top", text: "About", dropdown: true },
     { id: "link-002-nav", href: "/portfolio/", text: "Portfolio" },
     { id: "link-003-nav", href: "/publications/", text: "Publications" },
     { id: "link-004-nav", href: "/blog/", text: "Blog" },

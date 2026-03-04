@@ -7,7 +7,7 @@ The full React source code (including components routing and project structure) 
 
 ## Tech Stack
 
-- HTML / CSS / JavaScript / React.js / Vite
+- HTML / CSS / JavaScript / React.js
 - GitHub for source code, Vercel for deployment
 - Responsive layout for desktop and mobile
 

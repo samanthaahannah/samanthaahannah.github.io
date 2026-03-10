@@ -6,7 +6,7 @@ export default function Publications() {
 
   return (
     <div className="publications-page">
-      <div className="publications-div" id="above"></div>
+      <div className="publications-div" id="top"></div>
         <h1>Publications</h1>
         <div className="paper-cards">
         {papers.map((paper) => (

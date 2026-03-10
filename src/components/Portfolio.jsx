@@ -22,8 +22,7 @@ export default function Portfolio() {
     const [selectedImage, setSelectedImage] = useState(null)
     
     return (
-        <div className="portfolio-page" id="portfolio-main">
-            <div id="top"></div>
+        <div className="portfolio-page" id="top">
             <h1>Interactive bedroom</h1>
             <div className="portfolio-wrapper">
             <p>Click the items such as the books, bedcover, laptop, drawers, door and lamp to play with the animations. You can also toggle day and night</p>

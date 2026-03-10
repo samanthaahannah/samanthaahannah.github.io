@@ -40,7 +40,7 @@ export default function Blog() {
 
     return (
         <div className="blog-page">
-            <h1>Blog</h1>
+            <h1 id="top">Blog</h1>
             <div className="blog-main-wrapper">
                 <BlogPosts posts={filteredPosts} 
                 loadMore={() => setPage((prev) => prev + 1)}

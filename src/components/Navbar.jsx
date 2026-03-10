@@ -1,16 +1,18 @@
 import { useState } from "react";
 import '../index.css';
 import Header from './Header.jsx';
+import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   const links = [
-    { id: "link-001-nav", href: "#intro-top", text: "About", dropdown: true },
-    { id: "link-002-nav", href: "/portfolio/", text: "Portfolio" },
-    { id: "link-003-nav", href: "/publications/", text: "Publications" },
-    { id: "link-004-nav", href: "/blog/", text: "Blog" },
-    { id: "link-005-nav", href: "/contact/", text: "Contact" }
+    { id: "link-001-nav", href: "/#intro-top", text: "About", dropdown: true },
+    { id: "link-002-nav", href: "/portfolio#top", text: "Portfolio" },
+    { id: "link-003-nav", href: "/publications#top", text: "Publications" },
+    { id: "link-004-nav", href: "/blog#top", text: "Blog" },
+    { id: "link-005-nav", href: "/contact#top", text: "Contact" }
   ];
 
   return (
@@ -26,13 +28,13 @@ export default function Navbar() {
                 onMouseEnter={() => link.dropdown && setOpen(true)}
                 onMouseLeave={() => link.dropdown && setOpen(false)}
               >
-                <a href={link.href}>{link.text}</a>
+                <HashLink smooth to={link.href}>{link.text}</HashLink>
 
                 {link.dropdown && open && (
                   <ul className="dropdown">
-                    <li><a href="/#intro-top">About Me</a></li>
-                    <li><a href="/#experience">Experience</a></li>
-                    <li><a href="/#education">Education</a></li>
+                    <li><HashLink smooth to="/#intro-top">About Me</HashLink></li>
+                    <li><HashLink smooth to="/#experience">Experience</HashLink></li>
+                    <li><HashLink smooth to="/#education">Education</HashLink></li>
                   </ul>
                 )}
               </li>

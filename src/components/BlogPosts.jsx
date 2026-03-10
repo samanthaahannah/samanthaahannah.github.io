@@ -7,7 +7,7 @@ export default function BlogPosts({ posts, loadMore, hasMore }) {
         <div className="blog-page">
             <div className="blog-wrapper">
                 {Array.isArray(posts) && posts.map(post => (
-                    <a href={`/blog/post.html?slug=${post.slug}`} className="blog-card-link">
+                    <a href={`/blog/${post.slug}`} className="blog-card-link">
                         <article>
                             <h2 dangerouslySetInnerHTML={{ __html: post.title.rendered }} />
                             

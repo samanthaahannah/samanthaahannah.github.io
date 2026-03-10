@@ -1,4 +1,6 @@
 import "../index.css";
+import "../layout.css";
+import "../header.css";
 import logo from "../assets/logo-redesign.svg";
 import { HashLink } from "react-router-hash-link";
 

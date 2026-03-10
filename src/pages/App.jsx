@@ -1,4 +1,6 @@
-import '../index.css'
+import '../index.css';
+import "../layout.css";
+import '../header.css';
 import { Routes, Route } from "react-router-dom";
 import Navbar from "../components/Navbar.jsx";
 import Footer from "../components/Footer.jsx";

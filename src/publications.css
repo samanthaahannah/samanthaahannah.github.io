@@ -1,0 +1,29 @@
+.publications-page a {
+  word-break: break-all;
+  overflow-wrap: anywhere;
+}
+
+.publications-page {
+  overflow-wrap: anywhere;
+}
+
+.publications-div {
+  scroll-margin-top: 130px;
+}
+
+.paper-cards {
+  width: 75%;
+  margin: auto;
+  padding-top: 2%;
+}
+
+.paper-card {
+  padding-bottom: 5%;
+}
+
+@media (max-width: 600px) {
+  .publications-page h1 {
+    margin-left: 0;
+    text-align: center;
+  }
+}

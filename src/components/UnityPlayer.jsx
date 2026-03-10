@@ -1,26 +1,25 @@
 import { useEffect } from "react"
 
-export default function UnityPlayer() {
+export default function UnityPlayer({unityBuild, productName}) {
     useEffect(() => {
         const script = document.createElement("script");
-        script.src = "/unity/Build/bedroom.loader.js";
+        script.src = `${unityBuild}.loader.js`;
 
         script.onload = () => {
             createUnityInstance(
     document.querySelector("#unity-canvas"),
     {
-        dataUrl: "/unity/Build/bedroom.data",
-        frameworkUrl: "/unity/Build/bedroom.framework.js",
-        codeUrl: "/unity/Build/bedroom.wasm",
+        dataUrl: `${unityBuild}.data`,
+        frameworkUrl: `${unityBuild}.framework.js`,
+        codeUrl: `${unityBuild}.wasm`,
         streamingAssetsUrl: "/unity/StreamingAssets",
         companyName: "YourCompany",
-        productName: "Bedroom",
+        productName: productName,
         productVersion: "1.0",
         matchWebGLToCanvasSize: true,
         devicePixelRatio: 1,
     }
 );
-
 
             setTimeout(() => {
                 window.dispatchEvent(new Event("resize"));

@@ -1,4 +1,5 @@
-import "../index.css"
+import "../index.css";
+import '../header.css';
 
 export default function EducationCard({ qualification }) {
     return(

@@ -1,7 +1,9 @@
 import {useState, useEffect } from "react"
 import BlogPosts from "./BlogPosts";
 import Sidebar from "./Sidebar";
-import '../index.css'
+import '../index.css';
+import '../header.css';
+import '../blog.css';
 
 export default function Blog() {
     const [filter, setFilter] = useState("all")

@@ -1,4 +1,5 @@
-import "../index.css"
+import "../index.css";
+import '../header.css';
 import ExperienceCard from "./ExperienceCard.jsx";
 import roles from "../data/roles.js";
 

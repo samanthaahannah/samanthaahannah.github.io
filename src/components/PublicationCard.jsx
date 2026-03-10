@@ -1,4 +1,6 @@
 import "../index.css"
+import '../header.css';
+import '../publications.css';
 
 export default function PublicationCard({ paper }) {
     let authorsStr = ""

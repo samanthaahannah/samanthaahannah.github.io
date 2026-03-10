@@ -1,7 +1,8 @@
 import { useState } from "react";
 import '../index.css';
+import '../layout.css';
+import '../header.css';
 import Header from './Header.jsx';
-import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
 export default function Navbar() {

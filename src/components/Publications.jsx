@@ -1,4 +1,7 @@
 import "../index.css";
+import '../header.css';
+import '../publications.css';
+
 import PublicationCard from "./PublicationCard.jsx";
 import papers from "../data/papers.js"
 

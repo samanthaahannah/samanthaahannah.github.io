@@ -1,4 +1,5 @@
-import "../index.css"
+import "../index.css";
+import '../header.css';
 import EducationCard from "./EducationCard.jsx";
 import qualifications from "../data/qualifications.js"
 

@@ -1,4 +1,6 @@
-import '../index.css'
+import '../index.css';
+import "../layout.css";
+import '../header.css';
 import Experience from './Experience.jsx';
 import Education from './Education.jsx';
 import AboutMe from './AboutMe.jsx';

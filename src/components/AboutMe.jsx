@@ -1,4 +1,6 @@
-import "../index.css"
+import "../index.css";
+import "../layout.css";
+import "../header.css";
 
 export default function AboutMe() {
     return (

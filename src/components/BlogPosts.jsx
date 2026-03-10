@@ -1,4 +1,5 @@
 import '../index.css';
+import '../header.css';
 
 export default function BlogPosts({ posts, loadMore, hasMore }) {
     const authors = { 100395726: "Samantha Hannah" };

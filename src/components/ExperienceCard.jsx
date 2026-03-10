@@ -1,4 +1,5 @@
 import '../index.css'
+import '../header.css';
 
 export default function ExperienceCard({ role }) {
     return (

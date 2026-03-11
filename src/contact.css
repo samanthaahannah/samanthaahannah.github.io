@@ -16,7 +16,7 @@
 }
 
 .contact-imgs {
-  font-size: 5rem;
+  font-size: 4rem;
   width: 80%;
   display: flex;
   justify-content: space-between;
@@ -38,6 +38,7 @@
 
 @media (max-width: 600px) {
   .contact-title {
+    width: 80%;
     font-size: 1.4em;
     text-align: center;
   }

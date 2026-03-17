@@ -10,27 +10,61 @@ export default function Blog() {
     const [posts, setPosts] = useState([]);
     const [page, setPage] = useState(1);
     const [hasMore, setHasMore] = useState(true);
-    const [categories, setCategories] = useState([])
+    const [categories, setCategories] = useState([]);
+    const [error, setError] = useState(null);
+    const [loading, setLoading] = useState(true);
+    const [catError, setCatError] = useState(null);
+    const [catLoading, setCatLoading] = useState(true);
 
      const categoryMap = Object.fromEntries(
         categories.map(cat => [cat.slug, cat.id])
     )
 
     useEffect(() => {
-        fetch(`https://public-api.wordpress.com/wp/v2/sites/hannahgraphicsblog.wordpress.com/posts?per_page=5&page=${page}`)
-        .then(res => res.json())
-        .then(data => {
-            if (Array.isArray(data)) {
-                setPosts(prev => [...prev, ...data]);
-                if (data.length < 5) setHasMore(false);
+        const fetchData = async () => {
+            setLoading(true);
+
+            try {
+                const res = await fetch(`https://public-api.wordpress.com/wp/v2/sites/hannahgraphicsblog.wordpress.com/posts?per_page=5&page=${page}`);
+
+                if(!res.ok) {
+                    throw new Error("Network response was not ok");
+                }
+
+                const data = await res.json();
+
+                if (Array.isArray(data)) {
+                    setPosts(prev => [...prev, ...data]);
+                    if (data.length < 5) setHasMore(false);
+                }
+            } catch (err) {
+                setError(err);
+            } finally {
+                setLoading(false);
             }
-        })
+        };
+        
+        fetchData();
     },[page]);
 
     useEffect(() => {
-        fetch("https://public-api.wordpress.com/wp/v2/sites/hannahgraphicsblog.wordpress.com/categories")
-        .then(res => res.json())
-        .then(data => setCategories(data))
+        const fetchData = async () => {
+            try {
+                const res = await fetch("https://public-api.wordpress.com/wp/v2/sites/hannahgraphicsblog.wordpress.com/categories");
+
+                if(!res.ok) {
+                    throw new Error("Network response was not ok");
+                }
+
+                const data = await res.json();
+                setCategories(data);
+            } catch (err) {
+                setCatError(err);
+            } finally {
+                setCatLoading(false);
+            }
+        }
+        fetchData();
     }, [])
 
     const filteredPosts = 
@@ -39,6 +73,14 @@ export default function Blog() {
     : posts.filter(post => 
         post.categories.includes(categoryMap[filter])
     )
+
+    if (loading || catLoading) {
+    return <div className="blog-page"><p>Loading...</p></div>;
+}
+
+if (error || catError) {
+    return <div className="blog-page"><p>Something went wrong.</p></div>;
+}
 
     return (
         <div className="blog-page">

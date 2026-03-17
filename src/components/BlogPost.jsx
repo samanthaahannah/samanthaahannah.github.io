@@ -4,6 +4,8 @@ import { useParams } from "react-router-dom";
 export default function BlogPost() {
   const { slug } = useParams();
   const [post, setPost] = useState(null);
+  const [error, setError] = useState(null);
+  const [loading, setLoading] = useState(true);
   const isAdmin = import.meta.env.VITE_ADMIN_MODE === "true";
 
   const localUrl = window.location.href.split("?")[0];
@@ -11,10 +13,24 @@ export default function BlogPost() {
   const emailShareUrl = `mailto:?subject=Check out this blog post&body=${encodeURIComponent(currentUrl)}`;
 
   useEffect(() => {
-    if (!slug) return;
-    fetch(`https://public-api.wordpress.com/wp/v2/sites/hannahgraphicsblog.wordpress.com/posts?slug=${slug}`)
-      .then(res => res.json())
-      .then(data => setPost(data[0]));
+    const fetchData = async () => {
+      try {
+        if(!slug) return;
+        const res = await fetch(`https://public-api.wordpress.com/wp/v2/sites/hannahgraphicsblog.wordpress.com/posts?slug=${slug}`);
+
+        if(!res.ok) {
+          throw new Error("Network response was not ok");
+        }
+
+        const data = await res.json();
+        setPost(data);
+      } catch (err) {
+        setError(err);
+      } finally {
+        setLoading(false);
+      }
+    }
+    fetchData();
   }, [slug]);
 
   useEffect(() => {
@@ -46,6 +62,14 @@ export default function BlogPost() {
       setMeta('meta[property="og:image"]', imgMatch[1]);
     }
   }, [post]);
+
+  if (loading) {
+    return <div className="blog-page"><p>Loading...</p></div>;
+  }
+
+  if (error) {
+    return <div className="blog-page"><p>Something went wrong.</p></div>;
+  }
 
   if (!post) return <p>Loading...</p>;
 

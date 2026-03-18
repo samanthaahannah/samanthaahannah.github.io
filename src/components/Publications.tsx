@@ -2,8 +2,8 @@ import "../index.css";
 import '../header.css';
 import '../publications.css';
 
-import PublicationCard from "./PublicationCard.jsx";
-import papers from "../data/papers.js"
+import PublicationCard from "./PublicationCard";
+import papers from "../data/papers"
 
 export default function Publications() {
 

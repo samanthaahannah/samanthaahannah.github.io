@@ -10,7 +10,7 @@ It showcases my 3D art, Unity Projects, technical art and ability to create a re
 ![Status](https://img.shields.io/badge/Status-Active-success)
 - React.js with modular component structure
 - HTML / CSS / JavaScript
-- Typescript
+- Typescript (Currently implemented in dynamic_website branch)
 - GitHub for source code
 - Vercel for deployment and previews
 - Responsive layout for desktop and mobile
@@ -29,4 +29,4 @@ This website serves as my professional portfolio, linking Projects, ArtStation w
 - integrated external links to ArtStation, GitHub, LinkedIn, Orcid and publications
 - SEO metadata for discoverability and search engine indexing
 - GitHub for version control, Vercel for hosting
-- Typescript examples demonstrating types components and data models
+- Typescript examples demonstrating type components and data models

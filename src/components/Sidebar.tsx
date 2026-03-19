@@ -1,7 +1,7 @@
 import "../index.css";
 import '../header.css';
 
-import type { WPCategory } from "../wp";
+import type { WPCategory } from "../types/wp";
 
 function decodeHTML(str: string): string {
     const txt = document.createElement("textarea")

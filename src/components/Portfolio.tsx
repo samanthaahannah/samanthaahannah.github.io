@@ -1,9 +1,9 @@
-import UnityPlayer from "./UnityPlayer.jsx";
+import UnityPlayer from "./UnityPlayer";
 import "../index.css";
 import '../header.css';
 import '../portfolio.css';
-import PortfolioImages from "./PortfolioImages.jsx";
-import projects from "../data/projects.js";
+import PortfolioImages from "./PortfolioImages";
+import projects from "../data/projects";
 
 export default function Portfolio() {
     return (

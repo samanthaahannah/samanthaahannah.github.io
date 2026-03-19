@@ -5,7 +5,7 @@ import '../index.css';
 import '../header.css';
 import '../blog.css';
 
-import {WPPost, WPCategory} from "../wp";
+import {WPPost, WPCategory} from "../types/wp";
 
 export default function Blog() {
     const [filter, setFilter] = useState("all")

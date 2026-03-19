@@ -1,14 +1,26 @@
 import { useEffect } from "react"
 
-export default function UnityPlayer({unityBuild, productName}) {
+type UnityPlayerProps = {
+    unityBuild: string;
+    productName: string;
+}
+
+declare global {
+    function createUnityInstance(
+        canvas: HTMLCanvasElement,
+        config: Record<string, unknown>
+    ): Promise<unknown>;
+}
+
+export default function UnityPlayer({unityBuild, productName}: UnityPlayerProps) {
     useEffect(() => {
         const script = document.createElement("script");
         script.src = `${unityBuild}.loader.js`;
 
         script.onload = () => {
-            createUnityInstance(
-    document.querySelector("#unity-canvas"),
-    {
+            const canvas = document.querySelector("#unity-canvas") as HTMLCanvasElement | null;
+            if(!canvas) return;
+    createUnityInstance(canvas, {
         dataUrl: `${unityBuild}.data`,
         frameworkUrl: `${unityBuild}.framework.js`,
         codeUrl: `${unityBuild}.wasm`,

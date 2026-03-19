@@ -1,7 +1,7 @@
 import '../index.css';
 import '../header.css';
 
-import { WPPost } from "../wp"
+import { WPPost } from "../types/wp"
 
 export type BlogPostsProps = {
     posts: WPPost[];

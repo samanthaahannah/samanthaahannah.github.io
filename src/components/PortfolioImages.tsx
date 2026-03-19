@@ -1,7 +1,14 @@
 import { useState } from "react";
 
-export default function PortfolioImages({ images }) {
-  const [selected, setSelected] = useState(null);
+import type { ImageMap } from "../data/projects";
+
+type PortfolioImagesProps = {
+  images: ImageMap[];
+};
+
+
+export default function PortfolioImages({ images }: PortfolioImagesProps) {
+  const [selected, setSelected] = useState<string | null>(null);
 
   return (
     <div className="method-images">

@@ -16,7 +16,7 @@ import unityStats700 from "../assets/Unity-batches-draw-calls-700.png";
 import unityStats400 from "../assets/Unity-batches-draw-calls-400.png";
 import { ReactNode } from "react";
 
-type ImageMap = {
+export type ImageMap = {
     readonly full: string;
     readonly src1000: string;
     readonly src700: string;

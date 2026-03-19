@@ -1,10 +1,19 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
+export type FullPost ={
+    id: number;
+    title: {rendered: string};
+    content: {rendered: string};
+    categories: number[];
+    date: string;
+    excerpt?: { rendered: string };
+}
+
 export default function BlogPost() {
-  const { slug } = useParams();
-  const [post, setPost] = useState(null);
-  const [error, setError] = useState(null);
+  const { slug } = useParams<{ slug: string}>();
+  const [post, setPost] = useState<FullPost | null>(null);
+  const [error, setError] = useState<Error | null>(null);
   const [loading, setLoading] = useState(true);
   const isAdmin = import.meta.env.VITE_ADMIN_MODE === "true";
 
@@ -22,10 +31,14 @@ export default function BlogPost() {
           throw new Error("Network response was not ok");
         }
 
-        const data = await res.json();
-        setPost(data);
-      } catch (err) {
-        setError(err);
+        const data: FullPost[] = await res.json();
+        setPost(data[0] || null);
+      } catch (err: unknown) {
+        if(err instanceof Error){
+          setError(err);
+        } else {
+          setError(new Error("Unknown error"));
+        }
       } finally {
         setLoading(false);
       }
@@ -35,7 +48,7 @@ export default function BlogPost() {
 
   useEffect(() => {
     if (!post) return;
-
+    if(!slug) return;
     let base = slug;
     base = base.replace(/-/, " - ").replace(/([a-zA-Z0-9])-([a-zA-Z0-9])/, "$1 $2");
     const title = base.charAt(0).toUpperCase() + base.slice(1);
@@ -46,7 +59,7 @@ export default function BlogPost() {
       post.excerpt?.rendered?.replace(/<[^>]+>/g, "")?.slice(0, 150) ||
       "Blog post on Hannah Graphics";
 
-    const setMeta = (selector, value) => {
+    const setMeta = (selector: string, value: string) => {
       let tag = document.querySelector(selector);
       if (!tag) return;
       tag.setAttribute("content", value);

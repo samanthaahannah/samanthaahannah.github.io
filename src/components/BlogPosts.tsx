@@ -1,8 +1,16 @@
 import '../index.css';
 import '../header.css';
 
-export default function BlogPosts({ posts, loadMore, hasMore }) {
-    const authors = { 100395726: "Samantha Hannah" };
+import { WPPost } from "../wp"
+
+export type BlogPostsProps = {
+    posts: WPPost[];
+    loadMore: () => void;
+    hasMore: boolean;
+}
+
+export default function BlogPosts({ posts, loadMore, hasMore }: BlogPostsProps) {
+    const authors: Record<number, string> = { 100395726: "Samantha Hannah" };
 
     return (
         <div className="blog-page">

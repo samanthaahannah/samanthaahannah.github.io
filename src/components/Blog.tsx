@@ -5,15 +5,17 @@ import '../index.css';
 import '../header.css';
 import '../blog.css';
 
+import {WPPost, WPCategory} from "../wp";
+
 export default function Blog() {
     const [filter, setFilter] = useState("all")
-    const [posts, setPosts] = useState([]);
+    const [posts, setPosts] = useState<WPPost[]>([]);
     const [page, setPage] = useState(1);
     const [hasMore, setHasMore] = useState(true);
-    const [categories, setCategories] = useState([]);
-    const [error, setError] = useState(null);
+    const [categories, setCategories] = useState<WPCategory[]>([]);
+    const [error, setError] = useState<Error | null>(null);
     const [loading, setLoading] = useState(true);
-    const [catError, setCatError] = useState(null);
+    const [catError, setCatError] = useState<Error | null>(null);
     const [catLoading, setCatLoading] = useState(true);
 
      const categoryMap = Object.fromEntries(
@@ -36,14 +38,19 @@ export default function Blog() {
                     throw new Error("Network response was not ok");
                 }
 
-                const data = await res.json();
+                const data: WPPost[] = await res.json();
 
                 if (Array.isArray(data)) {
                     setPosts(prev => [...prev, ...data]);
                     if (data.length < 5) setHasMore(false);
                 }
-            } catch (err) {
-                setError(err);
+            } catch (err: unknown) {
+                if(err instanceof Error) {
+                    setError(err);
+                } else {
+                    setError(new Error("Unknown error"));
+                }
+                
             } finally {
                 setLoading(false);
             }
@@ -63,8 +70,13 @@ export default function Blog() {
 
                 const data = await res.json();
                 setCategories(data);
-            } catch (err) {
-                setCatError(err);
+            } catch (err: unknown) {
+                if(err instanceof Error) {
+                    setCatError(err);
+                } else {
+                    setCatError(new Error("Unknown error"));
+                }
+                
             } finally {
                 setCatLoading(false);
             }

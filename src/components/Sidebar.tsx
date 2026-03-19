@@ -1,13 +1,20 @@
 import "../index.css";
 import '../header.css';
 
-function decodeHTML(str) {
-    const txt = document.createElement("textArea")
+import type { WPCategory } from "../wp";
+
+function decodeHTML(str: string): string {
+    const txt = document.createElement("textarea")
     txt.innerHTML = str;
     return txt.value;
 }
 
-export default function Sidebar( {setFilter, categories }) {
+type SidebarProps = {
+    setFilter: (value: string) => void;
+    categories: WPCategory[];
+}
+
+export default function Sidebar( {setFilter, categories }: SidebarProps) {
     return (
         <div className="sidebar">
             <button onClick={() => setFilter("all")}>All</button>

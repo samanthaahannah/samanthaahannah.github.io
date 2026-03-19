@@ -14,8 +14,28 @@ import unityStatsFull from "../assets/Unity-batches-draw-calls-full.png";
 import unityStats1000 from "../assets/Unity-batches-draw-calls-1000.png";
 import unityStats700 from "../assets/Unity-batches-draw-calls-700.png";
 import unityStats400 from "../assets/Unity-batches-draw-calls-400.png";
+import { ReactNode } from "react";
 
-export default [
+type ImageMap = {
+    readonly full: string;
+    readonly src1000: string;
+    readonly src700: string;
+    readonly src400: string;
+    readonly alt: string;
+}
+
+export type ProjectsList = {
+    readonly id: string;
+    readonly title: string;
+    readonly unityBuild: string;
+    readonly description: ReactNode;
+    readonly method: ReactNode;
+    readonly images: ImageMap[];
+    readonly productName: string;
+    readonly tech: string[];
+}
+
+const projects: ProjectsList[] = [
     {
         id: "interactive-bedroom",
         title: "Interactive Bedroom",
@@ -43,7 +63,7 @@ export default [
                 full: animScriptFull,
                 src1000: animScript1000,
                 src700: animScript700,
-                4: animScript400,
+                src400: animScript400,
                 alt: "Animation script example in Unity"
             },
             {
@@ -72,3 +92,5 @@ export default [
         tech: ["Unity", "Blender", "C#"]
     }
 ]
+
+export default projects;

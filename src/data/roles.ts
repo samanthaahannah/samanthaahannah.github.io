@@ -1,4 +1,13 @@
-const roles = [
+export type Role = {
+    id: string;
+    company: string;
+    title: string;
+    years: string;
+    duration: string;
+    description: string;
+}
+
+const roles: Role[] = [
     {id: "role-001-card",
      company: "Edinburgh Napier University",
      title: "Research Assistant (Technical Art & Rendering)",

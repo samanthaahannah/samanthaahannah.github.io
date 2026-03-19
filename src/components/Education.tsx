@@ -1,7 +1,7 @@
 import "../index.css";
 import '../header.css';
-import EducationCard from "./EducationCard.jsx";
-import qualifications from "../data/qualifications.js"
+import EducationCard from "./EducationCard";
+import qualifications from "../data/qualifications";
 
 export default function Education() {
     return (

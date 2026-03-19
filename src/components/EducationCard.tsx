@@ -1,7 +1,13 @@
 import "../index.css";
 import '../header.css';
 
-export default function EducationCard({ qualification }) {
+import type { Qualification } from "../data/qualifications";
+
+export type QualificationProps ={
+    qualification: Qualification;
+}
+
+export default function EducationCard({ qualification }: QualificationProps) {
     return(
         <div className="education-card">
             <h3>{qualification.type} {qualification.title}</h3>

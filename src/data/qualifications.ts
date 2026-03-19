@@ -1,4 +1,14 @@
-const qualifications = [
+export type Qualification = {
+    id: string;
+    institution: string;
+    type: string;
+    title: string;
+    years: string;
+    grade: string;
+    description: string;
+}
+
+const qualifications: Qualification[] = [
     {id: "qualification-001-card",
      institution: "Edinburgh Napier University",
      type: "BSc (Hons)",

@@ -1,7 +1,7 @@
 import "../index.css";
 import '../header.css';
-import ExperienceCard from "./ExperienceCard.jsx";
-import roles from "../data/roles.js";
+import ExperienceCard from "./ExperienceCard";
+import roles from "../data/roles";
 
 export default function Experience() {
     return (

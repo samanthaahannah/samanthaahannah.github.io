@@ -27,7 +27,12 @@ export default function Blog() {
             try {
                 const res = await fetch(`https://public-api.wordpress.com/wp/v2/sites/hannahgraphicsblog.wordpress.com/posts?per_page=5&page=${page}`);
 
-                if(!res.ok) {
+                if (res.status === 400 || res.status === 404) {
+                    setHasMore(false);
+                    return;
+                }
+
+                if (!res.ok) {
                     throw new Error("Network response was not ok");
                 }
 

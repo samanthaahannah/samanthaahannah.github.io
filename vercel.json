@@ -5,15 +5,7 @@
   ],
   "routes": [
     {
-      "src": "^/mywork.html$",
-      "status": 410
-    },
-    {
-      "src": "^/contactme.html$",
-      "status": 410
-    },
-    {
-      "src": "^/projects$",
+      "src": ".*",
       "status": 410
     }
   ]

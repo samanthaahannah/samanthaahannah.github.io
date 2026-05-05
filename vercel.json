@@ -2,5 +2,19 @@
   "rewrites": [
     { "source": "/blog/:slug", "destination": "/blog?slug=:slug" },
     { "source": "/blog/:slug/", "destination": "/blog?slug=:slug" }
+  ],
+  "routes": [
+    {
+      "src": "^/mywork.html$",
+      "status": 410
+    },
+    {
+      "src": "^/contactme.html$",
+      "status": 410
+    },
+    {
+      "src": "^/projects$",
+      "status": 410
+    }
   ]
 }
